@@ -41,6 +41,7 @@ $('#item-downloads').click(function(){
   $('#menu-support').fadeOut();
   $('#menu-community').fadeOut();
   $('#menu-development').fadeOut();
+  return false;
 });
 $('#item-support').click(function(){
   $('#global-navigation li.selected').removeClass('selected');
@@ -49,6 +50,7 @@ $('#item-support').click(function(){
   $('#menu-support').fadeIn();
   $('#menu-community').fadeOut();
   $('#menu-development').fadeOut();
+  return false;
 });
 $('#item-community').click(function(){
   $('#global-navigation li.selected').removeClass('selected');
@@ -57,6 +59,7 @@ $('#item-community').click(function(){
   $('#menu-support').fadeOut();
   $('#menu-community').fadeIn();
   $('#menu-development').fadeOut();
+  return false;
 });
 $('#item-development').click(function(){
   $('#global-navigation li.selected').removeClass('selected');
@@ -65,6 +68,7 @@ $('#item-development').click(function(){
   $('#menu-support').fadeOut();
   $('#menu-community').fadeOut();
   $('#menu-development').fadeIn();
+  return false;
 });
 
 $('.global-navigation-menu').mouseleave(function(){
