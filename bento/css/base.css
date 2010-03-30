@@ -1,0 +1,1019 @@
+/*
+ * Title: openSUSE.org stylesheet (Bento-Theme)
+ * Author: Robert Lihm <rlihm@opensuse.org>
+ * Copyright (c) 2009 AUTHORS.txt (http://www.opensuse.org)
+ * Licensed under the MIT (MIT-LICENSE.txt) license.
+ */
+
+/* 
+
+# Basic HTML/CSS Structure #
+
+html
+  |-body
+  | |- header
+  | | |- #header-content ==> .container_12
+  | | | |- #header-logo
+  | | | |- #global-navigation
+  | | | |- #global-search-form
+  | |- #subheader ==> .container_16
+  | | |- #breadcrump
+  | | |- #local-user-actions
+  | | | |- #pt-personal
+  | |- #content ==> .container_16 .content-wrapper
+  | | |- ...
+	|	|- footer ==> .container_12
+  | | |- ...
+  | | |- #footer-legal ==> .ui-oo-border-top .grid_12
+
+
+# Main Colors #
+
+More Detail: http://en.opensuse.org/Boosters_Team/Projects/Integrate_all_Infrastructure_under_one_Umbrella/Styleguide#Icon_Set
+
+# Color #							# Hex #  	#	RGB #  				# Usage Example #
+------------------------------------------------------------------------------
+Dark Grey  						#444444  	68 68 68  	 		Text color
+Medium Grey 					#666666 	102 102 102 		Navigation Background
+Light Grey 1 					#999999 	153 153 153 		Text color in unselected input field
+Light Grey 2 					#dddddd 	221 221 221 		Box Header and Footer
+BG Grey 							#f6f6f6 	246 246 246 		Body Background
+Blue 1 								#006699 	0 102 153 			Content Links
+Blue 2 								#3399cc 	51 153 204 			Content Links hover
+Green 1 							#669900 	102 153 0 			Text-Links outside of content
+Light Yellow 					#fbf9ee 	251 249 238 		Notification Box Background
+Yellow 								#fcefa1 	252 239 161 		Notification Box Border
+Light Red 						#fef1ec 	254 241 236 		Error Notification Box Background
+Red 									#cc0000 	204 0 0 				Error Notification Box Border and Font-Color
+
+# UI Style Colors #
+
+# Color #							# Hex #  	#	RGB #  				# Usage Example #
+------------------------------------------------------------------------------
+Dark Grey  						#111111  	17 17 17  	 		Box Bottom Border
+Medium Grey 2					#4e4e4e 	78 78 78 				Main Navigation Separator
+Light Shadow Grey 		#222222 	34 34 34 				Box Dropshadow
+Dark Shadow Grey 			#cccccc 	204 204 204 		Box Dropshadow
+
+*/
+
+
+/* == Browser Reset.css =========================================================== */
+
+/* -------------------------------------------------------------- 
+  
+   Reset default browser CSS.
+   
+   Based on work by Eric Meyer:
+   http://meyerweb.com/eric/tools/css/reset/index.html
+   
+-------------------------------------------------------------- */
+
+/* v1.0 | 20080212 */
+
+/*@import url("reset.css") all;*/
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+    background:#fff;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}*/
+
+/* remember to define focus styles! */
+/*:focus {
+	outline: 0;
+}*/
+
+/* remember to highlight inserts somehow! */
+/*ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}*/
+
+/* tables still need 'cellspacing="0"' in the markup */
+/*table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a img { border: none; }*/
+
+/* == include 960 Grid CSS Framework ====================================== */
+/*@import url("960.css") all;*/ 
+/*.container_12,.container_16{margin-left:auto;margin-right:auto;width:960px}.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12,.grid_13,.grid_14,.grid_15,.grid_16{display:inline;float:left;position:relative;margin-left:10px;margin-right:10px}.container_12 .grid_3,.container_16 .grid_4{width:220px}.container_12 .grid_6,.container_16 .grid_8{width:460px}.container_12 .grid_9,.container_16 .grid_12{width:700px}.container_12 .grid_12,.container_16 .grid_16{width:940px}.alpha{margin-left:0}.omega{margin-right:0}.container_12 .grid_1{width:60px}.container_12 .grid_2{width:140px}.container_12 .grid_4{width:300px}.container_12 .grid_5{width:380px}.container_12 .grid_7{width:540px}.container_12 .grid_8{width:620px}.container_12 .grid_10{width:780px}.container_12 .grid_11{width:860px}.container_16 .grid_1{width:40px}.container_16 .grid_2{width:100px}.container_16 .grid_3{width:160px}.container_16 .grid_5{width:280px}.container_16 .grid_6{width:340px}.container_16 .grid_7{width:400px}.container_16 .grid_9{width:520px}.container_16 .grid_10{width:580px}.container_16 .grid_11{width:640px}.container_16 .grid_13{width:760px}.container_16 .grid_14{width:820px}.container_16 .grid_15{width:880px}.container_12 .prefix_3,.container_16 .prefix_4{padding-left:240px}.container_12 .prefix_6,.container_16 .prefix_8{padding-left:480px}.container_12 .prefix_9,.container_16 .prefix_12{padding-left:720px}.container_12 .prefix_1{padding-left:80px}.container_12 .prefix_2{padding-left:160px}.container_12 .prefix_4{padding-left:320px}.container_12 .prefix_5{padding-left:400px}.container_12 .prefix_7{padding-left:560px}.container_12 .prefix_8{padding-left:640px}.container_12 .prefix_10{padding-left:800px}.container_12 .prefix_11{padding-left:880px}.container_16 .prefix_1{padding-left:60px}.container_16 .prefix_2{padding-left:120px}.container_16 .prefix_3{padding-left:180px}.container_16 .prefix_5{padding-left:300px}.container_16 .prefix_6{padding-left:360px}.container_16 .prefix_7{padding-left:420px}.container_16 .prefix_9{padding-left:540px}.container_16 .prefix_10{padding-left:600px}.container_16 .prefix_11{padding-left:660px}.container_16 .prefix_13{padding-left:780px}.container_16 .prefix_14{padding-left:840px}.container_16 .prefix_15{padding-left:900px}.container_12 .suffix_3,.container_16 .suffix_4{padding-right:240px}.container_12 .suffix_6,.container_16 .suffix_8{padding-right:480px}.container_12 .suffix_9,.container_16 .suffix_12{padding-right:720px}.container_12 .suffix_1{padding-right:80px}.container_12 .suffix_2{padding-right:160px}.container_12 .suffix_4{padding-right:320px}.container_12 .suffix_5{padding-right:400px}.container_12 .suffix_7{padding-right:560px}.container_12 .suffix_8{padding-right:640px}.container_12 .suffix_10{padding-right:800px}.container_12 .suffix_11{padding-right:880px}.container_16 .suffix_1{padding-right:60px}.container_16 .suffix_2{padding-right:120px}.container_16 .suffix_3{padding-right:180px}.container_16 .suffix_5{padding-right:300px}.container_16 .suffix_6{padding-right:360px}.container_16 .suffix_7{padding-right:420px}.container_16 .suffix_9{padding-right:540px}.container_16 .suffix_10{padding-right:600px}.container_16 .suffix_11{padding-right:660px}.container_16 .suffix_13{padding-right:780px}.container_16 .suffix_14{padding-right:840px}.container_16 .suffix_15{padding-right:900px}.container_12 .push_3,.container_16 .push_4{left:240px}.container_12 .push_6,.container_16 .push_8{left:480px}.container_12 .push_9,.container_16 .push_12{left:720px}.container_12 .push_1{left:80px}.container_12 .push_2{left:160px}.container_12 .push_4{left:320px}.container_12 .push_5{left:400px}.container_12 .push_7{left:560px}.container_12 .push_8{left:640px}.container_12 .push_10{left:800px}.container_12 .push_11{left:880px}.container_16 .push_1{left:60px}.container_16 .push_2{left:120px}.container_16 .push_3{left:180px}.container_16 .push_5{left:300px}.container_16 .push_6{left:360px}.container_16 .push_7{left:420px}.container_16 .push_9{left:540px}.container_16 .push_10{left:600px}.container_16 .push_11{left:660px}.container_16 .push_13{left:780px}.container_16 .push_14{left:840px}.container_16 .push_15{left:900px}.container_12 .pull_3,.container_16 .pull_4{left:-240px}.container_12 .pull_6,.container_16 .pull_8{left:-480px}.container_12 .pull_9,.container_16 .pull_12{left:-720px}.container_12 .pull_1{left:-80px}.container_12 .pull_2{left:-160px}.container_12 .pull_4{left:-320px}.container_12 .pull_5{left:-400px}.container_12 .pull_7{left:-560px}.container_12 .pull_8{left:-640px}.container_12 .pull_10{left:-800px}.container_12 .pull_11{left:-880px}.container_16 .pull_1{left:-60px}.container_16 .pull_2{left:-120px}.container_16 .pull_3{left:-180px}.container_16 .pull_5{left:-300px}.container_16 .pull_6{left:-360px}.container_16 .pull_7{left:-420px}.container_16 .pull_9{left:-540px}.container_16 .pull_10{left:-600px}.container_16 .pull_11{left:-660px}.container_16 .pull_13{left:-780px}.container_16 .pull_14{left:-840px}.container_16 .pull_15{left:-900px}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix{height:1%}
+
+.clear {
+	margin:0 !important;
+}*/
+
+/* == Basic Element Settings ============================================== */
+html,
+body {
+  background: #f6f6f6;
+  color: #444444;
+  font: 16px "Lucida Grande", "Trebuchet MS", Arial, Verdana, sans-serif;
+  height: 99%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body > div { margin-bottom: 15px;}
+h1 {font-size: 1.5em; margin-bottom: 1.2em;}
+h2 {font-size: 1.3em; margin-bottom: 1.1em;}
+h3 {font-size: 1.2em; margin-bottom: 1.0em;}
+h4, h5, h6 {font-size: 1.1em; margin-bottom: 0.9em;}
+a {color: #690; text-decoration: none;}
+a:hover {color: #39c; text-decoration: underline;}
+p, ul, ol {margin: 1em 0;}
+h1, h2, h3, h4, h5, h6, p, ul, ol, table { margin-left: 15px; margin-right: 15px;}
+h1, h2, h3, h4, h5, h6 {margin-top: 0.5em; margin-bottom: 1.2em;}
+p {line-height: 150%;}
+ul, ol { list-style: disc inside; padding: 0 1em;}
+ul li , ol li {margin: 0.2em 0;}
+ul ul , ol ul, ul ol , ol ol {margin-top: 0em; margin-bottom: 0em;}
+ol {list-style-type: decimal;}
+input, textarea { border: 1px solid #666; padding: 2px 3px;}
+
+img {border: 0;}
+p img {
+  padding: 0;
+  max-width: 100%;
+}
+
+table {
+	width: inherit;
+	max-width: 95%;
+}
+tbody, tfoot, thead, tr {
+}
+
+th, td {
+}
+
+th {background-color: #eee;}
+th, td {padding: 0.2em;}
+td {border: 1px dotted #ccc;}
+	th:first-child, td:first-child {border-left: none;}
+	th:last-child, td:last-child {border-right: none;} /* :last-child does not work in IE 8-- */
+
+/* == 960 Extension ======================================================= */
+.ui-oo-content-wrapper .ui-oo-box-shadow > div.grid_5, /* old way - dont use this */
+.content-wrapper .box > div.grid_5 {
+  width: 260px;
+}
+
+/* Row System  ============================================================ */
+
+/* 2010-03-26: not well testet 
+	Does not work correktly in columns ==> margin/pedding impact.
+*/
+
+.row_auto {
+	height: auto;
+}
+
+.row_1 {min-height: 2em;}
+
+/* ... */
+
+.row_10 {min-height: 20em;} /* ninimum box height */
+.row_11 {min-height: 22em;}
+.row_12 {min-height: 24em;}
+.row_13 {min-height: 26em;}
+.row_14 {min-height: 28em;}
+.row_15 {min-height: 30em;}
+.row_16 {min-height: 32em;}
+.row_17 {min-height: 34em;}
+.row_18 {min-height: 36em;}
+.row_19 {min-height: 38em;}
+.row_20 {min-height: 40em;}
+.row_21 {min-height: 42em;}
+.row_22 {min-height: 44em;}
+.row_23 {min-height: 46em;}
+.row_24 {min-height: 48em;}
+.row_25 {min-height: 50em;}
+.row_26 {min-height: 52em;}
+.row_27 {min-height: 54em;}
+.row_28 {min-height: 56em;}
+.row_29 {min-height: 58em;}
+.row_30 {min-height: 60em;}
+
+/* == Basic UI Settings =================================================== */
+
+#header,
+#subheader,
+#flash-messages,
+#content,
+#footer {
+  
+}
+#subheader, #flash-messages, #footer {overflow: hidden;}
+
+#content > div,
+#subheader,
+#content,
+#content .column > div,
+.ui-oo-box-shadow,
+.box {
+  margin-bottom: 15px;
+}
+
+#header {
+  background: #666 url('images/gradient-dark-nav.png') repeat-x scroll bottom left;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 0 0 25px;
+  border-bottom: 1px solid #333;
+}
+#header, #header ul#global-navigation li {height: 30px;}
+
+  #header-content {}
+
+  #header ul#global-navigation{
+    list-style: none inside;
+    width: 700px;
+    float: left;
+  }
+  #header ul#global-navigation,
+  #header ul#global-navigation li {
+    border-color: #4e4e4e;
+    border-style: solid;
+    margin: 0;
+  }
+    #header ul#global-navigation li:first-child {
+      border-left-width: 1px;
+    }
+    #header ul#global-navigation li {
+      float: left;
+      border-right-width: 1px;
+    }
+      #header ul#global-navigation li a {
+        color: #fefefe;
+        display: block;
+        height: 100%;
+        margin: 0 15px;
+        padding-top: 7px;
+        text-decoration: none;
+        width: 100%;
+      }
+      #header ul#global-navigation li a:hover {
+        
+      }
+  #header li#global-favorites {
+    float: right !important;
+    border-left-width: 1px;
+  }
+  #header a#header-logo {
+    float: left;
+    margin-top: 1px;
+    margin-right: 25px;
+  }
+  #header #global-search-form {
+    float: right;
+    margin-top: 4px;
+  }
+  #header #global-search-form input {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    
+    border: 1px solid #2e2e2e;
+    color: #999;
+    width: 150px;
+  }
+    #header #global-search-form input:focus {
+      color: #330;
+    }
+#subheader {
+  font-size: 0.8em;
+  margin-top: -15px;
+}
+	#subheader a {
+		text-decoration: none;
+	}
+
+#breadcrump {
+  font-size: 0.9em;
+  color: #333;
+}
+  #breadcrump img {
+    float: left;
+    margin-right: 5px;
+    border-bottom: 1px solid transparent;
+  }
+  #breadcrump a {
+    color: #666;
+  }
+  #breadcrump a:hover {
+    text-decoration: underline;
+  }
+#login-wrapper {
+  text-align: right;
+  height: 1em;
+}
+
+/* == Login-Form ========================================================== */
+#login-form {
+  display: none;
+  width: 250px;
+  height: auto;
+  font-size: 0.7em;
+  position: absolute;
+  top: 31px;
+  right: 0;
+  padding-bottom: 10px;
+  color: #f6f6f6;
+  background: #333 url('images/gradient-darker.png') repeat-x scroll bottom left;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -khtml-border-bottom-left-radius: 5px;
+  -khtml-border-bottom-right-radius: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent #333 #111;
+  opacity: 0.95;
+  -moz-opacity: 0.95;
+/*  filter:alpha(opacity=90);*/ /* this could make trouble */
+  -webkit-box-shadow: 0 1px 3px #999;
+  -moz-box-shadow: 0 1px 3px #999;
+  box-shadow: 0 1px 3px #999;
+}
+
+  #login-form input {
+    width: 213px;
+    font-size: 1.5em;
+    padding: 2px 3px;
+    border: 3px solid #222;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; /* in webkit bowsers the background color appears around the rounded border */
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+  }
+    #login-form input:focus {
+      color: #39c;
+      border-color: #39c;
+      -webkit-box-shadow: 0 1px 3px #222;
+      -moz-box-shadow: 0 1px 3px #222;
+      box-shadow: 0 1px 3px #222;
+    }
+  #login-form input[type="submit"] {
+    border-color: #f6f6f6;
+    -webkit-box-shadow: 0 0px 2px #000;
+    -moz-box-shadow: 0 1px 1px #111;
+    box-shadow: 0 1px 1px #111;
+    color: #eee;
+    cursor: pointer;
+    background: #9f3 url('images/gradient-dark-nav.png') repeat-x scroll 0 -15px;
+    font-weight: bold;
+    text-shadow: 0 0px 3px #333;
+    width: 225px;
+  }
+      #login-form input[type="submit"]:hover {
+        border-color: #39c;
+      }
+  
+  #login-form p {
+    margin: 15px;
+    clear: left;
+    position: relative;
+  }
+  #login-form label {
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    color: #666;
+    width: 100px;
+    font-size: 13px;
+  }
+  #login-form .slim-footer {
+    text-align: center;
+    margin-bottom: 0;
+  }
+    #login-form .slim-footer a {
+      text-decoration: none;
+      color: #eee;
+      font-weight: bold;
+    }
+    #login-form .slim-footer a:hover {
+      text-decoration: underline;
+    }
+
+/* == /Login-Form ========================================================= */
+
+#local-user-actions { /*eg. Username, Preferences, etc.*/
+/*  display: none;*/
+
+}
+  #local-user-actions ul {
+    margin: 0;
+    list-style: none inside;
+  }
+
+#flash-messages {
+
+}
+#flash-messages .ui-widget + .ui-widget{
+  margin-top: 15px;
+}
+#footer-content,
+#footer-legal {
+  color: #666;
+  font-size: 0.9em;
+}
+#footer {
+  padding: 42px 0 100px;
+  font-size: 0.7em;
+}
+	#footer ul {
+		margin: 0;
+		padding: 0.5em;
+	}	
+  #footer-legal {
+    border-top: 1px dotted #999;
+    color: #999;
+    font-size: 0.7em;
+    margin-top: 25px;
+    padding-top: 5px;
+    text-align: center;
+  }
+ 
+/* INFO: #ui-oo-* and .ui-oo-* are Interface related styles for openSUSE.org */
+
+.ui-oo-content-wrapper,
+.content-wrapper {
+  font-size: 0.8em;
+}
+  .ui-oo-content-wrapper .ui-oo-box-shadow.navigation > *,
+  .content-wrapper .box.navigation > * { /* box specified as navigation */
+    margin: 0.5em 15px 1em;
+  }
+    .ui-oo-content-wrapper .ui-oo-box-shadow > * > :first-child,/* old style - dont use it */
+    .content-wrapper .box > * > :first-child {margin-top: 0;}
+
+    .ui-oo-content-wrapper .ui-oo-box-shadow > * > h1, /* old style - dont use it */
+		.content-wrapper .box > * > h1 {margin-top: 2em; margin-bottom: 0.7em;}
+		
+		.ui-oo-content-wrapper .ui-oo-box-shadow > * > h2, /* old style - dont use it */
+		.content-wrapper .box-shadow > * > h2 {margin-top: 1.8em; margin-bottom: 0.7em;}
+		
+    .ui-oo-content-wrapper .ui-oo-box-shadow > * > h3, /* old style - dont use it */
+    .content-wrapper .box > * > h3 {margin-top: 1.5em; margin-bottom: 0.7em;}
+
+    .ui-oo-content-wrapper .ui-oo-box-shadow > * > h4, /* old style - dont use it */
+    .content-wrapper .box > * > h4 {margin-top: 1em; margin-bottom: 0.5em;}
+
+    .ui-oo-content-wrapper .ui-oo-box-shadow > * > h5, /* old style - dont use it */
+    .content-wrapper .box > * > h5 {margin-top: 1em; margin-bottom: 0.5em;}
+    
+		.ui-oo-content-wrapper .ui-oo-box-shadow > * > h6, /* old style - dont use it */
+		.content-wrapper .box > * > h6 {margin-top: 1em; margin-bottom: 0.5em;}
+
+.ui-oo-box-shadow, /* old style - dont use it */
+.box {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd #ccc #bbb;
+  background-color: #fefefe;
+  padding: 15px 0;
+}
+
+.ui-oo-box-shadow a, /* old style - dont use it */
+.box a {
+	color: #069;
+}
+
+.container_16  div div,
+.container_12  div div {
+/*  margin-bottom: 3px;*/
+}
+
+  .container_16.sibling_p4 div:first-child  {
+    margin-left: 240px;
+  }
+
+  .ui-oo-box-shadow.alpha, /* old style - dont use it */
+  .ui-oo-box-shadow.omega, /* old style - dont use it */
+  .box.alpha,
+  .box.omega {
+    margin-bottom: 15px; /* TODO: Browser Test Needed; this may not work propperly */
+  }
+  div.navigation {
+    padding-top: 0;
+		position: relative;
+  }
+  ul.navigation {
+    list-style: none inside;
+    padding-left: 0;
+    width: 85%;
+  }
+    ul.navigation li {
+    }
+    ul.navigation a {
+      color: #666;
+      text-decoration: none;
+      
+      display: block;
+    }
+    ul.navigation a:hover {
+      background: transparent url('images/right_btn.png') no-repeat scroll bottom right;
+      
+    }
+  div.navigation h1 {
+    font-size: 1.2em;
+    color: #069;
+  }
+  
+  div.col_2 {
+    width: 50%;
+  }
+  
+/* -- UI - Helper --------------------------------------------------------- */
+/* Meny of this classes use the jQuery UI class names. Documentation for the 
+ * can be found at http://jqueryui.com/docs/Theming/API
+ */
+
+/* Layout Helpers */
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute; left: -99999999px; }
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.ui-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .ui-helper-clearfix { height:1%; }
+.ui-helper-clearfix { display:block; }
+/* end clearfix */
+.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+/* Widget Containers */
+.ui-widget {}
+.ui-widget-header {}
+.ui-widget-content {}
+ 
+/* Interaction States */
+.ui-state-default {}
+.ui-state-hover {}
+.ui-state-focus {}
+.ui-state-active {}
+
+/* Interaction Cues */
+.ui-state-highlight,
+.ui-state-error {
+  padding: 0 0.7em;
+}
+
+
+.ui-state-highlight {
+  background-color: #fbf9ee;
+  border: 1px solid #fcefa1;
+  color: #333;
+}
+.ui-state-error {
+  background-color: #fef1ec;
+  border: 1px solid #c00;
+  color: #c00;
+}
+.ui-state-error-text {}
+.ui-state-disabled { cursor: default !important; }
+.ui-priority-primary {}
+.ui-priority-secondary {}
+
+.ui-corner-all {}
+
+/* Corner Radius helpers */
+.ui-corner-tl {}
+.ui-corner-tr {}
+.ui-corner-bl {}
+.ui-corner-br {}
+.ui-corner-top {}
+.ui-corner-bottom {}
+.ui-corner-right {}
+.ui-corner-left {}
+
+.box,
+.ui-oo-box-shadow, /* old style */
+.ui-corner-all {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+}
+.ui-corner-t,
+.ui-corner-b {}
+
+
+/* Overlay & Shadow */
+
+.ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.ui-oo-box-shadow, /* old style - dont use it */
+.ui-widget-shadow,
+.box-shadow {
+  box-shadow: 0 1px 3px #ccc;
+  -webkit-box-shadow: 0 1px 3px #ccc;
+  -moz-box-shadow: 0 1px 3px #ccc;
+}
+
+.ui-oo-fold-icon, /* old style - dont use it */
+.fold-icon {
+  display: block;
+  width: 9px;
+  height: 9px;
+  float: right;
+  background: transparent url('images/unfold-indikator.png') no-repeat scroll 0 0;
+}
+
+/* == Customisation ======================================================= */
+
+/* -- Content Area Settings ----------------------------------------------- */
+
+.box-header,
+.box-subheader,
+.box-footer {
+  background: #fff url('images/gradient-light-short.png') repeat-x scroll 0 -20px ;
+  padding: 3px 0;
+  margin-left: 0!important; /* like 960gs .aplha */
+  margin-right: 0!important; /* like 960gs .omega */
+  min-height: 15px;
+  width: 100%;
+}
+
+.box-header a,
+.box-subheader a,
+.box-footer a {
+	color: #690;
+}
+
+.box-header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -khtml-border-top-left-radius: 5px;
+  -khtml-border-top-right-radius: 5px;
+  margin-top: -15px;
+  margin-bottom: 15px!important;
+  border-bottom: 1px solid #ddd;
+}
+
+h2.box-header,
+h2.box-subheader {
+  text-indent: 15px;
+  font-size: 1em;
+}
+.navigation h2.box-header,
+.navigation h2.box-subheader {
+  margin-top: 0!important;
+}
+.box-subheader {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.box-footer {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -khtml-border-bottom-left-radius: 5px;
+  -khtml-border-bottom-right-radius: 5px;
+  
+  border-top: 1px solid #ddd;
+/* this does not work with fluid 960gs */
+/*	position: absolute;*/
+/*	bottom: 0px;*/
+/*	left: 0;*/
+/*	margin-bottom: 0!important;*/
+	margin-bottom: -15px;
+}
+
+.navigation .box-footer {
+	position: relative;
+	margin-bottom: -15px!important;
+}
+.box-header ul,
+.box-footer ul {
+  list-style: none inside;
+  padding: 0;
+  font-size: 0.8em;
+  margin: 0 0 0 15px;
+}
+.box-header ul li,
+.box-footer ul li {
+  float: left;
+}
+.box-header a,
+.box-footer a {
+  text-decoration: none;
+  margin-right: 7px;
+	text-shadow: 0 1px 1px #ccc;
+}
+.aside ul {
+  list-style: none inside;
+}
+
+
+
+/* == Landing Page ======================================================== */
+/*
+*		The Quicklinks and Display are used in the Demo-Display ... an mockup for the landingpage.
+*		TODO: Move Quicklings to local css file!
+*/
+
+#display #lp-pr-image {
+  margin-top: 42px;
+  margin-left: 150px;
+}
+#display > div {
+  margin-bottom: 15px;
+}
+
+#display-content {
+  height: 450px;
+}
+	#display-content.ui-oo-box-shadow, /* old style - dont use it */
+	#display-content.box {
+  	padding: 0;
+  	overflow: hidden;
+	}
+
+#quicklinks-wrapper {
+  background: #222 url('images/bg_display-sidebar.png') no-repeat scroll 0 0;
+  height: 450px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -khtml-border-top-right-radius: 5px;
+  -khtml-border-bottom-right-radius: 5px;
+}
+
+#quicklinks,
+#quicklinks .headline,
+#quicklinks .description {
+  
+}
+#quicklinks {
+  list-style: none inside;
+}
+#quicklinks li {
+  margin-bottom: 25px;
+}
+#quicklinks a {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  height: 120px;
+}
+#quicklinks .top,
+#quicklinks .content,
+#quicklinks .bottom,
+#quicklinks .headline,
+#quicklinks .description {
+  display: block;
+}
+#quicklinks .top,
+#quicklinks .content,
+#quicklinks .bottom {
+}
+#quicklinks .top,
+#quicklinks .bottom {
+  height: 20px;
+}
+#quicklinks .top {
+  background-position: 0 0;
+}
+#quicklinks .content {
+  background-position: 0 -10px;
+  min-height: 100px;
+}
+#quicklinks .bottom {
+  background-position: 0 -130px;
+}
+#quicklinks .description {
+  margin-left: 100px;
+}
+#quicklinks a img {
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+}
+	#quicklinks a:hover img {
+	  opacity: 1;
+	  -moz-opacity: 1;
+	}
+
+#quicklinks .headline {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  text-shadow: #000 0px 1px 1px;
+}
+#quicklinks .headline,
+#quicklinks .description {
+  margin-left: 30px;
+}
+
+#quicklinks a {
+  color: #ccc;
+  text-shadow: #000 0px 1px 1px;
+}
+
+#quicklinks a:hover {
+  color: #fff;
+  text-shadow: #000 0px 1px 3px;
+}
+
+#quicklinks .content img {
+  float: left;
+  margin: 10px 15px 25px 0;
+} 
+
+/* == /Landing Page ======================================================== */
+
+
+
+/* == Helper Styles ======================================================= */
+
+.ui-oo-border-top, /* old style */
+.border-top {
+  border-top: 1px dotted #999;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Floating */
+.alignright {float: right;}
+.alignleft {float: left;}
+
+	img.centered {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	img.alignright,
+	img.alignleft {
+	  padding: 4px;
+	  display: inline;
+	}
+	img.alignright {margin: 0 0 2px 7px;}
+	img.alignleft {margin: 0 7px 2px 0;}
+
+	/* Clear Floating */
+	.clear-left {
+	  clear: left;
+	}
+	.clear-both {
+	  clear: both;
+	}
+	.clear-right {
+	  clear: right;
+	}
+
+
+.no-shadow { /* TODO: Remove this; old style */
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+
+/* == Mockup Styles ======================================================== */
+/* This Styles are just for Mockups. They don't have full *-browser support! */
+
+.column_2 {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+  
+}
+
+.column_3 {
+  -moz-column-count: 3;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.column_4{
+  -moz-column-count: 4;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 4;
+  column-gap: 20px;
+}
+
+/* == Debug Styles ======================================================== */
+
+/*div {background: fuchsia;}*/
+
+/* == Menu Styles ========================================================= */
+
+#global-navigation li.selected {
+  background-color: #690;
+}
+
+.global-navigation-menu {
+  background: #fff;
+  border: 1px solid #888;
+  border-top: none;
+  width: 23em;
+  padding: 0;
+  display: none;
+  position: absolute;
+  z-index: 10;
+}
+
+.global-navigation-menu li {
+  display: block;
+  clear: both;
+  margin: 0;
+}
+
+.global-navigation-menu li a {
+  height: 56px;
+  display: block;
+  text-decoration: none;
+}
+
+.global-navigation-menu li:hover a {
+  color: white;
+}
+
+.global-navigation-menu li:hover {
+  background: #690;
+}
+
+.global-navigation-menu li img {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin: 4px;
+  margin-right: 8px;
+}
+
+.global-navigation-menu li div {
+  font-weight: bold;
+  font-size: 90%;
+  padding-top: 4px;
+}
+
+.global-navigation-menu li:hover div {
+}
+
+.global-navigation-menu li div.desc {
+  color: #000;
+  font-size: 75%;
+  font-weight: normal;
+  padding-top: 2px;
+}
+
+.global-navigation-menu li:hover div.desc {
+  color: #fff;
+}

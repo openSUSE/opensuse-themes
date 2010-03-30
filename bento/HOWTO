@@ -1,0 +1,31 @@
+# Bento-Theme CSS Documentation
+
+## Common
+
+The directory-structure for common files looks like this:
+
+/theme_o.o-bento/css/                   => common CSS files
+/theme_o.o-bento/css/images/            => common images used via CSS
+/theme_o.o-bento/js/                    => common JavaScript files
+/theme_o.o-bento/images/                => common images used directly in HTML
+
+
+## Local
+
+The directory-structure for local tweak-files looks like this:
+
+/{application-name}/css_local/          => local CSS files
+/{application-name}/css_local/images/   => local images used via CSS
+/{application-name}/js_local/           => local JavaScript files
+/{application-name}/images_local/       => local images used directly in HTML
+
+All local theme tweaks should go to here.
+
+### Example
+
+For wiki.opensuse.org it should look like this:
+
+/wiki.o.o/css_local/
+/wiki.o.o/css_local/images/
+/wiki.o.o/js_local/
+/wiki.o.o/images_local/

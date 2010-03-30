@@ -1,0 +1,22 @@
+This is the new openSUSE.org Theme called Bento.
+
+Warning: This theme is stillunder construction and not ready for serious use! It use in some places still some CSS3 which will not work in meny browsers. This code was added just for mockup-reasons.
+
+To get further informations visit: http://en.opensuse.org/Boosters_Team/Projects/Integrate_all_Infrastructure_under_one_Umbrella
+
+To learn more about the theme read /HOWTO.
+
+This Theme should later fully support the following browsers:
+
+* Firefox     3.5 / 3.6 / or higher
+* Chrome      5.*  / or higher
+* Safari      4.0.4 / or higher
+* Opera       10  / or higher
+* Konqueror   4 / or higher
+* IE          7 / 8 / or higher
+
+If you have any questions, send a mail to rlihm@opensuse.org
+
+# Includes #
+
+Page parts, which are common in pages should be moved as snippets into includes/. E.g. the footer should be moved as footer.html
