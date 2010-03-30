@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$.get('./global-navigation.html', function(data) {
+$.get('http://static.opensuse.org/themes/bento/global-navigation.html', function(data) {
 
 $('#global-navigation').after(data).remove();
 
