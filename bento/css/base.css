@@ -550,8 +550,8 @@ td {border: 1px dotted #ccc;}
       display: block;
     }
     ul.navigation a:hover {
-      background: transparent url('images/right_btn.png') no-repeat scroll bottom right;
-      
+    	background: transparent url('images/right_btn.png') no-repeat scroll bottom right;
+      color: #39c;
     }
   div.navigation h1 {
     font-size: 1.2em;
