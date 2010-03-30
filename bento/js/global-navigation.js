@@ -1,8 +1,34 @@
 $(document).ready(function() {
 
-$.get('http://static.opensuse.org/themes/bento/global-navigation.html', function(data) {
+var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
 
-$('#global-navigation').after(data).remove();
+// list all supported languages
+if (! lang in {'en':1, 'en-GB':1, 'en-US':1} ) lang = 'en';
+
+$.getScript('http://static.opensuse.org/themes/bento/js/global-navigation-' + lang + '.js', function() {
+
+var html = '' +
+'<ul id="global-navigation">' +
+'  <li id="item-downloads"><a href="#">Downloads</a></li>' +
+'  <li id="item-support"><a href="#">Support</a></li>' +
+'  <li id="item-community"><a href="#">Community</a></li>' +
+'  <li id="item-development"><a href="#">Development</a></li>' +
+'  <li id="global-favorites"><a href="#">Favorites</a></li>' +
+'</ul>';
+
+$.each(global_navigation_data, function(i,menu){
+  html += '<ul class="global-navigation-menu" id="menu-' + menu.id + '">';
+  $.each(menu.items, function(j,submenu){
+    html += '<li><a href="' + submenu.link +'">';
+    html += '<img src="http://static.opensuse.org/themes/bento/images/' + submenu.image + '.png" alt="" />';
+    html += '<div>' + submenu.title + '</div>';
+    html += '<div class="desc">' + submenu.desc + '</div>';
+    html += '</a></li>';
+  });
+  html += '</ul>';
+});
+
+$('#global-navigation').after(html).remove();
 
 var top = $('#global-navigation').height()-12;
 if ($.browser.webkit) top += 1;
