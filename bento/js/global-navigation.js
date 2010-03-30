@@ -13,7 +13,7 @@ var html = '' +
 '  <li id="item-support"><a href="#">Support</a></li>' +
 '  <li id="item-community"><a href="#">Community</a></li>' +
 '  <li id="item-development"><a href="#">Development</a></li>' +
-'  <li id="global-favorites"><a href="#">Favorites</a></li>' +
+// '  <li id="global-favorites"><a href="#">Favorites</a></li>' + // comment Favorites as it does nothing ATM
 '</ul>';
 
 $.each(global_navigation_data, function(i,menu){
