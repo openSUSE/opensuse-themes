@@ -717,11 +717,12 @@ h2.box-subheader {
   
   border-top: 1px solid #ddd;
 /* this does not work with fluid 960gs */
-/*	position: absolute;*/
-/*	bottom: 0px;*/
-/*	left: 0;*/
-/*	margin-bottom: 0!important;*/
-	margin-bottom: -15px;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	margin-bottom: 0!important;
+/* Fluid 960gs fix*/
+/*	margin-bottom: -15px;*/
 }
 
 .navigation .box-footer {

@@ -8,3 +8,4 @@
 @import url("reset.css") all;	/* reset default browser settings */
 @import url("grid.css") all; 	/* add fluid 960 Grid System */
 @import url("base.css") all;	/* Basic CSS - Common styles */
+@import url("base.fluid.fix.css") all;	/* Fixes for Bento with fluid 960gs */
