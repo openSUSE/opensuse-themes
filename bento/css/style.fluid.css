@@ -5,7 +5,7 @@
  * Licensed under the MIT (MIT-LICENSE.txt) license.
  */
 
-@import url("reset.css") all;	/* reset default browser settings */
-@import url("grid.css") all; 	/* add fluid 960 Grid System */
-@import url("base.css") all;	/* Basic CSS - Common styles */
-@import url("base.fluid.fix.css") all;	/* Fixes for Bento with fluid 960gs */
+@import url("reset.css");	/* reset default browser settings */
+@import url("grid.css"); 	/* add fluid 960 Grid System */
+@import url("base.css");	/* Basic CSS - Common styles */
+@import url("base.fluid.fix.css");	/* Fixes for Bento with fluid 960gs */
