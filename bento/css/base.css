@@ -514,7 +514,8 @@ td {border: 1px dotted #ccc;}
 
 .ui-oo-box-shadow a, /* old style - dont use it */
 .box a {
-	color: #069;
+/*	color: #069;*/ /* Blue */
+	color: #690;	/* Green */
 }
 
 .container_16  div div,
