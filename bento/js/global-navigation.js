@@ -1,4 +1,4 @@
-function loadGlobalNavigation(lang) {
+var loadGlobalNavigation = function(lang) {
 
 if (typeof(lang) == 'undefined') lang = 'en_US';
 
