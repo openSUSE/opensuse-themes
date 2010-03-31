@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-release-stable",
-    "title": "Last stable release",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
+    "title": "最新の安定リリース",
+    "desc": "openSUSE の最新安定リリース (現在 11.2) をダウンロード"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "menu-release-devel",
-    "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
+    "title": "最新の開発版",
+    "desc": "openSUSE の最新開発版 (現在 11.3) をダウンロード"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-packages",
-    "title": "Search for packages",
-    "desc": "Search for and install additional software packages from openSUSE Build Service"
+    "title": "パッケージの検索",
+    "desc": "openSUSE ビルドサービスが提供する、追加のソフトウエアパッケージの検索とインストール"
   },
   {
     "link": "http://wiki.opensuse.org/Derivatives",
     "image": "menu-derivatives",
-    "title": "Derivates",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "派生物",
+    "desc": "openSUSE で構築された各種用途向けディストリビューションの取得"
   }
   ]
 },
@@ -35,37 +35,37 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/",
     "image": "menu-wiki",
     "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "desc": "Wiki の記事へのアクセスと書き込み"
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "menu-video",
-    "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "title": "ビデオ",
+    "desc": "様々なチュートリアルやスクリーンキャスト、講演やプレゼンテーションのビデオを閲覧"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "menu-forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "フォーラム",
+    "desc": "フォーラムでの質問や議論"
   },
   {
     "link": "http://lists.opensuse.org",
     "image": "menu-lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "メーリングリスト",
+    "desc": "メーリングリストの購読とメーリングリストアーカイブの参照"
   },
   {
     "link": "http://wiki.opensuse.org/Communicate/IRC",
     "image": "menu-irc",
-    "title": "IRC channels",
-    "desc": "Communicate online usign Internet Relay Chat"
+    "title": "IRC チャンネル",
+    "desc": "インターネットリレーチャット (IRC) を利用したオンライン対話"
   },
   {
     "link": "http://help.opensuse.org/",
     "image": "menu-help",
-    "title": "Help",
-    "desc": "Go to Help Portal"
+    "title": "ヘルプ",
+    "desc": "ヘルプポータルに移動"
   }
   ]
 },
@@ -75,50 +75,50 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "menu-connect",
-    "title": "Connect",
-    "desc": "Connect with all people in the community"
+    "title": "交流",
+    "desc": "コミュニティ内の全ての人々との交流"
   },
   {
     "link": "http://users.opensuse.org/",
     "image": "menu-users",
-    "title": "Users",
-    "desc": "Walk through User Directory"
+    "title": "ユーザ",
+    "desc": "ユーザディレクトリの参照"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "menu-planet",
     "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "desc": "1 つのストリームにまとめられたブログ投稿の参照"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "menu-news",
-    "title": "News",
-    "desc": "Newest announcements from the team"
+    "title": "ニュース",
+    "desc": "チームからの最新アナウンス"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "menu-lizards",
     "title": "Lizards",
-    "desc": "Users blog platform"
+    "desc": "ユーザ向けブログプラットフォーム"
   },
   {
     "link": "http://spotlight.opensuse.org/",
     "image": "menu-spotlight",
-    "title": "Spotlight",
-    "desc": "Posts from the community manager"
+    "title": "スポットライト",
+    "desc": "コミュニティマネージャからの投稿"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "menu-shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "ショップ",
+    "desc": "openSUSE のグッズ販売"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
     "image": "menu-events",
-    "title": "Events",
-    "desc": "View upcoming events"
+    "title": "イベント",
+    "desc": "イベントカレンダーの閲覧"
   }
   ]
 },
@@ -129,26 +129,26 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "menu-developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "開発者向け文書",
+    "desc": "開発者向けの文書への入り口"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "menu-features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "機能リクエスト",
+    "desc": "将来の openSUSE の機能についての投票や作業"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "menu-buildservice",
-    "title": "Build Service",
-    "desc": "Create, build and enhance packages"
+    "title": "ビルドサービス",
+    "desc": "パッケージの作成と構築、および拡張"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "menu-bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "バグ",
+    "desc": "Bugzilla を利用したバグ報告"
   }
   ]
 }
