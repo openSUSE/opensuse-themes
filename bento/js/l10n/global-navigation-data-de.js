@@ -5,7 +5,7 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-release-stable",
-    "title": "VOLL COOL!",
+    "title": "Last stable release",
     "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
   },
   {
