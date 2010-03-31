@@ -512,7 +512,7 @@ td {border: 1px dotted #ccc;}
   padding: 15px 0;
 }
 
-.ui-oo-box-shadow a, /* old style - dont use it */
+x.ui-oo-box-shadow a, /* old style - dont use it */
 .box a {
 /*	color: #069;*/ /* Blue */
 	color: #690;	/* Green */
