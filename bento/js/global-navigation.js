@@ -2,10 +2,9 @@ $(document).ready(function() {
 
 var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
 
-// list all supported languages
-if (! lang in {'en':1, 'en-GB':1, 'en-US':1} ) lang = 'en';
+if (!lang) lang = 'en_US';
 
-$.getScript('http://static.opensuse.org/themes/bento/js/global-navigation-' + lang + '.js', function() {
+$.getScript('http://static.opensuse.org/themes/bento/js/l10n/global-navigation-' + lang + '.js', function() {
 
 var html = '';
 
