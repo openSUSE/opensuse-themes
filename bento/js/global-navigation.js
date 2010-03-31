@@ -8,7 +8,7 @@ $.each(global_navigation_data, function(i,menu){
   html += '<ul class="global-navigation-menu" id="menu-' + menu.id + '">';
   $.each(menu.items, function(j,submenu){
     html += '<li><a href="' + submenu.link +'">';
-    html += '<img src="http://static.opensuse.org/themes/bento/images/' + submenu.image + '.png" alt="" />';
+    html += '<img src="' + location.protocol + '//static.opensuse.org/themes/bento/images/' + submenu.image + '.png" alt="" />';
     html += '<div>' + submenu.title + '</div>';
     html += '<div class="desc">' + submenu.desc + '</div>';
     html += '</a></li>';
