@@ -1,8 +1,6 @@
-$(document).ready(function() {
+var loadGlobalNavigation = function(lang) {
 
-var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
-
-if (!lang) lang = 'en_US';
+if (typeof(lang) == 'undefined') lang = 'en_US';
 
 $.getScript('http://static.opensuse.org/themes/bento/js/l10n/global-navigation-' + lang + '.js', function() {
 
@@ -77,4 +75,4 @@ $('.global-navigation-menu').mouseleave(function(){
 
 });
 
-});
+}
