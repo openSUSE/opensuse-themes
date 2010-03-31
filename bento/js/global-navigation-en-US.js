@@ -1,1 +1,0 @@
-global-navigation-en.js

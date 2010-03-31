@@ -5,14 +5,14 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-release-stable",
-    "title": "Last stable release",
+    "title": "VOLL COOL!",
     "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "menu-release-devel",
     "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3 Milestone 4"
+    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
   },
   {
     "link": "http://software.opensuse.org/",
