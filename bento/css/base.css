@@ -512,10 +512,10 @@ td {border: 1px dotted #ccc;}
   padding: 15px 0;
 }
 
-x.ui-oo-box-shadow a, /* old style - dont use it */
+.ui-oo-box-shadow a, /* old style - dont use it */
 .box a {
-/*	color: #069;*/ /* Blue */
-	color: #690;	/* Green */
+	color: #069; /* Blue */
+	/*color: #693;*/	/* Green */
 }
 
 .container_16  div div,
@@ -676,7 +676,15 @@ x.ui-oo-box-shadow a, /* old style - dont use it */
 .box-header a,
 .box-subheader a,
 .box-footer a {
-	color: #690;
+/*	color: #690;*/ /* Green */
+	color: #069;
+}
+
+.box-header li,
+.box-subheader li,
+.box-footer li {
+	color: #069;
+	margin: 0.2em 0;
 }
 
 .box-header {
