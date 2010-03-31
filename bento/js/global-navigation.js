@@ -22,46 +22,39 @@ var top = $('#global-navigation').height()-12;
 if ($.browser.webkit) top += 1;
 var left = $('#item-downloads').offset().left-15;
 $('#menu-downloads').offset({left:left,top:top});
-var left = $('#item-support').offset().left-16;
+left = $('#item-support').offset().left-16;
 $('#menu-support').offset({left:left,top:top});
-var left = $('#item-community').offset().left-16;
+left = $('#item-community').offset().left-16;
 $('#menu-community').offset({left:left,top:top});
-var left = $('#item-development').offset().left-16;
+left = $('#item-development').offset().left-16;
 $('#menu-development').offset({left:left,top:top});
 
 $('#item-downloads').click(function(){
   $('#global-navigation li.selected').removeClass('selected');
   $(this).addClass('selected');
+  $("ul[id^=menu-]").each(function() { $(this).fadeOut(); } );
   $('#menu-downloads').fadeIn();
-  $('#menu-support').fadeOut();
-  $('#menu-community').fadeOut();
-  $('#menu-development').fadeOut();
+
   return false;
 });
 $('#item-support').click(function(){
   $('#global-navigation li.selected').removeClass('selected');
   $(this).addClass('selected');
-  $('#menu-downloads').fadeOut();
+  $("ul[id^=menu-]").each(function() { $(this).fadeOut(); } );
   $('#menu-support').fadeIn();
-  $('#menu-community').fadeOut();
-  $('#menu-development').fadeOut();
   return false;
 });
 $('#item-community').click(function(){
   $('#global-navigation li.selected').removeClass('selected');
   $(this).addClass('selected');
-  $('#menu-downloads').fadeOut();
-  $('#menu-support').fadeOut();
+  $("ul[id^=menu-]").each(function() { $(this).fadeOut(); } );
   $('#menu-community').fadeIn();
-  $('#menu-development').fadeOut();
   return false;
 });
 $('#item-development').click(function(){
   $('#global-navigation li.selected').removeClass('selected');
   $(this).addClass('selected');
-  $('#menu-downloads').fadeOut();
-  $('#menu-support').fadeOut();
-  $('#menu-community').fadeOut();
+  $("ul[id^=menu-]").each(function() { $(this).fadeOut(); } );
   $('#menu-development').fadeIn();
   return false;
 });
