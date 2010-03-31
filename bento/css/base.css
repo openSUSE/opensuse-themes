@@ -518,6 +518,12 @@ td {border: 1px dotted #ccc;}
 	/*color: #693;*/	/* Green */
 }
 
+	.ui-oo-box-shadow a:hover, /* old style - dont use it */
+	.box a:hover {
+		color: #693;	/* Green */		
+	}
+
+
 .container_16  div div,
 .container_12  div div {
 /*  margin-bottom: 3px;*/
