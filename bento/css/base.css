@@ -993,7 +993,7 @@ h2.box-subheader {
 }
 
 .global-navigation-menu li a {
-  height: 56px;
+  min-height: 56px;
   display: block;
   text-decoration: none;
 }
@@ -1016,7 +1016,6 @@ h2.box-subheader {
 
 .global-navigation-menu li div {
   font-weight: bold;
-  font-size: 90%;
   padding-top: 4px;
 }
 
@@ -1025,9 +1024,10 @@ h2.box-subheader {
 
 .global-navigation-menu li div.desc {
   color: #000;
-  font-size: 75%;
+  font-size: 80%;
   font-weight: normal;
   padding-top: 2px;
+  padding-bottom: 4px;
 }
 
 .global-navigation-menu li:hover div.desc {
