@@ -9,8 +9,8 @@ $(document).ready(function() {
         $.each(menu.items, function(j,submenu){
             html += '<li><a href="' + submenu.link +'">';
             html += '<img src="' + location.protocol + '//static.opensuse.org/themes/bento/images/' + submenu.image + '.png" alt="" />';
-            html += '<div>' + submenu.title + '</div>';
-            html += '<div class="desc">' + submenu.desc + '</div>';
+            html += '<span>' + submenu.title + '</span>';
+            html += '<span class="desc">' + submenu.desc + '</span>';
             html += '</a></li>';
         });
         html += '</ul>';

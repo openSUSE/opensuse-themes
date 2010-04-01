@@ -1014,15 +1014,16 @@ h2.box-subheader {
   margin-right: 8px;
 }
 
-.global-navigation-menu li div {
+.global-navigation-menu li span {
   font-weight: bold;
   padding-top: 4px;
+  display: block;
 }
 
-.global-navigation-menu li:hover div {
+.global-navigation-menu li:hover span {
 }
 
-.global-navigation-menu li div.desc {
+.global-navigation-menu li span.desc {
   color: #000;
   font-size: 80%;
   font-weight: normal;
@@ -1030,6 +1031,6 @@ h2.box-subheader {
   padding-bottom: 4px;
 }
 
-.global-navigation-menu li:hover div.desc {
+.global-navigation-menu li:hover span.desc {
   color: #fff;
 }
