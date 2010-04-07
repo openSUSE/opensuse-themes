@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-release-stable",
-    "title": "Last stable release",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
+    "title": "Utolsó stabil kiadás",
+    "desc": "Töltse le az openSUSE 11.2-t, az openSUSE legújabb stabil kiadását"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "menu-release-devel",
-    "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
+    "title": "Utolsó fejlesztői kiadás",
+    "desc": "Töltse le az openSUSE 11.3-at, az openSUSE legújabb fejlesztői kiadását"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-packages",
-    "title": "Search for packages",
-    "desc": "Search for and install additional software packages from openSUSE Build Service"
+    "title": "Csomagok keresése",
+    "desc": "További csomagok keresése és telepítése az openSUSE Build Service-en keresztül"
   },
   {
     "link": "http://wiki.opensuse.org/Derivatives",
     "image": "menu-derivatives",
-    "title": "Derivates",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "Változatok",
+    "desc": "Töltsön le más, openSUSE-alapú, specializált disztribúciót"
   }
   ]
 },
@@ -32,40 +32,40 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://hu.opensuse.org/",
     "image": "menu-wiki",
     "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "desc": "Olvasson és írjon szócikkeket a Wikiben"
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "menu-video",
     "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "desc": "Nézzen meg különböző ismertetőket, bemutatókat és előadások felvételeit"
   },
   {
-    "link": "http://forums.opensuse.org/",
+    "link": "http://forums.opensuse.org/magyar-hungarian/",
     "image": "menu-forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "Fórumok",
+    "desc": "Vegyen részt a fórumokon"
   },
   {
     "link": "http://lists.opensuse.org",
     "image": "menu-lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "Levelezési listák",
+    "desc": "Iratkozzon fel levelezési listákra, és tekintse meg az archívumokat"
   },
   {
-    "link": "http://wiki.opensuse.org/Communicate/IRC",
+    "link": "http://hu.opensuse.org/Kommunikáció#Internet_Relay_Chat",
     "image": "menu-irc",
-    "title": "IRC channels",
-    "desc": "Communicate online usign Internet Relay Chat"
+    "title": "IRC csatornák",
+    "desc": "Kommunikáljon online az Internet Relay Chat használatával"
   },
   {
     "link": "http://help.opensuse.org/",
     "image": "menu-help",
-    "title": "Help",
-    "desc": "Go to Help Portal"
+    "title": "Segítség",
+    "desc": "Továbblépés a segítségnyújtó portálra"
   }
   ]
 },
@@ -75,50 +75,50 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "menu-connect",
-    "title": "Connect",
-    "desc": "Connect with all people in the community"
+    "title": "Kapcsolat",
+    "desc": "Lépjen kapcsolatba a közösség tagjaival"
   },
   {
     "link": "http://users.opensuse.org/",
     "image": "menu-users",
-    "title": "Users",
-    "desc": "Walk through User Directory"
+    "title": "Felhasználók",
+    "desc": "Nézze át a felhasználói címtárat"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "menu-planet",
     "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "desc": "Tekintsen meg az összegyűjtött blogbejegyzéseket"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "menu-news",
-    "title": "News",
-    "desc": "Newest announcements from the team"
+    "title": "Hírek",
+    "desc": "Az openSUSE csapat legfrissebb bejelentései"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "menu-lizards",
-    "title": "Lizards",
-    "desc": "Users blog platform"
+    "title": "Gyíkok",
+    "desc": "Felhasználói blogok kiindulópontja"
   },
   {
     "link": "http://spotlight.opensuse.org/",
     "image": "menu-spotlight",
-    "title": "Spotlight",
-    "desc": "Posts from the community manager"
+    "title": "Rivaldafény",
+    "desc": "A közösségi vezető írásai"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "menu-shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "Bolt",
+    "desc": "openSUSE holmik!"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
     "image": "menu-events",
-    "title": "Events",
-    "desc": "View upcoming events"
+    "title": "Események",
+    "desc": "Tekintse meg a közelgő eseményeket"
   }
   ]
 },
@@ -129,26 +129,26 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "menu-developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "Fejlesztői dokumentáció",
+    "desc": "Központosított fejlesztői dokumentáció"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "menu-features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "Funkciók",
+    "desc": "Szavazzon és dolgozzon a jövőbeni openSUSE szolgáltatásokra"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "menu-buildservice",
     "title": "Build Service",
-    "desc": "Create, build and enhance packages"
+    "desc": "Hozzon létre, készítsen és bővítsen ki csomagokat."
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "menu-bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "Hibák",
+    "desc": "Jelentsen hibákat a Bugzilla használatával"
   }
   ]
 }

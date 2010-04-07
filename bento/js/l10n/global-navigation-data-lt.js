@@ -5,19 +5,19 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-release-stable",
-    "title": "Last stable release",
+    "title": "Paskiausia stabili versija",
     "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "menu-release-devel",
-    "title": "Last development release",
+    "title": "Paskiausia vystoma versija",
     "desc": "Download the latest development release of openSUSE, which is currently 11.3"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-packages",
-    "title": "Search for packages",
+    "title": "Paketų paieška",
     "desc": "Search for and install additional software packages from openSUSE Build Service"
   },
   {
@@ -34,25 +34,25 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/",
     "image": "menu-wiki",
-    "title": "Wiki",
+    "title": "Vikis",
     "desc": "Read and write articles in our Wiki"
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "menu-video",
-    "title": "Video",
+    "title": "Vaizdas",
     "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "menu-forums",
-    "title": "Forums",
+    "title": "Diskusijos",
     "desc": "Participate in our forums"
   },
   {
     "link": "http://lists.opensuse.org",
     "image": "menu-lists",
-    "title": "Mailing lists",
+    "title": "El. pašto grupės",
     "desc": "Subscribe to mailinglists and look into their archives"
   },
   {
@@ -64,7 +64,7 @@ var global_navigation_data = [
   {
     "link": "http://help.opensuse.org/",
     "image": "menu-help",
-    "title": "Help",
+    "title": "Pagalba",
     "desc": "Go to Help Portal"
   }
   ]
@@ -81,7 +81,7 @@ var global_navigation_data = [
   {
     "link": "http://users.opensuse.org/",
     "image": "menu-users",
-    "title": "Users",
+    "title": "Vartotojai",
     "desc": "Walk through User Directory"
   },
   {
@@ -93,7 +93,7 @@ var global_navigation_data = [
   {
     "link": "http://news.opensuse.org/",
     "image": "menu-news",
-    "title": "News",
+    "title": "Naujienos",
     "desc": "Newest announcements from the team"
   },
   {
@@ -111,14 +111,14 @@ var global_navigation_data = [
   {
     "link": "http://shop.opensuse.org/",
     "image": "menu-shop",
-    "title": "Shop",
+    "title": "Parduotuvė",
     "desc": "openSUSE gear here!"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
     "image": "menu-events",
-    "title": "Events",
-    "desc": "View upcoming events"
+    "title": "Įvykiai",
+    "desc": "Būsimų įvykių peržiūra"
   }
   ]
 },
@@ -129,26 +129,26 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "menu-developer",
-    "title": "Developer documentation",
+    "title": "Dokumentacija programuotojams",
     "desc": "Centralized developer's documentation"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "menu-features",
-    "title": "Features",
+    "title": "Pageid. savybės",
     "desc": "Vote and work on upcoming openSUSE features"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "menu-buildservice",
-    "title": "Build Service",
+    "title": "Kūrimo paslauga",
     "desc": "Create, build and enhance packages"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "menu-bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "Ydos",
+    "desc": "Pranešti apie ydas per „Bugzilla“"
   }
   ]
 }

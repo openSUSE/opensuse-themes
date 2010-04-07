@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-release-stable",
-    "title": "Last stable release",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
+    "title": "Posledné stabilné vydanie",
+    "desc": "Stiahnuť posledné stabilné vydanie openSUSE, ktoré je aktuálne openSUSE 11.2"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "menu-release-devel",
-    "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
+    "title": "Posledné vývojové vydanie",
+    "desc": "Stiahnuť posledné vývojové vydanie openSUSE, ktoré je aktuálne openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-packages",
-    "title": "Search for packages",
-    "desc": "Search for and install additional software packages from openSUSE Build Service"
+    "title": "Hľadať balíky",
+    "desc": "Hľadať a inštalovať ďalšie softvérové balíky z openSUSE Build Service"
   },
   {
     "link": "http://wiki.opensuse.org/Derivatives",
     "image": "menu-derivatives",
-    "title": "Derivates",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "Deriváty",
+    "desc": "Získať jednu zo špecializovaných distribúcií postavených na openSUSE"
   }
   ]
 },
@@ -35,37 +35,37 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/",
     "image": "menu-wiki",
     "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "desc": "Čítať a písať články na našej Wiki"
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "menu-video",
     "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "desc": "Sledovať rôzne návody, ukážky a nahrávky z prednášok a prezentácií"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "menu-forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "Fóra",
+    "desc": "Zúčastniť sa na našich fórach"
   },
   {
     "link": "http://lists.opensuse.org",
     "image": "menu-lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "Zoznam e-mailových konferencií",
+    "desc": "Prihlásiť sa do e-mailových konferencií a pozerať si ich archívy"
   },
   {
     "link": "http://wiki.opensuse.org/Communicate/IRC",
     "image": "menu-irc",
-    "title": "IRC channels",
-    "desc": "Communicate online usign Internet Relay Chat"
+    "title": "IRC kanály",
+    "desc": "Komunikovať pomocou IRC"
   },
   {
     "link": "http://help.opensuse.org/",
     "image": "menu-help",
-    "title": "Help",
-    "desc": "Go to Help Portal"
+    "title": "Pomocník",
+    "desc": "Ísť na portál pomocníka"
   }
   ]
 },
@@ -75,50 +75,50 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "menu-connect",
-    "title": "Connect",
-    "desc": "Connect with all people in the community"
+    "title": "Spojiť sa",
+    "desc": "Spojiť sa so všetkými ľuďmi v komunite"
   },
   {
     "link": "http://users.opensuse.org/",
     "image": "menu-users",
-    "title": "Users",
-    "desc": "Walk through User Directory"
+    "title": "Používatelia",
+    "desc": "Prechádzať priečinkom používateľa"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "menu-planet",
-    "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "title": "Planéta",
+    "desc": "Sledovať blogy zoskupené do jedného kanála"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "menu-news",
-    "title": "News",
-    "desc": "Newest announcements from the team"
+    "title": "Novinky",
+    "desc": "Najnovšie oznámenia od tímu"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "menu-lizards",
-    "title": "Lizards",
-    "desc": "Users blog platform"
+    "title": "Jaštery",
+    "desc": "Blogy používateľov"
   },
   {
     "link": "http://spotlight.opensuse.org/",
     "image": "menu-spotlight",
-    "title": "Spotlight",
-    "desc": "Posts from the community manager"
+    "title": "Aktuality",
+    "desc": "Články od komunitného manažéra"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "menu-shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "Obchod",
+    "desc": "openSUSE veci!"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
     "image": "menu-events",
-    "title": "Events",
-    "desc": "View upcoming events"
+    "title": "Udalosti",
+    "desc": "Zobraziť blížiace sa udalosti"
   }
   ]
 },
@@ -129,26 +129,26 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "menu-developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "Vývojárska dokumentácia",
+    "desc": "Centralizovaná vývojárska dokumentácia"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "menu-features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "Funkcie",
+    "desc": "Hlasovať a pracovať na nových funkciách openSUSE"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "menu-buildservice",
     "title": "Build Service",
-    "desc": "Create, build and enhance packages"
+    "desc": "Vytvárať, zostavovať  a zlepšovať balíky"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "menu-bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "Chyby",
+    "desc": "Nahlásiť chyby pomocou Bugzilly"
   }
   ]
 }

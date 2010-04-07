@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-release-stable",
-    "title": "Last stable release",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
+    "title": "최신 안정판",
+    "desc": "현재 오픈수세 최신 안정판인 11.2 버전을 다운로드"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "menu-release-devel",
-    "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
+    "title": "최신 개발버전",
+    "desc": "현재 오픈수세 최신 개발버전인 11.3 버전을 다운로드"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "menu-packages",
-    "title": "Search for packages",
-    "desc": "Search for and install additional software packages from openSUSE Build Service"
+    "title": "꾸러미 검색",
+    "desc": "오픈수세 빌드 서비스로부터 추가 소프트웨어 꾸러미를 검색하고 설치"
   },
   {
     "link": "http://wiki.opensuse.org/Derivatives",
     "image": "menu-derivatives",
     "title": "Derivates",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "desc": "오픈수세를 기반으로 한 특별한 배포판을 다운로드"
   }
   ]
 },
@@ -34,38 +34,38 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/",
     "image": "menu-wiki",
-    "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "title": "위키",
+    "desc": "위키를 읽거나 기록합니다."
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "menu-video",
-    "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "title": "비디오",
+    "desc": "다양한 길잡이, 방송, 이야기를 녹음 및 프레젠테이션 보기"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "menu-forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "포럼",
+    "desc": "포럼에 참여"
   },
   {
     "link": "http://lists.opensuse.org",
     "image": "menu-lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "메일링 리스트",
+    "desc": "메일링 리스트에 등록하고 대화 내용을 확인"
   },
   {
     "link": "http://wiki.opensuse.org/Communicate/IRC",
     "image": "menu-irc",
-    "title": "IRC channels",
-    "desc": "Communicate online usign Internet Relay Chat"
+    "title": "IRC 채널",
+    "desc": "IRC(Internet Relay Chat-인터넷 채팅) 을 통해 대화"
   },
   {
     "link": "http://help.opensuse.org/",
     "image": "menu-help",
-    "title": "Help",
-    "desc": "Go to Help Portal"
+    "title": "도우미",
+    "desc": "도우미 포털로 가기"
   }
   ]
 },
@@ -75,50 +75,50 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "menu-connect",
-    "title": "Connect",
-    "desc": "Connect with all people in the community"
+    "title": "연결",
+    "desc": "오픈수세 커뮤니티에 있는 모든 사람과 연결"
   },
   {
     "link": "http://users.opensuse.org/",
     "image": "menu-users",
-    "title": "Users",
-    "desc": "Walk through User Directory"
+    "title": "사용자",
+    "desc": "사용자 디렉터리를 통한 오픈수세 계정관리"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "menu-planet",
-    "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "title": "플라넷",
+    "desc": "오픈수세 커뮤니티의 최신 블로그 내용을 한번에~"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "menu-news",
-    "title": "News",
-    "desc": "Newest announcements from the team"
+    "title": "뉴스",
+    "desc": "오픈수세 팀의 새 소식"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "menu-lizards",
-    "title": "Lizards",
-    "desc": "Users blog platform"
+    "title": "리저드",
+    "desc": "오픈수세 사용자의 블로그"
   },
   {
     "link": "http://spotlight.opensuse.org/",
     "image": "menu-spotlight",
-    "title": "Spotlight",
-    "desc": "Posts from the community manager"
+    "title": "스포트라이트",
+    "desc": "오픈수세 커뮤니티 매니저로부터의 이야기"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "menu-shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "쇼핑",
+    "desc": "오픈수세 구매는 이곳에서!"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
     "image": "menu-events",
-    "title": "Events",
-    "desc": "View upcoming events"
+    "title": "이벤트",
+    "desc": "다가오는 이벤트 보기"
   }
   ]
 },
@@ -129,26 +129,26 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "menu-developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "개발자 설명서",
+    "desc": "개발자에게 필요한 주요 설명서"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "menu-features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "기능",
+    "desc": "앞으로 나올 오픈수세 기능을 추천하거나 게시"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "menu-buildservice",
-    "title": "Build Service",
-    "desc": "Create, build and enhance packages"
+    "title": "빌드 서비스",
+    "desc": "필요한 꾸러미를 별도로 만들기"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "menu-bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "버그",
+    "desc": "버그질라를 사용하여 버그 보고"
   }
   ]
 }
