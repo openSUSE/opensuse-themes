@@ -146,7 +146,7 @@ body {
   padding: 0;
   width: 100%;
 }
-
+/*foo*/
 body > div { margin-bottom: 15px;}
 h1 {font-size: 1.5em; margin-bottom: 1.2em;}
 h2 {font-size: 1.3em; margin-bottom: 1.1em;}
@@ -681,6 +681,8 @@ td {border: 1px dotted #ccc;}
   margin-right: 0!important; /* like 960gs .omega */
   min-height: 15px;
   width: 100%;
+
+	font-size: 12px;
 }
 
 .box-header a,
