@@ -4,25 +4,25 @@ var global_navigation_data = [
   "items": [
   {
     "link": "http://software.opensuse.org/",
-    "image": "menu-release-stable",
+    "image": "release-stable",
     "title": "최신 안정판",
     "desc": "현재 오픈수세 최신 안정판인 11.2 버전을 다운로드"
   },
   {
     "link": "http://software.opensuse.org/developer/",
-    "image": "menu-release-devel",
+    "image": "release-devel",
     "title": "최신 개발버전",
     "desc": "현재 오픈수세 최신 개발버전인 11.3 버전을 다운로드"
   },
   {
     "link": "http://software.opensuse.org/",
-    "image": "menu-packages",
+    "image": "packages",
     "title": "꾸러미 검색",
     "desc": "오픈수세 빌드 서비스로부터 추가 소프트웨어 꾸러미를 검색하고 설치"
   },
   {
     "link": "http://wiki.opensuse.org/Derivatives",
-    "image": "menu-derivatives",
+    "image": "derivatives",
     "title": "Derivates",
     "desc": "오픈수세를 기반으로 한 특별한 배포판을 다운로드"
   }
@@ -33,37 +33,37 @@ var global_navigation_data = [
   "items": [
   {
     "link": "http://wiki.opensuse.org/",
-    "image": "menu-wiki",
+    "image": "wiki",
     "title": "위키",
     "desc": "위키를 읽거나 기록합니다."
   },
   {
     "link": "http://opensuse.blip.tv/",
-    "image": "menu-video",
+    "image": "video",
     "title": "비디오",
     "desc": "다양한 길잡이, 방송, 이야기를 녹음 및 프레젠테이션 보기"
   },
   {
     "link": "http://forums.opensuse.org/",
-    "image": "menu-forums",
+    "image": "forums",
     "title": "포럼",
     "desc": "포럼에 참여"
   },
   {
     "link": "http://lists.opensuse.org",
-    "image": "menu-lists",
+    "image": "lists",
     "title": "메일링 리스트",
     "desc": "메일링 리스트에 등록하고 대화 내용을 확인"
   },
   {
     "link": "http://wiki.opensuse.org/Communicate/IRC",
-    "image": "menu-irc",
+    "image": "irc",
     "title": "IRC 채널",
     "desc": "IRC(Internet Relay Chat-인터넷 채팅) 을 통해 대화"
   },
   {
     "link": "http://help.opensuse.org/",
-    "image": "menu-help",
+    "image": "help",
     "title": "도우미",
     "desc": "도우미 포털로 가기"
   }
@@ -74,49 +74,49 @@ var global_navigation_data = [
   "items": [
   {
     "link": "http://connect.opensuse.org/",
-    "image": "menu-connect",
+    "image": "connect",
     "title": "연결",
     "desc": "오픈수세 커뮤니티에 있는 모든 사람과 연결"
   },
   {
     "link": "http://users.opensuse.org/",
-    "image": "menu-users",
+    "image": "users",
     "title": "사용자",
     "desc": "사용자 디렉터리를 통한 오픈수세 계정관리"
   },
   {
     "link": "http://planet.opensuse.org/",
-    "image": "menu-planet",
+    "image": "planet",
     "title": "플라넷",
     "desc": "오픈수세 커뮤니티의 최신 블로그 내용을 한번에~"
   },
   {
     "link": "http://news.opensuse.org/",
-    "image": "menu-news",
+    "image": "news",
     "title": "뉴스",
     "desc": "오픈수세 팀의 새 소식"
   },
   {
     "link": "http://lizards.opensuse.org/",
-    "image": "menu-lizards",
+    "image": "lizards",
     "title": "리저드",
     "desc": "오픈수세 사용자의 블로그"
   },
   {
     "link": "http://spotlight.opensuse.org/",
-    "image": "menu-spotlight",
+    "image": "spotlight",
     "title": "스포트라이트",
     "desc": "오픈수세 커뮤니티 매니저로부터의 이야기"
   },
   {
     "link": "http://shop.opensuse.org/",
-    "image": "menu-shop",
+    "image": "shop",
     "title": "쇼핑",
     "desc": "오픈수세 구매는 이곳에서!"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "menu-events",
+    "image": "events",
     "title": "이벤트",
     "desc": "다가오는 이벤트 보기"
   }
@@ -128,27 +128,33 @@ var global_navigation_data = [
   [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
-    "image": "menu-developer",
+    "image": "developer",
     "title": "개발자 설명서",
     "desc": "개발자에게 필요한 주요 설명서"
   },
   {
     "link": "http://features.opensuse.org/",
-    "image": "menu-features",
+    "image": "features",
     "title": "기능",
     "desc": "앞으로 나올 오픈수세 기능을 추천하거나 게시"
   },
   {
     "link": "http://build.opensuse.org/",
-    "image": "menu-buildservice",
+    "image": "buildservice",
     "title": "빌드 서비스",
     "desc": "필요한 꾸러미를 별도로 만들기"
   },
   {
     "link": "http://bugs.opensuse.org/",
-    "image": "menu-bugs",
+    "image": "bugs",
     "title": "버그",
     "desc": "버그질라를 사용하여 버그 보고"
+  },
+  {
+    "link": "http://susestudio.com",
+    "image": "studio",
+    "title": "SUSE Studio",
+    "desc": "Create your own images using Studio"
   }
   ]
 }
