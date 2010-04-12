@@ -178,6 +178,14 @@ table {
 	width: inherit;
 	max-width: 95%;
 }
+
+caption { /* Table Title */
+	text-align: left;
+	margin-bottom: 0.5em;
+	text-indent: 0.5em;
+	color: #690;
+}
+
 tbody, tfoot, thead, tr {
 }
 
