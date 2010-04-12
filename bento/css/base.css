@@ -146,7 +146,7 @@ body {
   padding: 0;
   width: 100%;
 }
-/*foo*/
+
 body > div { margin-bottom: 15px;}
 h1 {font-size: 1.5em; margin-bottom: 1.2em;}
 h2 {font-size: 1.3em; margin-bottom: 1.1em;}
@@ -171,7 +171,7 @@ p img {
 }
 
 small {
-	font-size: 0.7em;
+	font-size: 10px;
 }
 
 table {
