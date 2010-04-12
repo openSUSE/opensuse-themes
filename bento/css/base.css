@@ -534,8 +534,9 @@ td {border: 1px dotted #ccc;}
 	.box a:hover {
 		color: #693;	/* Green */		
 	}
-
-
+	.box.grey { /* Box with grey content; e.g. for Comments in Wordpress */
+		background-color: #eee;
+	}
 .container_16  div div,
 .container_12  div div {
 /*  margin-bottom: 3px;*/
