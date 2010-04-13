@@ -156,7 +156,7 @@ a {color: #690; text-decoration: none;}
 a:hover {color: #39c; text-decoration: underline;}
 p, ul, ol {margin: 1em 0;}
 h1, h2, h3, h4, h5, h6, p, ul, ol, table, .box small { margin-left: 15px; margin-right: 15px;}
-h1, h2, h3, h4, h5, h6 {margin-top: 0.5em; margin-bottom: 1.2em;}
+h1, h2, h3, h4, h5, h6 { color: #690; margin-top: 0.5em; margin-bottom: 1.2em;}
 p {line-height: 150%;}
 p img { padding: 0; max-width: 100%;}
 ul, ol { list-style: disc inside; padding: 0 1em;}
@@ -249,9 +249,18 @@ td {border: 1px dotted #ccc;}
 #subheader,
 #content,
 #content .column > div,
-.box .ui-oo-box-shadow,
+.ui-oo-box-shadow,
 .box {
   margin-bottom: 15px;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+
 }
 
 #header {
@@ -643,7 +652,7 @@ td {border: 1px dotted #ccc;}
 .ui-corner-left {}
 
 .box,
-.box box-shadow, /* old style */
+.ui-oo-box-shadow, /* old style */
 .ui-corner-all {
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -688,6 +697,7 @@ textarea:focus,
 .box-subheader,
 .box-footer {
   background: #fff url('images/gradient-light-short.png') repeat-x scroll 0 -20px ;
+	color: #333!important;
   padding: 3px 0;
   margin-left: 0!important; /* like 960gs .aplha */
   margin-right: 0!important; /* like 960gs .omega */
@@ -720,7 +730,6 @@ textarea:focus,
   -webkit-border-top-right-radius: 5px;
   -khtml-border-top-left-radius: 5px;
   -khtml-border-top-right-radius: 5px;
-  margin-top: -15px;
   margin-bottom: 15px!important;
   border-bottom: 1px solid #ddd;
 }
