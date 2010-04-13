@@ -976,14 +976,28 @@ input[type="submit"] {
 	background: #DDD url('images/gradient-medium-short.png') repeat-x scroll 0 0;
 	color: #555;
 }
+
 	.button:hover,
 	button:hover,
 	input[type="submit"]:hover {
-		border-color: #690;
+		background-color: #eee;
+		border-color: #666;
+		color: #069;
+		cursor: pointer;
+	}
+
+.main .button,
+.main button,
+.main input[type="submit"] {
+	background: #9c0 url('images/gradient-light-short-green.png') repeat-x scroll 0 -5px;
+	color: #fcfcfc;
+}
+
+	.main .button:hover,
+	.main button:hover,
+	.main input[type="submit"]:hover {
 		border-color: #069;
 		cursor: pointer;
-		color: #069;
-		color: #000;
 	}
 
 
