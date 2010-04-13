@@ -139,7 +139,7 @@ a img { border: none; }*/
 html,
 body {
   background: #f6f6f6;
-  color: #444444;
+  color: #444;
   font: 16px "Lucida Grande", "Trebuchet MS", Arial, Verdana, sans-serif;
   height: 99%;
   margin: 0;
@@ -158,22 +158,16 @@ p, ul, ol {margin: 1em 0;}
 h1, h2, h3, h4, h5, h6, p, ul, ol, table, .box small { margin-left: 15px; margin-right: 15px;}
 h1, h2, h3, h4, h5, h6 {margin-top: 0.5em; margin-bottom: 1.2em;}
 p {line-height: 150%;}
+p img { padding: 0; max-width: 100%;}
 ul, ol { list-style: disc inside; padding: 0 1em;}
-ul li, ol li {margin: 0.5em 0;}
-ul ul, ol ul, ul ol , ol ol {margin-top: 0em; margin-bottom: 0em;}
-ol {list-style-type: decimal;}
-input, textarea { border: 1px solid #666; padding: 2px 3px;}
-
-img {border: 0;}
-p img {
-  padding: 0;
-  max-width: 100%;
-}
-
-small {
-	font-size: 10px;
-}
-
+ul li, ol li { margin: 0.5em 0;}
+ul ul, ol ul, ul ol , ol ol { margin-top: 0em; margin-bottom: 0em;}
+ol { list-style-type: decimal;}
+input, textarea { border: 1px solid #666; background-color: #eee; color: #333; padding: 2px 3px;}
+input:focus, textarea:focus { border-color: #690;	background-color: #fff;}
+img { border: 0;}
+small { font-size: 10px;}
+option:nth-child(even) { background-color: #eee;}
 table {
 	width: inherit;
 	max-width: 95%;
@@ -326,6 +320,9 @@ td {border: 1px dotted #ccc;}
   }
     #header #global-search-form input:focus {
       color: #330;
+		  box-shadow: none;
+		  -webkit-box-shadow: none;
+		  -moz-box-shadow: none;
     }
 #subheader {
   font-size: 0.8em;
@@ -662,6 +659,8 @@ td {border: 1px dotted #ccc;}
 .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 .box box-shadow, /* old style - dont use it */
 .ui-widget-shadow,
+input:focus,
+textarea:focus,
 .box-shadow {
   box-shadow: 0 1px 3px #ccc;
   -webkit-box-shadow: 0 1px 3px #ccc;
