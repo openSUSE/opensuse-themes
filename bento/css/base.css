@@ -148,8 +148,8 @@ body {
 }
 
 body > div { margin-bottom: 15px;}
-h1 {font-size: 1.5em; margin-bottom: 1.2em;}
-h2 {font-size: 1.3em; margin-bottom: 1.1em;}
+h1 {font-size: 1.7em; margin-bottom: 1.2em;}
+h2 {font-size: 1.5em; margin-bottom: 1.1em;}
 h3 {font-size: 1.2em; margin-bottom: 1.0em;}
 h4, h5, h6 {font-size: 1.1em; margin-bottom: 0.9em;}
 a {color: #690; text-decoration: none;}
@@ -668,6 +668,10 @@ td {border: 1px dotted #ccc;}
   -moz-box-shadow: 0 1px 3px #ccc;
 }
 
+.text-shadow {
+	text-shadow: 0 1px 3px #999;
+}
+
 .ui-oo-fold-icon, /* old style - dont use it */
 .fold-icon {
   display: block;
@@ -947,6 +951,26 @@ h2.box-subheader {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
 }
+
+
+.button,
+button,
+input[type="submit"] {
+	border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+	border-color: #999;
+	background: #DDD url('images/gradient-medium-short.png') repeat-x scroll 0 0;
+	color: #666;
+}
+	.button:hover,
+	button:hover,
+	input[type="submit"]:hover {
+		border-color: #690;
+		cursor: pointer;
+		color: #069;
+	}
 
 
 /* == Mockup Styles ======================================================== */
