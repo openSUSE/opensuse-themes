@@ -1,3 +1,5 @@
+#!/bin/bash
+
 svn up $MY_LCN_CHECKOUT
 xgettext -C -k_ ../global-navigation-data.js.in -o $MY_LCN_CHECKOUT/50-pot/opensuse-org-theme.pot
 langs=`cd $MY_LCN_CHECKOUT && ls -1d */po | sed -e 's,/po,,'`

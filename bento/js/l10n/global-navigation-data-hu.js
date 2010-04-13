@@ -4,25 +4,25 @@ var global_navigation_data = [
   "items": [
   {
     "link": "http://software.opensuse.org/",
-    "image": "menu-release-stable",
+    "image": "release-stable",
     "title": "Utolsó stabil kiadás",
     "desc": "Töltse le az openSUSE 11.2-t, az openSUSE legújabb stabil kiadását"
   },
   {
     "link": "http://software.opensuse.org/developer/",
-    "image": "menu-release-devel",
+    "image": "release-devel",
     "title": "Utolsó fejlesztői kiadás",
     "desc": "Töltse le az openSUSE 11.3-at, az openSUSE legújabb fejlesztői kiadását"
   },
   {
     "link": "http://software.opensuse.org/",
-    "image": "menu-packages",
+    "image": "packages",
     "title": "Csomagok keresése",
     "desc": "További csomagok keresése és telepítése az openSUSE Build Service-en keresztül"
   },
   {
     "link": "http://wiki.opensuse.org/Derivatives",
-    "image": "menu-derivatives",
+    "image": "derivatives",
     "title": "Változatok",
     "desc": "Töltsön le más, openSUSE-alapú, specializált disztribúciót"
   }
@@ -33,37 +33,37 @@ var global_navigation_data = [
   "items": [
   {
     "link": "http://hu.opensuse.org/",
-    "image": "menu-wiki",
+    "image": "wiki",
     "title": "Wiki",
     "desc": "Olvasson és írjon szócikkeket a Wikiben"
   },
   {
     "link": "http://opensuse.blip.tv/",
-    "image": "menu-video",
+    "image": "video",
     "title": "Video",
     "desc": "Nézzen meg különböző ismertetőket, bemutatókat és előadások felvételeit"
   },
   {
     "link": "http://forums.opensuse.org/magyar-hungarian/",
-    "image": "menu-forums",
+    "image": "forums",
     "title": "Fórumok",
     "desc": "Vegyen részt a fórumokon"
   },
   {
     "link": "http://lists.opensuse.org",
-    "image": "menu-lists",
+    "image": "lists",
     "title": "Levelezési listák",
     "desc": "Iratkozzon fel levelezési listákra, és tekintse meg az archívumokat"
   },
   {
     "link": "http://hu.opensuse.org/Kommunikáció#Internet_Relay_Chat",
-    "image": "menu-irc",
+    "image": "irc",
     "title": "IRC csatornák",
     "desc": "Kommunikáljon online az Internet Relay Chat használatával"
   },
   {
     "link": "http://help.opensuse.org/",
-    "image": "menu-help",
+    "image": "help",
     "title": "Segítség",
     "desc": "Továbblépés a segítségnyújtó portálra"
   }
@@ -74,49 +74,49 @@ var global_navigation_data = [
   "items": [
   {
     "link": "http://connect.opensuse.org/",
-    "image": "menu-connect",
+    "image": "connect",
     "title": "Kapcsolat",
     "desc": "Lépjen kapcsolatba a közösség tagjaival"
   },
   {
     "link": "http://users.opensuse.org/",
-    "image": "menu-users",
+    "image": "users",
     "title": "Felhasználók",
     "desc": "Nézze át a felhasználói címtárat"
   },
   {
     "link": "http://planet.opensuse.org/",
-    "image": "menu-planet",
+    "image": "planet",
     "title": "Planet",
     "desc": "Tekintsen meg az összegyűjtött blogbejegyzéseket"
   },
   {
     "link": "http://news.opensuse.org/",
-    "image": "menu-news",
+    "image": "news",
     "title": "Hírek",
     "desc": "Az openSUSE csapat legfrissebb bejelentései"
   },
   {
     "link": "http://lizards.opensuse.org/",
-    "image": "menu-lizards",
+    "image": "lizards",
     "title": "Gyíkok",
     "desc": "Felhasználói blogok kiindulópontja"
   },
   {
     "link": "http://spotlight.opensuse.org/",
-    "image": "menu-spotlight",
+    "image": "spotlight",
     "title": "Rivaldafény",
     "desc": "A közösségi vezető írásai"
   },
   {
     "link": "http://shop.opensuse.org/",
-    "image": "menu-shop",
+    "image": "shop",
     "title": "Bolt",
     "desc": "openSUSE holmik!"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "menu-events",
+    "image": "events",
     "title": "Események",
     "desc": "Tekintse meg a közelgő eseményeket"
   }
@@ -128,27 +128,33 @@ var global_navigation_data = [
   [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
-    "image": "menu-developer",
+    "image": "developer",
     "title": "Fejlesztői dokumentáció",
     "desc": "Központosított fejlesztői dokumentáció"
   },
   {
     "link": "http://features.opensuse.org/",
-    "image": "menu-features",
+    "image": "features",
     "title": "Funkciók",
     "desc": "Szavazzon és dolgozzon a jövőbeni openSUSE szolgáltatásokra"
   },
   {
     "link": "http://build.opensuse.org/",
-    "image": "menu-buildservice",
+    "image": "buildservice",
     "title": "Build Service",
     "desc": "Hozzon létre, készítsen és bővítsen ki csomagokat."
   },
   {
     "link": "http://bugs.opensuse.org/",
-    "image": "menu-bugs",
+    "image": "bugs",
     "title": "Hibák",
     "desc": "Jelentsen hibákat a Bugzilla használatával"
+  },
+  {
+    "link": "http://susestudio.com",
+    "image": "studio",
+    "title": "SUSE Studio",
+    "desc": "Create your own images using Studio"
   }
   ]
 }
