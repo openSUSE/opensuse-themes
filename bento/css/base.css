@@ -492,6 +492,10 @@ td {border: 1px dotted #ccc;}
  
 /* INFO: #ui-oo-* and .ui-oo-* are Interface related styles for openSUSE.org */
 
+.main { /* boxes for main content - width column */
+	min-height: 500px;
+}
+
 .ui-oo-content-wrapper,
 .content-wrapper {
   font-size: 0.8em;
@@ -970,14 +974,16 @@ input[type="submit"] {
   -khtml-border-radius: 5px;
 	border-color: #999;
 	background: #DDD url('images/gradient-medium-short.png') repeat-x scroll 0 0;
-	color: #666;
+	color: #555;
 }
 	.button:hover,
 	button:hover,
 	input[type="submit"]:hover {
 		border-color: #690;
+		border-color: #069;
 		cursor: pointer;
 		color: #069;
+		color: #000;
 	}
 
 
