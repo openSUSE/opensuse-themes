@@ -155,7 +155,7 @@ h4, h5, h6 {font-size: 1.1em; margin-bottom: 0.9em;}
 a {color: #690; text-decoration: none;}
 a:hover {color: #39c; text-decoration: underline;}
 p, ul, ol {margin: 1em 0;}
-h1, h2, h3, h4, h5, h6, p, ul, ol, table, pre, .box small { margin-left: 15px; margin-right: 15px;}
+h1, h2, h3, h4, h5, h6, p, ul, ol, table, pre, blockquote, .box small { margin-left: 15px; margin-right: 15px;}
 h1, h2, h3, h4, h5, h6 { color: #690; margin-top: 0.5em; margin-bottom: 1.2em;}
 p {line-height: 150%;}
 p img { padding: 0; max-width: 100%;}
@@ -163,7 +163,7 @@ ul, ol { list-style: disc inside; padding: 0 1em;}
 ul li, ol li { margin: 0.5em 0;}
 ul ul, ol ul, ul ol , ol ol { margin-top: 0em; margin-bottom: 0em;}
 ol { list-style-type: decimal;}
-input, textarea { border: 1px solid #666; background-color: #eee; color: #333; padding: 2px 3px;}
+input, textarea, pre { border: 1px solid #666; background-color: #eee; color: #333; padding: 2px 3px;}
 input:focus, textarea:focus { border-color: #690;	background-color: #f6f6f6;}
 textarea {padding: 5px 3px;}
 img { border: 0;}
@@ -195,7 +195,17 @@ td {border: 1px dotted #ccc;}
 	th:last-child, td:last-child {border-right: none;} /* :last-child does not work in IE 8-- */
 
 
-pre {}
+pre {
+	font-family: monospace;
+	background-color: #f6f6f6;
+	border: 1px dotted #690;
+}
+
+blockquote {
+	border-left: 5px solid #690;
+	color: #666;
+	font-style: italic;
+}
 
 /* == 960 Extension ======================================================= */
 .ui-oo-content-wrapper .ui-oo-box-shadow > div.grid_5, /* old way - dont use this */
