@@ -2,6 +2,7 @@ var position_menu = function(button_id, menu_id) {
     var top = $('#global-navigation').height()-12;
     if ($.browser.webkit) top += 1;
     var left = $('#' + button_id).offset().left-15;
+    $('#' + menu_id).css({left:'',top:''});
     $('#' + menu_id).offset({left:left,top:top});
 }
 
