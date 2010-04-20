@@ -1073,41 +1073,50 @@ input[type="submit"] {
 }
 
 #global-navigation li.selected {
+  /* use the same background-image as #header => line ~286*/
   background-color: #690;
-  /* gets the same background-image as #header => line ~286*/
-/*  background: #690 url('images/gradient-dark-nav.png') repeat-x scroll bottom left;*/
 }
 
 .global-navigation-menu {
   background: #fff;
   border: 1px solid #888;
+  border-color:#DDDDDD #CCCCCC #BBBBBB;
   border-top: none;
   width: 23em;
   padding: 0;
   display: none;
   position: absolute;
   z-index: 10;
-  
-
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-
-  -moz-border-radius-bottomleft: 5px;
-  -moz-border-radius-bottomright: 5px;
-
-  -webkit-border-bottom-left-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-
-  -khtml-border-bottom-left-radius: 5px;
-  -khtml-border-bottom-right-radius: 5px;
-  
 }
+
+  .global-navigation-menu,
+  .global-navigation-menu li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+
+    -khtml-border-bottom-left-radius: 5px;
+    -khtml-border-bottom-right-radius: 5px;
+  }
 
 .global-navigation-menu li {
   display: block;
   clear: both;
   margin: 0;
 }
+.global-navigation-menu li:nth-child(even) {
+  background-color: #eee;
+  border-top: 1px dotted #ddd;
+  border-bottom: 1px dotted #ddd;
+}
+  .global-navigation-menu li:last-child {
+    border-bottom: none;
+  }
 
 .global-navigation-menu li a {
   min-height: 56px;
@@ -1116,7 +1125,7 @@ input[type="submit"] {
 }
 
 .global-navigation-menu li:hover a {
-  color: white;
+  color: #fff;
 }
 
 .global-navigation-menu li:hover {
@@ -1138,6 +1147,7 @@ input[type="submit"] {
 }
 
 .global-navigation-menu li:hover span {
+  text-shadow: 0 1px 2px #666;
 }
 
 .global-navigation-menu li span.desc {
@@ -1146,6 +1156,7 @@ input[type="submit"] {
   font-weight: normal;
   padding-top: 2px;
   padding-bottom: 4px;
+  text-shadow: none;
 }
 
 .global-navigation-menu li:hover span.desc {
