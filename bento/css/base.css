@@ -728,8 +728,8 @@ textarea:focus,
 .box-header,
 .box-subheader,
 .box-footer {
-  background: #fff url('images/gradient-light-short.png') repeat-x scroll 0 -20px ;
-  color: #333!important;
+  color: #333;
+/*  color: #333!important;*/
   padding: 3px 0;
   margin-left: 0!important; /* like 960gs .aplha */
   margin-right: 0!important; /* like 960gs .omega */
@@ -738,6 +738,12 @@ textarea:focus,
   width: 100%;
 
   font-size: 12px;
+}
+.box-header,
+.box-subheader,
+.box-footer,
+.header-tabs li.selected {
+  background: #fff url('images/gradient-light-short.png') repeat-x scroll 0 -20px;
 }
 
 .box-header a,
@@ -791,13 +797,14 @@ h2.box-subheader {
   -khtml-border-bottom-right-radius: 5px;
   
   border-top: 1px solid #ddd;
-/* this does not work with fluid 960gs */
+  
+  /* this does not work with fluid 960gs */
   position: absolute;
   bottom: 0px;
   left: 0;
   margin-bottom: 0!important;
-/* Fluid 960gs fix*/
-/*  margin-bottom: -15px;*/
+  /* Fluid 960gs fix*/
+  /*  margin-bottom: -15px;*/
 }
 
 .navigation .box-footer {
@@ -821,6 +828,46 @@ h2.box-subheader {
   margin-right: 7px;
   text-shadow: 0 1px 1px #ccc;
 }
+
+/* == box-header with tabs == */
+
+.header-tabs {
+  font-size: 1.2em;
+  overflow: hidden;
+  min-height: 23px;
+}
+  .box-header.header-tabs {
+    padding: 0; /* reset .box-header spacing*/
+  }
+  .header-tabs li {
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #e6e6e6;
+  }
+    .header-tabs li:first-child {
+      border-left: 1px solid #e6e6e6;
+    }
+    .header-tabs .advanced_tabs li:first-child {
+      border-left: none;
+    }
+  .header-tabs a {
+    display: block;
+    min-height: 23px;
+
+    margin: 0 0.5em -0.3em;
+    padding-top: 0.3em;
+  }
+  
+  .header-tabs li.selected {
+    background: #f6f6f6 url('images/gradient-dark.png') repeat-x scroll 0 -10px;
+    background: #333 url('images/gradient-dark.png') repeat-x scroll 0 -10px;
+    background: white url('images/gradient-dark-nav.png') repeat-x scroll bottom left;
+    border-color: #ccc;
+  }
+    .header-tabs li.selected a {
+      color: #fff;
+      text-shadow: none;
+    }
 .aside ul {
   list-style: none inside;
 }
