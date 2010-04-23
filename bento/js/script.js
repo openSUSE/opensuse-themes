@@ -87,15 +87,50 @@ $(document).ready(function() {
     
   });
 
-  function closeLoginForm () {
-    $('#login-form').slideUp().removeClass('login-show');    
-    return false;
-  }
+
   
   // $('#login-form input[type="submit"]').click(function() { // events on submit-button click
   //   return false; // temp disabled
   // });
   // == /Login Form UI Actions ================================================
   
+  
+  
+  $('#global-search-form').addClass('lable-overley').children('input').attr('value', '');
+  
+  $('#global-search-form input').focusin(function() {
+    var thisId = this.id;
+    hideLabel(thisId);
+  });
+  
+  $('#global-search-form input').focusout(function() {
+    var thisId = this.id;
+    showLabel(thisId);
+  });
+  
 
+  // == Functions ============================================================
+  
+  // Hide overlaying <label>
+  function hideLabel (e) {
+    $('label[for="' + e + '"]').addClass('focus').hide();
+    return true;
+  }
+  // Show overlaying <label>, if <input> is emty, else do nothing
+  function showLabel (e) {
+    var eVal = $('#' + e).val(); // get <input> value
+    if (eVal == false) { // check if value is empty and show <label> again
+      $('label[for="' + e + '"]').removeClass('focus').show();
+      return true;
+    } else {
+      return false;
+    };
+  }
+  
+  // Close login-form
+  function closeLoginForm () {
+    $('#login-form').slideUp().removeClass('login-show');
+    return false;
+  }
+  
 });

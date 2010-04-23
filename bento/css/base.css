@@ -170,10 +170,8 @@ img { border: 0;}
 small { font-size: 10px;}
 .box p small, p small {font-size: inherit; margin: 0;}
 option:nth-child(even) { background-color: #eee;}
-table {
-  width: inherit;
-  max-width: 95%;
-}
+table { width: inherit; max-width: 95%;}
+label { font-weight: normal;}
 
 caption { /* Table Title */
   text-align: left;
@@ -335,6 +333,12 @@ blockquote {
   #header #global-search-form {
     float: right;
     margin-top: 4px;
+    position: relative;
+  }
+  #header #global-search-form label {
+    position: absolute;
+    top: 4px;
+    left: 5px;
   }
   #header #global-search-form input {
     -moz-border-radius: 5px;
@@ -352,6 +356,11 @@ blockquote {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
     }
+    
+    .lable-overley label {
+      font-size: 10px;
+    }
+    
 #subheader {
   font-size: 0.8em;
   margin-top: -15px;
