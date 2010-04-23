@@ -1017,9 +1017,11 @@ h2.box-subheader {
 /* Floating */
 .alignright {float: right;}
 .alignleft {float: left;}
+.aligncenter,
 .centered {
   text-align: center;
 }
+  img.aligncenter,
   img.centered {
     display: block;
     margin-left: auto;
