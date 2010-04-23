@@ -335,7 +335,8 @@ blockquote {
     margin-top: 4px;
     position: relative;
   }
-  #header #global-search-form label {
+/*  #header #global-search-form label,*/
+  .lable-overley label   {
     position: absolute;
     top: 4px;
     left: 5px;
