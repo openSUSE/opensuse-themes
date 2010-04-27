@@ -1,0 +1,43 @@
+/*
+ * Title: openSUSE.org stylesheet (Bento-Theme)
+ * Author: Robert Lihm <rlihm@opensuse.org>
+ * Copyright (c) 2009 AUTHORS.txt (http://www.opensuse.org)
+ * Licensed under the MIT (MIT-LICENSE.txt) license.
+ */
+ 
+/* = Print CSS = */
+
+body {
+  background: white;
+  color: black;
+  font: 75% "Lucida Grande", "Helvetica Neue", Arial, sans-serif;
+  margin-left: 20mm;
+}
+
+#header,
+#subheader,
+.navigation,
+.box-header ul,
+.box-footer ul,
+#login-form  {
+  display: none;
+}
+#content {
+  font-size: 10pt;
+}
+#toc h2 {
+  font-size: 12pt;
+}
+
+.box {
+  border-bottom: 0.25pt dotted #666;
+}
+
+#footer {
+  font-size: 8pt;
+  color: #666;
+}
+#footer #footer-legal {
+  font-style: italic;
+  border-top: 0.25pt dotted #666;
+}
