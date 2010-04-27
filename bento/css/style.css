@@ -5,6 +5,6 @@
  * Licensed under the MIT (MIT-LICENSE.txt) license.
  */
 
-@import url("reset.css");	/* reset default browser settings */
-@import url("960.css"); 	/* add 960 Grid System */
-@import url("base.css");	/* Basic CSS - Common styles */
+@import url("reset.css"); /* reset default browser settings */
+@import url("960.css");   /* add 960 Grid System */
+@import url("base.css");  /* Basic CSS - Common styles */
