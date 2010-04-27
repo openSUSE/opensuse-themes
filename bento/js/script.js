@@ -71,18 +71,21 @@ $(document).ready(function() {
       var x0 = 0;
       var y0 = 0;
       
+      // work around for unmotivated clicks in webkit
+      if (xClick == 0 && yClick == 0) { return; }
+
       // Check if Click was inside or outside of form
       if (xClick < x1 || xClick > x2) {
         x0 = 1;
-      };
+      }
       if (yClick < y1 || yClick > y2) {
         y0 = 1;
-      };
+      }
       
       // If 1 (true) clode form
       if (x0 == 1 || y0 == 1) {
         formStatus = closeLoginForm();
-      };
+      }
     };
     
   });
