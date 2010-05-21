@@ -173,6 +173,14 @@ option:nth-child(even) { background-color: #eee;}
 table { width: inherit; max-width: 95%;}
 label { font-weight: normal;}
 
+hr {
+  background-color: #999;
+  border: 0 none;
+  color: #999;
+  height: 1px;
+  margin: 1em  15px;
+}
+
 caption { /* Table Title */
   text-align: left;
   margin-bottom: 0.5em;
