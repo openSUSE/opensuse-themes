@@ -1058,7 +1058,8 @@ h2.box-subheader {
 
 .button,
 button,
-input[type="submit"] {
+input[type="submit"],
+.download_buttonClass {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -1079,14 +1080,16 @@ input[type="submit"] {
 
 .main .button,
 .main button,
-.main input[type="submit"] {
+.main input[type="submit"],
+.download_buttonClass {
   background: #9c0 url('images/gradient-light-short-green.png') repeat-x scroll 0 -5px;
   color: #fcfcfc;
 }
 
   .main .button:hover,
   .main button:hover,
-  .main input[type="submit"]:hover {
+  .main input[type="submit"]:hover,
+  .download_buttonClass:hover {
     border-color: #069;
     cursor: pointer;
     color: #fff;
