@@ -1086,8 +1086,7 @@ input[type="submit"] {
 
   .main .button:hover,
   .main button:hover,
-  .main input[type="submit"]:hover,
-  .download_buttonClass:hover {
+  .main input[type="submit"]:hover {
     border-color: #069;
     cursor: pointer;
     color: #fff;
