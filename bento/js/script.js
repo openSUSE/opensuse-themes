@@ -26,6 +26,9 @@ $(document).ready(function() {
        y2 = rbPos.top; // bottom
     });
     formStatus = true;
+    
+    $('#username').focus();
+    
     return false;
   });
   

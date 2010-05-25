@@ -153,7 +153,7 @@ h2 {font-size: 1.5em; margin-bottom: 1.1em;}
 h3 {font-size: 1.2em; margin-bottom: 1.0em;}
 h4, h5, h6 {font-size: 1.1em; margin-bottom: 0.9em;}
 a {color: #690; text-decoration: none; cursor: pointer;}
-a:hover {color: #39c; text-decoration: underline;}
+a:hover, a:focus {color: #39c; text-decoration: underline;}
 p, ul, ol {margin: 1em 0;}
 h1, h2, h3, h4, h5, h6, p, ul, ol, table, pre, blockquote, .box small { margin-left: 15px; margin-right: 15px;}
 h1, h2, h3, h4, h5, h6 { color: #690; margin-top: 0.5em; margin-bottom: 1.2em;}
@@ -319,8 +319,9 @@ blockquote {
         text-decoration: none;
         width: 100%;
       }
-      #header ul#global-navigation li a:hover {
-        
+      #header ul#global-navigation li a:hover,
+      #header ul#global-navigation li a:focus {
+        color: #690;
       }
   #header li#global-favorites {
     float: right !important;
@@ -383,7 +384,8 @@ blockquote {
   #breadcrump a {
     color: #666;
   }
-  #breadcrump a:hover {
+  #breadcrump a:hover,
+  #breadcrump a:focus {
     text-decoration: underline;
   }
 #login-wrapper {
@@ -617,7 +619,8 @@ blockquote {
       
       display: block;
     }
-    .navigation a:hover {
+    .navigation a:hover,
+    .navigation a:focus {
       background: transparent url('images/right_btn.png') no-repeat scroll bottom right;
       color: #39c;
     }

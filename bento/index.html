@@ -48,16 +48,15 @@
     </div>
     
     <div id="login-wrapper" class="grid_4 omega">
-      <a href="#signup-page">Sign up</a> | <a id="login-trigger" href="#login">Login</a>
+      <a href="#signup-page">Sign up</a> | <a id="login-trigger" href="#login" accesskey="l">Login</a>
       
       <div id="login-form">
         <form action="index-extended_submit" method="get" accept-charset="utf-8">
-          
           <p><label class="inlined" for="username">Username</label><input type="text" class="inline-text" name="username" value="" id="username" /></p>
           <p><label class="inlined" for="password">Password</label><input type="password" class="inline-text" name="password" value="" id="password" /></p>
           
-          <p><input type="submit" value="Login" /></p>
-          <p class="slim-footer"><a id="close-login" href="#cancel">Cancel</a></p>
+          <p><input type="submit" value="Login" id="send_submit" /></p>
+          <p class="slim-footer"><a id="close-login" href="#cancel" accesskey="c">Cancel</a></p>
         </form>
       </div>
     </div>
