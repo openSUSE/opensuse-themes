@@ -850,7 +850,7 @@ h2.box-subheader {
   overflow: hidden;
   min-height: 23px;
 }
-  .box-header.header-tabs {
+  .box-header.header-tabs, .box-footer.header-tabs {
     padding: 0; /* reset .box-header spacing*/
   }
   .header-tabs li {
