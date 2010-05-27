@@ -226,7 +226,9 @@ blockquote {
 
 /* ... */
 
-.row_10 {min-height: 20em;} /* ninimum box height */
+.row_8 {min-height: 16em;} /* ninimum box height */
+.row_9 {min-height: 18em;} 
+.row_10 {min-height: 20em;}
 .row_11 {min-height: 22em;}
 .row_12 {min-height: 24em;}
 .row_13 {min-height: 26em;}
