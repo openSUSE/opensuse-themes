@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "오픈수세 빌드 서비스로부터 추가 소프트웨어 꾸러미를 검색하고 설치"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://wiki.opensuse.org/Derivates",
     "image": "derivatives",
     "title": "Derivates",
     "desc": "오픈수세를 기반으로 한 특별한 배포판을 다운로드"
@@ -31,6 +31,12 @@ var global_navigation_data = [
 {
   "id": "support",
   "items": [
+  {
+    "link": "http://wiki.opensuse.org/Portal:Support",
+    "image": "help",
+    "title": "도우미",
+    "desc": "Go to the Support Portal"
+  },
   {
     "link": "http://wiki.opensuse.org/",
     "image": "wiki",
@@ -50,22 +56,16 @@ var global_navigation_data = [
     "desc": "포럼에 참여"
   },
   {
-    "link": "http://lists.opensuse.org",
+    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "메일링 리스트",
     "desc": "메일링 리스트에 등록하고 대화 내용을 확인"
   },
   {
-    "link": "http://wiki.opensuse.org/Communicate/IRC",
+    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC 채널",
-    "desc": "IRC(Internet Relay Chat-인터넷 채팅) 을 통해 대화"
-  },
-  {
-    "link": "http://help.opensuse.org/",
-    "image": "help",
-    "title": "도우미",
-    "desc": "도우미 포털로 가기"
+    "desc": "Communicate online using Internet Relay Chat"
   }
   ]
 },
@@ -94,7 +94,7 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "뉴스",
-    "desc": "오픈수세 팀의 새 소식"
+    "desc": "Latest announcements from the team"
   },
   {
     "link": "http://lizards.opensuse.org/",

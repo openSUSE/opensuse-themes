@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "További csomagok keresése és telepítése az openSUSE Build Service-en keresztül"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://wiki.opensuse.org/Derivates",
     "image": "derivatives",
     "title": "Változatok",
     "desc": "Töltsön le más, openSUSE-alapú, specializált disztribúciót"
@@ -31,6 +31,12 @@ var global_navigation_data = [
 {
   "id": "support",
   "items": [
+  {
+    "link": "http://wiki.opensuse.org/Portal:Support",
+    "image": "help",
+    "title": "Segítség",
+    "desc": "Go to the Support Portal"
+  },
   {
     "link": "http://hu.opensuse.org/",
     "image": "wiki",
@@ -50,22 +56,16 @@ var global_navigation_data = [
     "desc": "Vegyen részt a fórumokon"
   },
   {
-    "link": "http://lists.opensuse.org",
+    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Levelezési listák",
     "desc": "Iratkozzon fel levelezési listákra, és tekintse meg az archívumokat"
   },
   {
-    "link": "http://hu.opensuse.org/Kommunikáció#Internet_Relay_Chat",
+    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC csatornák",
-    "desc": "Kommunikáljon online az Internet Relay Chat használatával"
-  },
-  {
-    "link": "http://help.opensuse.org/",
-    "image": "help",
-    "title": "Segítség",
-    "desc": "Továbblépés a segítségnyújtó portálra"
+    "desc": "Communicate online using Internet Relay Chat"
   }
   ]
 },
@@ -94,7 +94,7 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Hírek",
-    "desc": "Az openSUSE csapat legfrissebb bejelentései"
+    "desc": "Latest announcements from the team"
   },
   {
     "link": "http://lizards.opensuse.org/",

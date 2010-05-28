@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Last stable release",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
+    "title": "Ostatnie stabilne wydanie",
+    "desc": "Pobierz najnowsze stabilne wydanie openSUSE, którym aktualnie jest openSUSE 11.2"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
+    "title": "Ostatnie wydanie rozwojowe",
+    "desc": "Pobierz najnowsze wydanie rozwojowe openSUSE, którym jest aktualnie 11.3"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
-    "title": "Search for packages",
-    "desc": "Search for and install additional software packages from openSUSE Build Service"
+    "title": "Znajdź pakiety",
+    "desc": "Znajdź i zainstaluj dodatkowe pakiety z oprogramowaniem z openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://wiki.opensuse.org/Derivates",
     "image": "derivatives",
-    "title": "Derivates",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "Pochodne",
+    "desc": "Pobierz jedną z specjalnie zbudowanych dystrybucji openSUSE"
   }
   ]
 },
@@ -32,40 +32,40 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
+    "link": "http://wiki.opensuse.org/Portal:Support",
+    "image": "help",
+    "title": "Pomoc",
+    "desc": "Go to the Support Portal"
+  },
+  {
     "link": "http://wiki.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "desc": "Czytaj i twórz artykuł na Wiki"
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "video",
     "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "desc": "Oglądaj różne tutoriale, screencasty i nagrania z prezentacji"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "Fora dyskusyjne",
+    "desc": "Bierz udział na naszych forach dyskusyjnych"
   },
   {
-    "link": "http://lists.opensuse.org",
+    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "Listy dyskusyjne",
+    "desc": "Subskrybuj listy dyskusyjne i przeglądaj ich archiwa"
   },
   {
-    "link": "http://wiki.opensuse.org/Communicate/IRC",
+    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
-    "title": "IRC channels",
-    "desc": "Communicate online usign Internet Relay Chat"
-  },
-  {
-    "link": "http://help.opensuse.org/",
-    "image": "help",
-    "title": "Help",
-    "desc": "Go to Help Portal"
+    "title": "Kanały IRC",
+    "desc": "Communicate online using Internet Relay Chat"
   }
   ]
 },
@@ -75,50 +75,50 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "connect",
-    "title": "Connect",
-    "desc": "Connect with all people in the community"
+    "title": "Połączenie",
+    "desc": "Kontaktuj się z wszystkimi członkami społeczności"
   },
   {
     "link": "http://users.opensuse.org/",
     "image": "users",
-    "title": "Users",
-    "desc": "Walk through User Directory"
+    "title": "Użytkownicy",
+    "desc": "Przeglądaj katalogi użytkowników"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
-    "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "title": "Planeta openSUSE",
+    "desc": "Przeglądaj najnowsze wpisy z blogów"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "News",
-    "desc": "Newest announcements from the team"
+    "title": "Nowości",
+    "desc": "Latest announcements from the team"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
     "title": "Lizards",
-    "desc": "Users blog platform"
+    "desc": "Platforma blogowa dla użytkowników"
   },
   {
     "link": "http://spotlight.opensuse.org/",
     "image": "spotlight",
     "title": "Spotlight",
-    "desc": "Posts from the community manager"
+    "desc": "Wiadomości od menedżera społeczności"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "Sklep",
+    "desc": "Tutaj zrobisz zakupy !"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
     "image": "events",
-    "title": "Events",
-    "desc": "View upcoming events"
+    "title": "Wydarzenia",
+    "desc": "Informacje o nadchodzących wydarzeniach"
   }
   ]
 },
@@ -129,26 +129,26 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "Dokumentacja dla programistów",
+    "desc": "Dokumentacja dla programistów"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "Funkcje",
+    "desc": "Głosuj i pracuj nad nowymi funkcjami openSUSE"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
     "title": "Build Service",
-    "desc": "Create, build and enhance packages"
+    "desc": "Twórz, buduj i rozwijaj pakiety"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "Błędy",
+    "desc": "Zgłoś błędy na Bugzilli"
   },
   {
     "link": "http://susestudio.com",

@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Last stable release",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
+    "title": "Viimeisin vakaa julkaisu",
+    "desc": "Lataa viimeisin vakaa openSUSE julkaisu, joka tällä hetkellä on openSUSE 11.2"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
+    "title": "Viimeisin kehitysversio",
+    "desc": "Lataa viimeisin openSUSE kehitysversio, joka tällä hetkellä on 11.3"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
-    "title": "Search for packages",
-    "desc": "Search for and install additional software packages from openSUSE Build Service"
+    "title": "Etsi paketteja",
+    "desc": "Etsi ja asenna lisäohjelmistopaketteja openSUSE Build Servicestä"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://wiki.opensuse.org/Derivates",
     "image": "derivatives",
-    "title": "Derivates",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "Johdannaiset",
+    "desc": "Lataa jokin openSUSEen pohjautuvista erityisjakeluista"
   }
   ]
 },
@@ -32,40 +32,40 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
+    "link": "http://wiki.opensuse.org/Portal:Support",
+    "image": "help",
+    "title": "Ohjeet",
+    "desc": "Go to the Support Portal"
+  },
+  {
     "link": "http://wiki.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "desc": "Lue ja kirjoita artikkeleita Wikissämme"
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "video",
     "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "desc": "Katso erinäisiä ohjeita, esittelyvideoita ja tallennuksia keskusteluista ja esittelyistä."
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "Keskustelualueet",
+    "desc": "Osallistu keskusteluihin"
   },
   {
-    "link": "http://lists.opensuse.org",
+    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "Postituslistat",
+    "desc": "Tilaa postilistoja ja katsele niiden arkistoja"
   },
   {
-    "link": "http://wiki.opensuse.org/Communicate/IRC",
+    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
-    "title": "IRC channels",
-    "desc": "Communicate online usign Internet Relay Chat"
-  },
-  {
-    "link": "http://help.opensuse.org/",
-    "image": "help",
-    "title": "Help",
-    "desc": "Go to Help Portal"
+    "title": "IRC-kanavat",
+    "desc": "Communicate online using Internet Relay Chat"
   }
   ]
 },
@@ -76,49 +76,49 @@ var global_navigation_data = [
     "link": "http://connect.opensuse.org/",
     "image": "connect",
     "title": "Connect",
-    "desc": "Connect with all people in the community"
+    "desc": "Pysy yhteydessä yhteisön jäseniin"
   },
   {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Users",
-    "desc": "Walk through User Directory"
+    "desc": "Selaa käyttäjähakemistoa"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
     "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "desc": "Katsele blogiviestejä koottuna yhdeksi syötteeksi"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "News",
-    "desc": "Newest announcements from the team"
+    "title": "Uutiset",
+    "desc": "Latest announcements from the team"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
     "title": "Lizards",
-    "desc": "Users blog platform"
+    "desc": "Käyttäjien blogialusta"
   },
   {
     "link": "http://spotlight.opensuse.org/",
     "image": "spotlight",
     "title": "Spotlight",
-    "desc": "Posts from the community manager"
+    "desc": "Yhteisöjohtajan viestit"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "Kauppa",
+    "desc": "openSUSE-tavaraa täältä!"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
     "image": "events",
-    "title": "Events",
-    "desc": "View upcoming events"
+    "title": "Tapahtumat",
+    "desc": "Katsele tulevia tapahtumia"
   }
   ]
 },
@@ -129,26 +129,26 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "Kehittäjän dokumentaatio",
+    "desc": "Keskitetty kehittäjän dokumentaatio"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
     "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "desc": "Äänestä ja vaikuta tuleviin openSUSEn ominaisuuksiin"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
-    "title": "Build Service",
-    "desc": "Create, build and enhance packages"
+    "title": "Build-palvelu",
+    "desc": "Luo, rakenna ja paranna ohjelmistopaketteja"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "Ohjelmavirheet",
+    "desc": "Ilmoita virheistä käyttämällä Bugzillaa"
   },
   {
     "link": "http://susestudio.com",
