@@ -21,9 +21,9 @@ var global_navigation_data = [
     "desc": _("Search for and install additional software packages from openSUSE Build Service")
   },
   {
-    "link": _("http://wiki.opensuse.org/Derivates"),
+    "link": _("http://wiki.opensuse.org/Derivatives"),
     "image": "derivatives",
-    "title": _("Derivates"),
+    "title": _("Derivatives"),
     "desc": _("Get one of the specialized distributions built on openSUSE")
   }
   ]
