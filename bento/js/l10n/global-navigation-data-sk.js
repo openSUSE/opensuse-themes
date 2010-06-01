@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Hľadať a inštalovať ďalšie softvérové balíky z openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://wiki.opensuse.org/Derivates",
     "image": "derivatives",
     "title": "Deriváty",
     "desc": "Získať jednu zo špecializovaných distribúcií postavených na openSUSE"
@@ -31,6 +31,12 @@ var global_navigation_data = [
 {
   "id": "support",
   "items": [
+  {
+    "link": "http://wiki.opensuse.org/Portal:Support",
+    "image": "help",
+    "title": "Pomocník",
+    "desc": "Go to the Support Portal"
+  },
   {
     "link": "http://wiki.opensuse.org/",
     "image": "wiki",
@@ -50,22 +56,16 @@ var global_navigation_data = [
     "desc": "Zúčastniť sa na našich fórach"
   },
   {
-    "link": "http://lists.opensuse.org",
+    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Zoznam e-mailových konferencií",
     "desc": "Prihlásiť sa do e-mailových konferencií a pozerať si ich archívy"
   },
   {
-    "link": "http://wiki.opensuse.org/Communicate/IRC",
+    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC kanály",
-    "desc": "Komunikovať pomocou IRC"
-  },
-  {
-    "link": "http://help.opensuse.org/",
-    "image": "help",
-    "title": "Pomocník",
-    "desc": "Ísť na portál pomocníka"
+    "desc": "Communicate online using Internet Relay Chat"
   }
   ]
 },
@@ -94,12 +94,12 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Novinky",
-    "desc": "Najnovšie oznámenia od tímu"
+    "desc": "Latest announcements from the team"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Jaštery",
+    "title": "Blogy",
     "desc": "Blogy používateľov"
   },
   {
@@ -142,7 +142,7 @@ var global_navigation_data = [
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
     "title": "Build Service",
-    "desc": "Vytvárať, zostavovať a zlepšovať balíky"
+    "desc": "Vytvárať, zostavovať  a zlepšovať balíky"
   },
   {
     "link": "http://bugs.opensuse.org/",

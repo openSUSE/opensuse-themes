@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Seneste stabile udgivelse",
-    "desc": "Download den seneste stabile udgivelse af openSUSE, hvilket i øjeblikket er openSUSE 11.2"
+    "desc": "Download den seneste stabile udgivelse af openSUSE, hvilket for tiden er openSUSE 11.2"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Seneste udviklingsudgivelse",
-    "desc": "Download den seneste udviklingsudgivelse af openSUSE, hvilket i øjeblikket er 11.3"
+    "desc": "Download den seneste udviklingsudgivelse af openSUSE, hvilket for tiden er 11.3"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Søg efter og installér yderligere softwarepakker fra openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://wiki.opensuse.org/Derivates",
     "image": "derivatives",
     "title": "Derivater",
     "desc": "Hent en af de specialiserede distributioner baseret på openSUSE"
@@ -31,6 +31,12 @@ var global_navigation_data = [
 {
   "id": "support",
   "items": [
+  {
+    "link": "http://wiki.opensuse.org/Portal:Support",
+    "image": "help",
+    "title": "Hjælp",
+    "desc": "Go to the Support Portal"
+  },
   {
     "link": "http://wiki.opensuse.org/",
     "image": "wiki",
@@ -50,22 +56,16 @@ var global_navigation_data = [
     "desc": "Deltag i vores forum"
   },
   {
-    "link": "http://lists.opensuse.org",
+    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Mailinglister",
     "desc": "Abonnér på mailinglister og kig i arkiverne"
   },
   {
-    "link": "http://wiki.opensuse.org/Communicate/IRC",
+    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC-kanaler",
-    "desc": "Kommunikér online med Internet Relay Chat"
-  },
-  {
-    "link": "http://help.opensuse.org/",
-    "image": "help",
-    "title": "Hjælp",
-    "desc": "Gå til hjælpeportalen"
+    "desc": "Communicate online using Internet Relay Chat"
   }
   ]
 },
@@ -94,7 +94,7 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Nyheder",
-    "desc": "Nyeste annonceringer fra holdet"
+    "desc": "Latest announcements from the team"
   },
   {
     "link": "http://lizards.opensuse.org/",

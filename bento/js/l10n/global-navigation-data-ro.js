@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Last stable release",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
+    "title": "Ultima versiune stabilă",
+    "desc": "Descărcaţi cea mai recentă versiune stabilă openSUSE, care în prezent este openSUSE 11.2"
   },
   {
-    "link": "http://software.opensuse.org/developer/",
+    "link": "http://software.opensuse.org/developer/ro",
     "image": "release-devel",
-    "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
+    "title": "Ultima versiune în dezvoltare",
+    "desc": "Descărcaţi cea mai recentă versiune în dezvoltare pentru openSUSE, care în prezent este 11.3"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
-    "title": "Search for packages",
-    "desc": "Search for and install additional software packages from openSUSE Build Service"
+    "title": "Caută în pachete",
+    "desc": "Căuta şi instalează pachete software suplimentare de la serviciul de Build openSUSE"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://wiki.opensuse.org/Derivates",
     "image": "derivatives",
-    "title": "Derivates",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "Derivate",
+    "desc": "Obţine una din distribuţiile specializate construite pe baza openSUSE"
   }
   ]
 },
@@ -32,40 +32,40 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
+    "link": "http://wiki.opensuse.org/Portal:Support",
+    "image": "help",
+    "title": "Ajutor",
+    "desc": "Go to the Support Portal"
+  },
+  {
     "link": "http://wiki.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "desc": "Citeşte şi scrie articole în Wiki-ul nostru"
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "video",
     "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "desc": "Uită-te la diverse tutoriale, prezentări, înregistrări audio şi video"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "Forumuri",
+    "desc": "Participă la forumurile noastre"
   },
   {
-    "link": "http://lists.opensuse.org",
+    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "Liste de discuţii",
+    "desc": "Abonează-te la listele de discuţii şi caută în arhive"
   },
   {
-    "link": "http://wiki.opensuse.org/Communicate/IRC",
+    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
-    "title": "IRC channels",
-    "desc": "Communicate online usign Internet Relay Chat"
-  },
-  {
-    "link": "http://help.opensuse.org/",
-    "image": "help",
-    "title": "Help",
-    "desc": "Go to Help Portal"
+    "title": "Canale IRC",
+    "desc": "Communicate online using Internet Relay Chat"
   }
   ]
 },
@@ -75,50 +75,50 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "connect",
-    "title": "Connect",
-    "desc": "Connect with all people in the community"
+    "title": "Conectare",
+    "desc": "Conectaţi-vă cu toţi oamenii din comunitate"
   },
   {
     "link": "http://users.opensuse.org/",
     "image": "users",
-    "title": "Users",
-    "desc": "Walk through User Directory"
+    "title": "Utilizatori",
+    "desc": "Navigaţi prin lista de utilizatori"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
-    "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "title": "Planeta",
+    "desc": "Vizualizează posturile de pe bloguri agregate într-un singur flux"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "News",
-    "desc": "Newest announcements from the team"
+    "title": "Ştiri",
+    "desc": "Latest announcements from the team"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Lizards",
-    "desc": "Users blog platform"
+    "title": "Şopârle",
+    "desc": "Platforma de bloguri a utilizatorilor"
   },
   {
     "link": "http://spotlight.opensuse.org/",
     "image": "spotlight",
-    "title": "Spotlight",
-    "desc": "Posts from the community manager"
+    "title": "Reflector",
+    "desc": "Mesaje de la coordonatorul comunităţii"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "Cumpără",
+    "desc": "Echipament openSUSE aici!"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
     "image": "events",
-    "title": "Events",
-    "desc": "View upcoming events"
+    "title": "Evenimente",
+    "desc": "Vizualizează evenimentele viitoare"
   }
   ]
 },
@@ -129,26 +129,26 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "Documentaţie pentru dezvoltatori",
+    "desc": "Documentaţie pentru dezvoltatori centralizată"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "Funcţionalităţi",
+    "desc": "Votează şi lucrează la viitoarele funcţionalităţi openSUSE"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
-    "title": "Build Service",
-    "desc": "Create, build and enhance packages"
+    "title": "Serviciu de build",
+    "desc": "Creaţi, construiţi şi dezvoltaţi pachete"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "Erori",
+    "desc": "Raportaţi erori utilizând Bugzilla"
   },
   {
     "link": "http://susestudio.com",
