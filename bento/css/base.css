@@ -1257,14 +1257,31 @@ input[type="submit"] {
   */
   #status-icon {
     margin-right: 3em;
+    margin-top: 1em;
   }
   #status-icon.large {
     width: 250px;
     height: 250px;
   }
   .page-maintainance {
-    background: transparent url('../images/icons/special/opensuse-maintainance.png') no-repeat scroll 0 0;
+    background: transparent url() no-repeat scroll 0 0;
   }
+  .page-maintainance.xlarge {
+    background-image: url('../images/icons/special/maintainance-256.png');
+  }
+  .page-maintainance.large {
+    background-image: url('../images/icons/special/maintainance-128.png');
+  }
+  .page-maintainance.medium {
+    background-image: url('../images/icons/special/maintainance-64.png');
+  }
+  .page-maintainance.small {
+    background-image: url('../images/icons/special/maintainance-32.png');
+  }
+  .page-maintainance.tiny {
+    background-image: url('../images/icons/special/maintainance-16.png');
+  }
+  
   
   
   
