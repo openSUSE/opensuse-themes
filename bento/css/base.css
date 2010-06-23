@@ -370,6 +370,7 @@ blockquote {
 #subheader {
   font-size: 0.8em;
   margin-top: -15px;
+  min-height: 17px;
 }
   #subheader a {
     text-decoration: none;
@@ -738,6 +739,25 @@ textarea:focus,
   background: transparent url('images/unfold-indikator.png') no-repeat scroll 0 0;
 }
 
+h1.large {
+  font-size: 7em;
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+}
+p.large {
+  font-size: 1.5em;
+}
+
+.space-top-large {
+  padding-top: 6em;
+}
+.space-top-medium {
+  padding-top: 3em;
+}
+.space-top-small {
+  padding-top: 1em;
+}
+
 /* == Customisation ======================================================= */
 
 /* -- Content Area Settings ----------------------------------------------- */
@@ -746,7 +766,6 @@ textarea:focus,
 .box-subheader,
 .box-footer {
   color: #333;
-/*  color: #333!important;*/
   padding: 3px 0;
   margin-left: 0!important; /* like 960gs .aplha */
   margin-right: 0!important; /* like 960gs .omega */
@@ -1230,3 +1249,22 @@ input[type="submit"] {
 .global-navigation-menu li:hover span.desc {
   color: #fff;
 }
+
+
+/* == Special Pages ==========================================================
+  e.g. maintainance
+  Usage: The icon should always be on the left. The message on the right.
+  */
+  #status-icon {
+    margin-right: 3em;
+  }
+  #status-icon.large {
+    width: 250px;
+    height: 250px;
+  }
+  .page-maintainance {
+    background: transparent url('../images/icons/special/opensuse-maintainance.png') no-repeat scroll 0 0;
+  }
+  
+  
+  
