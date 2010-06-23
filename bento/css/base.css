@@ -1219,18 +1219,68 @@ input[type="submit"] {
   background: #690;
 }
 
-.global-navigation-menu li img {
+  /* abandon */
+    .global-navigation-menu li img {
+      float: left;
+      width: 48px;
+      height: 48px;
+      margin: 4px;
+      margin-right: 8px;
+    }
+    /* /abandon */
+    
+.global-navigation-menu li span.global-navigation-icon {
   float: left;
-  width: 48px;
-  height: 48px;
+  display: block;
+  width: 24px;
+  height: 24px;
   margin: 4px;
   margin-right: 8px;
+  padding: 0;
+  background-image: url('../images/globalnav/globalnav-im.png');
+  background-color: transparent;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  
 }
+
+  /* Download */
+  span.global-navigation-icon.release-stable  { background-position: 0 0; }
+  span.global-navigation-icon.release-devel   { background-position: 0 -24px; }
+  span.global-navigation-icon.packages        { background-position: 0 -48px; }
+  span.global-navigation-icon.derivatives     { background-position: 0 -72px; }
+
+  /* Support */
+  span.global-navigation-icon.help            { background-position: -24px 0; }
+  span.global-navigation-icon.wiki            { background-position: -24px -24px; }
+  span.global-navigation-icon.video           { background-position: -24px -48px; }
+  span.global-navigation-icon.forums          { background-position: -24px -72px; }
+  span.global-navigation-icon.lists           { background-position: -24px -96px; }
+  span.global-navigation-icon.irc             { background-position: -24px -120px; }
+
+  /* Community */
+  span.global-navigation-icon.connect         { background-position: -48px 0; }
+  span.global-navigation-icon.users           { background-position: -48px -24px; }
+  span.global-navigation-icon.planet          { background-position: -48px -48px; }
+  span.global-navigation-icon.news            { background-position: -48px -72px; }
+  span.global-navigation-icon.lizards         { background-position: -48px -96px; }
+  span.global-navigation-icon.spotlight       { background-position: -48px -120px; }
+  span.global-navigation-icon.shop            { background-position: -48px -144px; }
+  span.global-navigation-icon.events          { background-position: -48px -168px; }
+  
+  /* Development */
+  span.global-navigation-icon.documentation   { background-position: -72px 0; }
+  span.global-navigation-icon.features        { background-position: -72px -24px; }
+  span.global-navigation-icon.bugs            { background-position: -72px -48px; }
+  span.global-navigation-icon.buildservice    { background-position: -72px -72px; }
+  span.global-navigation-icon.studio          { background-position: -72px -96px; }
 
 .global-navigation-menu li span {
   font-weight: bold;
   padding-top: 4px;
   display: block;
+  margin-left: 36px;
+  margin-right: 3px;
 }
 
 .global-navigation-menu li:hover span {
@@ -1238,8 +1288,10 @@ input[type="submit"] {
 }
 
 .global-navigation-menu li span.desc {
-  color: #000;
-  font-size: 80%;
+  color: #666;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  font-size: 0.8em;
   font-weight: normal;
   padding-top: 2px;
   padding-bottom: 4px;

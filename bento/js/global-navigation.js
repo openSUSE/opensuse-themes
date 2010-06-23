@@ -16,7 +16,7 @@ $(document).ready(function() {
         html += '<ul class="global-navigation-menu" id="menu-' + menu.id + '">';
         $.each(menu.items, function(j,submenu){
             html += '<li><a href="' + submenu.link +'">';
-            html += '<img src="' + location.protocol + '//static.opensuse.org/themes/bento/images/globalnav/' + submenu.image + '.png" alt="" />';
+            html += '<span class="global-navigation-icon '+ submenu.image +'"></span>'; /*use imagemap and css */
             html += '<span>' + submenu.title + '</span>';
             html += '<span class="desc">' + submenu.desc + '</span>';
             html += '</a></li>';
