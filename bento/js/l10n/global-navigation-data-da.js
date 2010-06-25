@@ -21,9 +21,9 @@ var global_navigation_data = [
     "desc": "Søg efter og installér yderligere softwarepakker fra openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivates",
+    "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivater",
+    "title": "Derivatives",
     "desc": "Hent en af de specialiserede distributioner baseret på openSUSE"
   }
   ]
@@ -35,7 +35,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Hjælp",
-    "desc": "Go to the Support Portal"
+    "desc": "Gå til support-portalen"
   },
   {
     "link": "http://wiki.opensuse.org/",
@@ -65,7 +65,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC-kanaler",
-    "desc": "Communicate online using Internet Relay Chat"
+    "desc": "Kommunikér online med Internet Relay Chat"
   }
   ]
 },
@@ -94,7 +94,7 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Nyheder",
-    "desc": "Latest announcements from the team"
+    "desc": "Seneste annonceringer fra holdet"
   },
   {
     "link": "http://lizards.opensuse.org/",
@@ -154,7 +154,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "desc": "Opret dine egne imagefiler med Studio"
   }
   ]
 }

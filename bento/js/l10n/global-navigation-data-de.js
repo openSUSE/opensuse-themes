@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Last stable release",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
+    "title": "Aktuell stabile Version",
+    "desc": "Aktuell stabile Version von openSUSE herunterladen (openSUSE 11.2)"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
+    "title": "Aktuelle Enwicklerversion",
+    "desc": "Aktuelle Entwicklerversion von openSUSE herunterladen (openSUSE 11.3)"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
-    "title": "Search for packages",
-    "desc": "Search for and install additional software packages from openSUSE Build Service"
+    "title": "Pakete suchen",
+    "desc": "Zusätzliche Softwarepakete suchen und diese vom openSUSE Build Service installieren"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivates",
+    "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivates",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "Derivatives",
+    "desc": "Angepasste openSUSE-basierte Distributionen herunterladen"
   }
   ]
 },
@@ -35,37 +35,37 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Hilfe",
-    "desc": "Go to the Support Portal"
+    "desc": "Unterstützungs-Portal öffnen"
   },
   {
     "link": "http://wiki.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "desc": "Artikel in unserem Wiki lesen und schreiben"
   },
   {
-    "link": "http://opensuse.blip.tv/",
+    "link": "http://opensuse.blib.tv/",
     "image": "video",
     "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "desc": "Verschiedene Anleitungen, Bildschirmaufzeichnungen sowie Aufzeichnungen von Gesprächen und Präsentationen"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "Foren",
+    "desc": "Foren beiwohnen"
   },
   {
     "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "Mailinglisten",
+    "desc": "Mailinglisten abonnieren und deren Archive durchstöbern"
   },
   {
     "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
-    "title": "IRC channels",
-    "desc": "Communicate online using Internet Relay Chat"
+    "title": "IRC-Kanäle",
+    "desc": "Mit dem Internet Relay Chat kommunizieren"
   }
   ]
 },
@@ -76,49 +76,49 @@ var global_navigation_data = [
     "link": "http://connect.opensuse.org/",
     "image": "connect",
     "title": "Verbinden",
-    "desc": "Connect with all people in the community"
+    "desc": "Verbindung zu allen Beteiligten der Gemeinschaft aufnehmen"
   },
   {
     "link": "http://users.opensuse.org/",
     "image": "users",
-    "title": "Users",
-    "desc": "Walk through User Directory"
+    "title": "Benutzer",
+    "desc": "Benutzerverzeichnis durchstöbern"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
-    "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "title": "Welt",
+    "desc": "Blog-Einträge in einem zusammengefassten Stream ansehen"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "News",
-    "desc": "Latest announcements from the team"
+    "title": "Nachrichten",
+    "desc": "Aktuelle Ankündigungen des Teams"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Lizards",
-    "desc": "Users blog platform"
+    "title": "Eidechsen",
+    "desc": "Blog-Platform der Benutzer"
   },
   {
     "link": "http://spotlight.opensuse.org/",
     "image": "spotlight",
-    "title": "Spotlight",
-    "desc": "Posts from the community manager"
+    "title": "Rampenlicht",
+    "desc": "Ankündigungen des Gemeinschafts-Verwalters"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "Laden",
+    "desc": "openSUSE-Fanartikel"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
     "image": "events",
-    "title": "Events",
-    "desc": "View upcoming events"
+    "title": "Veranstaltungen",
+    "desc": "Bevorstehende Veranstaltungen ansehen"
   }
   ]
 },
@@ -129,32 +129,32 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "Entwickler-Handbücher",
+    "desc": "Entwickler-Handbücher auf einen Blick"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "Charakterzüge",
+    "desc": "Künftige Charakterzüge von openSUSE bestimmen und bearbeiten"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
     "title": "openSUSE Build Service",
-    "desc": "Create, build and enhance packages"
+    "desc": "Pakete erstellen, bauen und erweitern"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "Fehler",
+    "desc": "Fehlerberichte mit Bugzilla"
   },
   {
     "link": "http://susestudio.com",
     "image": "studio",
-    "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "title": "SUSE-Studio",
+    "desc": "Eigenes Distributionsabbid mittels Studio erstellen"
   }
   ]
 }

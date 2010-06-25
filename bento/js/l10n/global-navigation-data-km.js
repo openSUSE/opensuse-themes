@@ -21,9 +21,9 @@ var global_navigation_data = [
     "desc": "ស្វែងរក​ និង​ដំឡើង​កញ្ចប់​កម្មវិធី​បន្ថែម​ពី​សេវា​ស្ថាបនា​របស់​អូផឹន​ស៊ូស៊ី"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivates",
+    "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "ដែល​ក្លាយ​មក​ពី",
+    "title": "Derivatives",
     "desc": "យក​ការ​ចែកចាយ​ពិសេស​ដែល​បាន​ស្ថាបនា​នៅ​​ក្នុង​អូផឹន​ស៊ូស៊ី"
   }
   ]
@@ -35,7 +35,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Support",
     "image": "help",
     "title": "ជំនួយ",
-    "desc": "Go to the Support Portal"
+    "desc": "ទៅកាន់​ផតថល​គាំទ្រ"
   },
   {
     "link": "http://wiki.opensuse.org/",
@@ -65,7 +65,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "ឆានែល IRC",
-    "desc": "Communicate online using Internet Relay Chat"
+    "desc": "ទាក់ទង​លើ​បណ្ដាញ​ដោយ​ប្រើ​ Internet Relay Chat"
   }
   ]
 },
@@ -94,7 +94,7 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "ព័ត៌មាន",
-    "desc": "Latest announcements from the team"
+    "desc": "ការ​ប្រកាស​ថ្មីៗ​បំផុត​ពី​ក្រុម"
   },
   {
     "link": "http://lizards.opensuse.org/",
@@ -154,7 +154,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "desc": "បង្កើត​រូបភាព​ផ្ទាល់របស់​អ្នក​ ដោយ​ប្រើ Studio"
   }
   ]
 }

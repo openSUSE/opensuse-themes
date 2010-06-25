@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Last stable release",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.2"
+    "title": "Dierinne stocaesse modêye",
+    "desc": "Aberwetez l' dierinne stocaesse modêye d' openSUSE k' est pol moumint l' openSUSE 11.2"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
+    "title": "Dierinne modêye di diswalpaedje",
+    "desc": "Aberwetez l' dierinne modêye di diswalpaedje d' openSUSE k' est pol moumint l' openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
-    "title": "Search for packages",
-    "desc": "Search for and install additional software packages from openSUSE Build Service"
+    "title": "Cachî après des pacaedjes",
+    "desc": "Cweri et astaler des ôtes pacaedjes di programes a pårti d' l' openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivates",
+    "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivates",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "Derivatives",
+    "desc": "Awè ene des distribucions speciålijheyes basteyes a pårti d' openSUSE"
   }
   ]
 },
@@ -35,37 +35,37 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Aidance",
-    "desc": "Go to the Support Portal"
+    "desc": "Potchî al poite do sopoirt"
   },
   {
     "link": "http://wiki.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "desc": "Lére eyet scrire des årtikes dins nosse Wiki"
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "video",
-    "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "title": "Videyo",
+    "desc": "Riwaitîz sacwants tutoriels, waitroûlêyes videyos eyet edjîstraedjes di raploûs eyet prézintaedjes"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "Foroms",
+    "desc": "Purdoz pårt a nos foroms"
   },
   {
     "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "Copenreyes emile",
+    "desc": "Abounez vos ås copenreyes et s' loukî dins leus årtchives"
   },
   {
     "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
-    "title": "IRC channels",
-    "desc": "Communicate online using Internet Relay Chat"
+    "title": "Canås IRC",
+    "desc": "Comuniker so fyis e s' siervant do berdelaedje Internet Relay Chat"
   }
   ]
 },
@@ -76,49 +76,49 @@ var global_navigation_data = [
     "link": "http://connect.opensuse.org/",
     "image": "connect",
     "title": "Raloyî",
-    "desc": "Connect with all people in the community"
+    "desc": "Si raloyî avou totes les djins del cominålté"
   },
   {
     "link": "http://users.opensuse.org/",
     "image": "users",
-    "title": "Users",
-    "desc": "Walk through User Directory"
+    "title": "Uzeus",
+    "desc": "Roter pattavå l' botin des uzeus"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
-    "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "title": "Planete",
+    "desc": "Waitîz les posses ezès blogues rashonnés dins on seu floû"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "News",
-    "desc": "Latest announcements from the team"
+    "title": "Noveles",
+    "desc": "Les dierinnès noveles di l' ekipe"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Lizards",
-    "desc": "Users blog platform"
+    "title": "Cwate-peces (Lizards)",
+    "desc": "Platfôme di blog des uzeus"
   },
   {
     "link": "http://spotlight.opensuse.org/",
     "image": "spotlight",
     "title": "Spotlight",
-    "desc": "Posts from the community manager"
+    "desc": "Posses do manaedjeu del cominålté"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
-    "title": "Shop",
+    "title": "Botike",
     "desc": "openSUSE gear here!"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
     "image": "events",
-    "title": "Events",
-    "desc": "View upcoming events"
+    "title": "Evenmints",
+    "desc": "Vey les evenmints a vni"
   }
   ]
 },
@@ -129,32 +129,32 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "Esplikêyes po les diswalpeus",
+    "desc": "Esplikêyes cintrålijheyes dås diswalpeus"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "Fonccionalités",
+    "desc": "Vôtez eyet ovrez po les fonccionalités a vni d' openSUSE"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
     "title": "Build Service",
-    "desc": "Create, build and enhance packages"
+    "desc": "Askepyîz, bastixhoz eyet amidrez des pacaedjes"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
     "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "desc": "Rapoirtez des Bugs avou Bugzilla"
   },
   {
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "desc": "Adiercîz vos prôpès imådjes avou Studio"
   }
   ]
 }
