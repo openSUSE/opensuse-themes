@@ -1271,8 +1271,8 @@ input[type="submit"] {
   /* Development */
   span.global-navigation-icon.documentation   { background-position: -72px 0; }
   span.global-navigation-icon.features        { background-position: -72px -24px; }
-  span.global-navigation-icon.bugs            { background-position: -72px -48px; }
-  span.global-navigation-icon.buildservice    { background-position: -72px -72px; }
+  span.global-navigation-icon.buildservice    { background-position: -72px -48px; }
+  span.global-navigation-icon.bugs            { background-position: -72px -72px; }
   span.global-navigation-icon.studio          { background-position: -72px -96px; }
 
 .global-navigation-menu li span {
