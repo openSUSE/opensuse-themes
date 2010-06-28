@@ -21,9 +21,9 @@ var global_navigation_data = [
     "desc": "오픈수세 빌드 서비스로부터 추가 소프트웨어 꾸러미를 검색하고 설치"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivates",
+    "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivates",
+    "title": "Derivatives",
     "desc": "오픈수세를 기반으로 한 특별한 배포판을 다운로드"
   }
   ]
@@ -35,7 +35,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Support",
     "image": "help",
     "title": "도우미",
-    "desc": "Go to the Support Portal"
+    "desc": "도우미 포털로 가기"
   },
   {
     "link": "http://wiki.opensuse.org/",
@@ -65,7 +65,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC 채널",
-    "desc": "Communicate online using Internet Relay Chat"
+    "desc": "IRC(Internet Relay Chat-인터넷 채팅) 을 통해 대화"
   }
   ]
 },
@@ -94,7 +94,7 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "뉴스",
-    "desc": "Latest announcements from the team"
+    "desc": "오픈수세 팀의 새 소식"
   },
   {
     "link": "http://lizards.opensuse.org/",
@@ -153,8 +153,8 @@ var global_navigation_data = [
   {
     "link": "http://susestudio.com",
     "image": "studio",
-    "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "title": "수세 스튜디오",
+    "desc": "스튜디오를 사용하여 자신의 이미지 만들기"
   }
   ]
 }

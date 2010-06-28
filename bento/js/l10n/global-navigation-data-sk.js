@@ -6,25 +6,25 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Posledné stabilné vydanie",
-    "desc": "Stiahnuť posledné stabilné vydanie openSUSE, ktoré je aktuálne openSUSE 11.2"
+    "desc": "Stiahnite si posledné stabilné vydanie openSUSE, ktoré je aktuálne openSUSE 11.2"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Posledné vývojové vydanie",
-    "desc": "Stiahnuť posledné vývojové vydanie openSUSE, ktoré je aktuálne openSUSE 11.3"
+    "desc": "Stiahnite si posledné vývojové vydanie openSUSE, ktoré je aktuálne openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "Hľadať balíky",
-    "desc": "Hľadať a inštalovať ďalšie softvérové balíky z openSUSE Build Service"
+    "desc": "Hľadajte a inštalujte ďalšie softvérové balíky z openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivates",
+    "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Deriváty",
-    "desc": "Získať jednu zo špecializovaných distribúcií postavených na openSUSE"
+    "title": "Derivatives",
+    "desc": "Získajte jednu zo špecializovaných distribúcií postavených na openSUSE"
   }
   ]
 },
@@ -35,37 +35,37 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Pomocník",
-    "desc": "Go to the Support Portal"
+    "desc": "Portál podpory"
   },
   {
     "link": "http://wiki.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
-    "desc": "Čítať a písať články na našej Wiki"
+    "desc": "Čítajte a píšte články na našej Wiki"
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "video",
     "title": "Video",
-    "desc": "Sledovať rôzne návody, ukážky a nahrávky z prednášok a prezentácií"
+    "desc": "Sledujte rôzne návody, ukážky a nahrávky z prednášok a prezentácií"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
     "title": "Fóra",
-    "desc": "Zúčastniť sa na našich fórach"
+    "desc": "Zapojte sa na našich fórach"
   },
   {
     "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Zoznam e-mailových konferencií",
-    "desc": "Prihlásiť sa do e-mailových konferencií a pozerať si ich archívy"
+    "desc": "Prihláste sa do e-mailových konferencií a prezerajte si ich archívy"
   },
   {
     "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC kanály",
-    "desc": "Communicate online using Internet Relay Chat"
+    "desc": "Komunikujte pomocou IRC"
   }
   ]
 },
@@ -75,8 +75,8 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "connect",
-    "title": "Spojiť sa",
-    "desc": "Spojiť sa so všetkými ľuďmi v komunite"
+    "title": "Pripojiť",
+    "desc": "Spojte sa so všetkými ľuďmi v komunite"
   },
   {
     "link": "http://users.opensuse.org/",
@@ -88,18 +88,18 @@ var global_navigation_data = [
     "link": "http://planet.opensuse.org/",
     "image": "planet",
     "title": "Planéta",
-    "desc": "Sledovať blogy zoskupené do jedného kanála"
+    "desc": "Sledujte blogy zoskupené do jedného kanála"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Novinky",
-    "desc": "Latest announcements from the team"
+    "desc": "Najnovšie oznámenia od tímu"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Blogy",
+    "title": "Jašteričky",
     "desc": "Blogy používateľov"
   },
   {
@@ -136,25 +136,25 @@ var global_navigation_data = [
     "link": "http://features.opensuse.org/",
     "image": "features",
     "title": "Funkcie",
-    "desc": "Hlasovať a pracovať na nových funkciách openSUSE"
+    "desc": "Hlasujte a pracujte na nových funkciách openSUSE"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
     "title": "Build Service",
-    "desc": "Vytvárať, zostavovať  a zlepšovať balíky"
+    "desc": "Vytvárajte, zostavujte a zlepšujte balíky"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
     "title": "Chyby",
-    "desc": "Nahlásiť chyby pomocou Bugzilly"
+    "desc": "Nahláste chyby pomocou Bugzilly"
   },
   {
     "link": "http://susestudio.com",
     "image": "studio",
-    "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "title": "SUSE štúdio",
+    "desc": "Vytvorte si vlastné obrazy pomocou štúdia"
   }
   ]
 }

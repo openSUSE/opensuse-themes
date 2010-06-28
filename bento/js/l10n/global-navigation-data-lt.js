@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Paskiausia stabili versija",
+    "title": "Naujausia stabili versija",
     "desc": "Parsisiųskite naujausią stabilią openSUSE versiją – openSUSE 11.2"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Paskiausia vystoma versija",
+    "title": "Naujausia vystoma versija",
     "desc": "Parsisiųskite naujausią vystomą openSUSE versiją – openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "Paketų paieška",
-    "desc": "Ieškokite paketų ir diegti juos iš openSUSE Kūrimo Paslaugos"
+    "desc": "Ieškokite paketų ir diekite juos iš openSUSE Kūrimo Paslaugos"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivates",
+    "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Vediniai",
-    "desc": "Parsisiųskite openSUSE pagrindu sukurtą platinamąją paketą"
+    "title": "Derivatives",
+    "desc": "Parsisiųskite openSUSE pagrindu sukurtą platinamąjį paketą"
   }
   ]
 },
@@ -35,7 +35,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Pagalba",
-    "desc": "Go to the Support Portal"
+    "desc": "Eiti į palaikymo skyrių"
   },
   {
     "link": "http://wiki.opensuse.org/",
@@ -46,7 +46,7 @@ var global_navigation_data = [
   {
     "link": "http://opensuse.blip.tv/",
     "image": "video",
-    "title": "Vaizdai",
+    "title": "Vaizdo klipai",
     "desc": "Žiūrėkite įvairias mokymo programas, siužetus, įrašus iš pokalbių ir pristatymų"
   },
   {
@@ -65,7 +65,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "Tikralaikis pokalbis",
-    "desc": "Communicate online using Internet Relay Chat"
+    "desc": "Bendraukite tinkle (IRC)"
   }
   ]
 },
@@ -81,8 +81,8 @@ var global_navigation_data = [
   {
     "link": "http://users.opensuse.org/",
     "image": "users",
-    "title": "Vartotojai",
-    "desc": "Naršykite vartotojų aplankus"
+    "title": "Naudotojai",
+    "desc": "Naršykite naudotojų aplankus"
   },
   {
     "link": "http://planet.opensuse.org/",
@@ -94,13 +94,13 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Naujienos",
-    "desc": "Latest announcements from the team"
+    "desc": "Naujausi komandos pranešimai"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
     "title": "Tinklaraščiai",
-    "desc": "Vartotojų tinklaraščių platforma"
+    "desc": "Naudotojų tinklaraščių platforma"
   },
   {
     "link": "http://spotlight.opensuse.org/",
@@ -154,7 +154,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "desc": "Sukurkite savo OS atvaizdą"
   }
   ]
 }

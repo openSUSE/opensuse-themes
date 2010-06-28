@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Viimeisin vakaa julkaisu",
-    "desc": "Lataa viimeisin vakaa openSUSE julkaisu, joka tällä hetkellä on openSUSE 11.2"
+    "desc": "Lataa viimeisin vakaa openSUSE julkaisu, tällä hetkellä openSUSE 11.2"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Viimeisin kehitysversio",
-    "desc": "Lataa viimeisin openSUSE kehitysversio, joka tällä hetkellä on 11.3"
+    "desc": "Lataa viimeisin openSUSE kehitysversio, tällä hetkellä 11.3"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -21,9 +21,9 @@ var global_navigation_data = [
     "desc": "Etsi ja asenna lisäohjelmistopaketteja openSUSE Build Servicestä"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivates",
+    "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Johdannaiset",
+    "title": "Derivatives",
     "desc": "Lataa jokin openSUSEen pohjautuvista erityisjakeluista"
   }
   ]
@@ -35,7 +35,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Ohjeet",
-    "desc": "Go to the Support Portal"
+    "desc": "Siirry ohjesivustolle"
   },
   {
     "link": "http://wiki.opensuse.org/",
@@ -47,7 +47,7 @@ var global_navigation_data = [
     "link": "http://opensuse.blip.tv/",
     "image": "video",
     "title": "Video",
-    "desc": "Katso erinäisiä ohjeita, esittelyvideoita ja tallennuksia keskusteluista ja esittelyistä."
+    "desc": "Katso erinäisiä ohjeita, esittelyvideoita ja tallennuksia keskusteluista ja esityksistä."
   },
   {
     "link": "http://forums.opensuse.org/",
@@ -59,13 +59,13 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Postituslistat",
-    "desc": "Tilaa postilistoja ja katsele niiden arkistoja"
+    "desc": "Tilaa postilistoja ja selaa niiden arkistoja"
   },
   {
     "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC-kanavat",
-    "desc": "Communicate online using Internet Relay Chat"
+    "desc": "Viesti verkossa IRCiä käyttäen"
   }
   ]
 },
@@ -94,13 +94,13 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Uutiset",
-    "desc": "Latest announcements from the team"
+    "desc": "Kehitysryhmän uusimmat tiedotukset"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
     "title": "Lizards",
-    "desc": "Käyttäjien blogialusta"
+    "desc": "Käyttäjien blogit"
   },
   {
     "link": "http://spotlight.opensuse.org/",
@@ -112,7 +112,7 @@ var global_navigation_data = [
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Kauppa",
-    "desc": "openSUSE-tavaraa täältä!"
+    "desc": "openSUSE-tavaraa löytyy täältä!"
   },
   {
     "link": "http://connect.opensuse.org/conclave/events/",
@@ -130,7 +130,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "developer",
     "title": "Kehittäjän dokumentaatio",
-    "desc": "Keskitetty kehittäjän dokumentaatio"
+    "desc": "Keskitetty dokumentaatio kehittäjille"
   },
   {
     "link": "http://features.opensuse.org/",
@@ -147,14 +147,14 @@ var global_navigation_data = [
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
-    "title": "Ohjelmavirheet",
+    "title": "Bugit",
     "desc": "Ilmoita virheistä käyttämällä Bugzillaa"
   },
   {
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "desc": "Lou oma levykuvasi käyttämällä Studioa"
   }
   ]
 }

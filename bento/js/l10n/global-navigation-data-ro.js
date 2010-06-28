@@ -21,9 +21,9 @@ var global_navigation_data = [
     "desc": "Căuta şi instalează pachete software suplimentare de la serviciul de Build openSUSE"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivates",
+    "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivate",
+    "title": "Derivatives",
     "desc": "Obţine una din distribuţiile specializate construite pe baza openSUSE"
   }
   ]
@@ -35,7 +35,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Ajutor",
-    "desc": "Go to the Support Portal"
+    "desc": "Mergi la portalul de ajutor"
   },
   {
     "link": "http://wiki.opensuse.org/",
@@ -65,7 +65,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "Canale IRC",
-    "desc": "Communicate online using Internet Relay Chat"
+    "desc": "Comunică online utilizând Chat-ul"
   }
   ]
 },
@@ -94,7 +94,7 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Ştiri",
-    "desc": "Latest announcements from the team"
+    "desc": "Ultimele anunţuri de la echipă"
   },
   {
     "link": "http://lizards.opensuse.org/",
@@ -154,7 +154,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "desc": "Creare propria imagine utilizând Studio"
   }
   ]
 }

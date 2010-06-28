@@ -21,9 +21,9 @@ var global_navigation_data = [
     "desc": "További csomagok keresése és telepítése az openSUSE Build Service-en keresztül"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivates",
+    "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Változatok",
+    "title": "Derivatives",
     "desc": "Töltsön le más, openSUSE-alapú, specializált disztribúciót"
   }
   ]
@@ -35,7 +35,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Segítség",
-    "desc": "Go to the Support Portal"
+    "desc": "Továbblépés a segítségnyújtó portálra"
   },
   {
     "link": "http://hu.opensuse.org/",
@@ -65,7 +65,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC csatornák",
-    "desc": "Communicate online using Internet Relay Chat"
+    "desc": "Lépjen kapcsolatba online az Internet Relay Chat használatával"
   }
   ]
 },
@@ -94,7 +94,7 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Hírek",
-    "desc": "Latest announcements from the team"
+    "desc": "Az openSUSE csapat legfrissebb bejelentései"
   },
   {
     "link": "http://lizards.opensuse.org/",
@@ -154,7 +154,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "desc": "Készítse saját lemezképeit a SUSE Studio segítségével"
   }
   ]
 }

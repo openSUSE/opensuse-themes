@@ -21,9 +21,9 @@ var global_navigation_data = [
     "desc": "Znajdź i zainstaluj dodatkowe pakiety z oprogramowaniem z openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivates",
+    "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Pochodne",
+    "title": "Derivatives",
     "desc": "Pobierz jedną z specjalnie zbudowanych dystrybucji openSUSE"
   }
   ]
@@ -35,7 +35,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Pomoc",
-    "desc": "Go to the Support Portal"
+    "desc": "Przejdź do Portalu Pomocy"
   },
   {
     "link": "http://wiki.opensuse.org/",
@@ -46,7 +46,7 @@ var global_navigation_data = [
   {
     "link": "http://opensuse.blip.tv/",
     "image": "video",
-    "title": "Video",
+    "title": "Wideo",
     "desc": "Oglądaj różne tutoriale, screencasty i nagrania z prezentacji"
   },
   {
@@ -65,7 +65,7 @@ var global_navigation_data = [
     "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "Kanały IRC",
-    "desc": "Communicate online using Internet Relay Chat"
+    "desc": "Komunikuj się przy użyciu IRC"
   }
   ]
 },
@@ -75,7 +75,7 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "connect",
-    "title": "Połączenie",
+    "title": "Connect",
     "desc": "Kontaktuj się z wszystkimi członkami społeczności"
   },
   {
@@ -94,7 +94,7 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Nowości",
-    "desc": "Latest announcements from the team"
+    "desc": "Najnowsze informacje od Zespołu openSUSE"
   },
   {
     "link": "http://lizards.opensuse.org/",
@@ -154,7 +154,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "desc": "Twórz własne obrazy używając Studio"
   }
   ]
 }

@@ -1,0 +1,2 @@
+Use translate.sh to extract new strings to the .pot file of the lcn checkout and 
+copy new translations into global-navigation-data-<lang>.js 
