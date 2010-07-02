@@ -154,7 +154,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Lou oma levykuvasi käyttämällä Studioa"
+    "desc": "Luo oma levykuvasi käyttämällä Studioa"
   }
   ]
 }

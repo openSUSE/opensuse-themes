@@ -135,13 +135,13 @@ var global_navigation_data = [
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Charakterzüge",
-    "desc": "Künftige Charakterzüge von openSUSE bestimmen und bearbeiten"
+    "title": "Features",
+    "desc": "Künftige Features von openSUSE bestimmen und bearbeiten"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
-    "title": "openSUSE Build Service",
+    "title": "Build Service",
     "desc": "Pakete erstellen, bauen und erweitern"
   },
   {
@@ -154,7 +154,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE-Studio",
-    "desc": "Eigenes Distributionsabbid mittels Studio erstellen"
+    "desc": "Eigenes Distributionsabbild mittels Studio erstellen"
   }
   ]
 }

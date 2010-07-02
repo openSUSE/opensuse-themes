@@ -23,7 +23,7 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
+    "title": "Производные дистрибутивы",
     "desc": "Скачайте один из специализированных дистрибутивов на основе openSUSE"
   }
   ]

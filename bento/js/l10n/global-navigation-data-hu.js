@@ -23,7 +23,7 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
+    "title": "Változatok",
     "desc": "Töltsön le más, openSUSE-alapú, specializált disztribúciót"
   }
   ]
@@ -154,7 +154,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Készítse saját lemezképeit a SUSE Studio segítségével"
+    "desc": "Készítse el saját lemezképeit a SUSE Studio segítségével"
   }
   ]
 }

@@ -23,7 +23,7 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
+    "title": "派生物",
     "desc": "openSUSE で構築された各種用途向けディストリビューションの取得"
   }
   ]
