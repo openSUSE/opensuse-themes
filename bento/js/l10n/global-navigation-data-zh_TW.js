@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "從 openSUSE Build Service 搜尋與安裝其他軟體套件"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
     "desc": "取得在 openSUSE 建構的特別發行版本"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "說明",
     "desc": "前往支援入口"
   },
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "在我們的 Wiki 閱讀與撰寫文章"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "參與我們的論壇"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "郵件列表",
     "desc": "訂閱郵件列表"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
+    "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC 頻道",
     "desc": "使用網路中繼聊天線上通訊"

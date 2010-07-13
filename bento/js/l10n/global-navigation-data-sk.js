@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Hľadajte a inštalujte ďalšie softvérové balíky z openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
     "desc": "Získajte jednu zo špecializovaných distribúcií postavených na openSUSE"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Pomocník",
     "desc": "Portál podpory"
   },
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Čítajte a píšte články na našej Wiki"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "Zapojte sa na našich fórach"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Zoznam e-mailových konferencií",
     "desc": "Prihláste sa do e-mailových konferencií a prezerajte si ich archívy"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
+    "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC kanály",
     "desc": "Komunikujte pomocou IRC"

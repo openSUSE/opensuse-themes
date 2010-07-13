@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Ieškokite paketų ir diekite juos iš openSUSE Kūrimo Paslaugos"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
     "desc": "Parsisiųskite openSUSE pagrindu sukurtą platinamąjį paketą"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Pagalba",
     "desc": "Eiti į palaikymo skyrių"
   },
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Vikis",
     "desc": "Skaitykite ir rašykite straipsnius mūsų Vikyje"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "Dalyvaukite mūsų diskusijose"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "El. pašto grupės",
     "desc": "Užsiregistruokite el.pašto grupėse ir naršykite jų archyvus"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
+    "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "Tikralaikis pokalbis",
     "desc": "Bendraukite tinkle (IRC)"

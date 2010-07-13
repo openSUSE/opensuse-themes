@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Buscar e instalar paquetes adicionales del openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
     "desc": "Obtenga una de las distribuciones especializadas de openSUSE"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Ayuda",
     "desc": "Ir al portal de ayuda"
   },
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Leer y escribir artículos en nuestro Wiki"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "Participe en los foros"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Listas de correo",
     "desc": "Suscríbase a las listas de correo y vea sus archivos"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
+    "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "Canales de IRC",
     "desc": "Comuníquese en línea utilizando el Internet Relay Chat(IRC)"

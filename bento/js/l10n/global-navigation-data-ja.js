@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "openSUSE ビルドサービスが提供する、追加のソフトウエアパッケージの検索とインストール"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "派生物",
     "desc": "openSUSE で構築された各種用途向けディストリビューションの取得"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "ヘルプ",
     "desc": "サポートポータルに移動"
   },
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Wiki の記事へのアクセスと書き込み"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "フォーラムでの質問や議論"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "メーリングリスト",
     "desc": "メーリングリストの購読とメーリングリストアーカイブの参照"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
+    "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC チャンネル",
     "desc": "インターネットリレーチャット (IRC) を利用したオンライン対話"

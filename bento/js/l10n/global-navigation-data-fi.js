@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Etsi ja asenna lisäohjelmistopaketteja openSUSE Build Servicestä"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
     "desc": "Lataa jokin openSUSEen pohjautuvista erityisjakeluista"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Ohjeet",
     "desc": "Siirry ohjesivustolle"
   },
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Lue ja kirjoita artikkeleita Wikissämme"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "Osallistu keskusteluihin"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Postituslistat",
     "desc": "Tilaa postilistoja ja selaa niiden arkistoja"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
+    "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC-kanavat",
     "desc": "Viesti verkossa IRCiä käyttäen"

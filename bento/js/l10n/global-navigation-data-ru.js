@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Поиск и установка дополнительного программного обеспечения из openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Производные дистрибутивы",
     "desc": "Скачайте один из специализированных дистрибутивов на основе openSUSE"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Справка",
     "desc": "Посетите портал поддержки"
   },
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Читайте и пишите статьи в нашей Wiki"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "Примите участие в обсуждениях на форуме"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Списки рассылки",
     "desc": "Подпишитесь на списки рассылки и читайте их архивы"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
+    "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC-каналы",
     "desc": "Общайтесь в чатах"

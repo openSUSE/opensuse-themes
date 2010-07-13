@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Căuta şi instalează pachete software suplimentare de la serviciul de Build openSUSE"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
     "desc": "Obţine una din distribuţiile specializate construite pe baza openSUSE"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Ajutor",
     "desc": "Mergi la portalul de ajutor"
   },
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Citeşte şi scrie articole în Wiki-ul nostru"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "Participă la forumurile noastre"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Liste de discuţii",
     "desc": "Abonează-te la listele de discuţii şi caută în arhive"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
+    "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "Canale IRC",
     "desc": "Comunică online utilizând Chat-ul"

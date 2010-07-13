@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "ស្វែងរក​ និង​ដំឡើង​កញ្ចប់​កម្មវិធី​បន្ថែម​ពី​សេវា​ស្ថាបនា​របស់​អូផឹន​ស៊ូស៊ី"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
     "desc": "យក​ការ​ចែកចាយ​ពិសេស​ដែល​បាន​ស្ថាបនា​នៅ​​ក្នុង​អូផឹន​ស៊ូស៊ី"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "ជំនួយ",
     "desc": "ទៅកាន់​ផតថល​គាំទ្រ"
   },
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "វីគី",
     "desc": "អាន និង​សរសេរ​អត្ថបទ​នៅ​ក្នុង​វីគី​របស់​យើង"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "ចូលរួម​ក្នុង​វេទិកា​របស់យើង"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "បញ្ជី​សំបុត្រ​រួម",
     "desc": "ជាវ​ទៅ​បញ្ជី​សំបុត្រ​រួម ហើយ​មើល​ក្នុង​ប័ណ្ណសារ​របស់​ពួកវា"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
+    "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "ឆានែល IRC",
     "desc": "ទាក់ទង​លើ​បណ្ដាញ​ដោយ​ប្រើ​ Internet Relay Chat"

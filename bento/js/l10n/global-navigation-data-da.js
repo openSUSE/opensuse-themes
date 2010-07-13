@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Søg efter og installér yderligere softwarepakker fra openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
     "desc": "Hent en af de specialiserede distributioner baseret på openSUSE"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Hjælp",
     "desc": "Gå til support-portalen"
   },
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Læs og skriv artikler på vores wiki"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "Deltag i vores forum"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Mailinglister",
     "desc": "Abonnér på mailinglister og kig i arkiverne"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
+    "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC-kanaler",
     "desc": "Kommunikér online med Internet Relay Chat"

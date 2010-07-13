@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Cweri et astaler des ôtes pacaedjes di programes a pårti d' l' openSUSE Build Service"
   },
   {
-    "link": "http://wiki.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
     "desc": "Awè ene des distribucions speciålijheyes basteyes a pårti d' openSUSE"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://wiki.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Aidance",
     "desc": "Potchî al poite do sopoirt"
   },
   {
-    "link": "http://wiki.opensuse.org/",
+    "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Lére eyet scrire des årtikes dins nosse Wiki"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "Purdoz pårt a nos foroms"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Copenreyes emile",
     "desc": "Abounez vos ås copenreyes et s' loukî dins leus årtchives"
   },
   {
-    "link": "http://wiki.opensuse.org/openSUSE:IRC_list",
+    "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "Canås IRC",
     "desc": "Comuniker so fyis e s' siervant do berdelaedje Internet Relay Chat"
