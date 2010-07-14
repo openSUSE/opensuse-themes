@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Последний стабильный релиз",
-    "desc": "Скачать последний стабильный релиз openSUSE, на данный момент это openSUSE 11.2"
+    "desc": "Скачать последний стабильный релиз openSUSE, на данный момент это openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",

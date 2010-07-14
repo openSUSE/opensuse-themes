@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Aktuell stabile Version",
-    "desc": "Aktuell stabile Version von openSUSE herunterladen (openSUSE 11.2)"
+    "desc": "Aktuell stabile Version von openSUSE herunterladen (openSUSE 11.3)"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Aktuelle Enwicklerversion",
-    "desc": "Aktuelle Entwicklerversion von openSUSE herunterladen (openSUSE 11.3)"
+    "desc": "Aktuelle Entwicklerversion von openSUSE herunterladen"
   },
   {
     "link": "http://software.opensuse.org/",

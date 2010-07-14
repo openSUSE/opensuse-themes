@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Utolsó stabil kiadás",
-    "desc": "Töltse le az openSUSE 11.2-t, az openSUSE legújabb stabil kiadását"
+    "desc": "Töltse le az openSUSE 11.3-t, az openSUSE legújabb stabil kiadását"
   },
   {
     "link": "http://software.opensuse.org/developer/",

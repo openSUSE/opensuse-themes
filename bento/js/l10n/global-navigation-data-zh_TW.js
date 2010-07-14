@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "上一個穩定發行版本",
-    "desc": "下載最新的穩定 openSUSE 發行版本，目前是 11.2"
+    "desc": "下載最新的穩定 openSUSE 發行版本，目前是 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",

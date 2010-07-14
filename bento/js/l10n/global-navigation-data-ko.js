@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "최신 안정판",
-    "desc": "현재 오픈수세 최신 안정판인 11.2 버전을 다운로드"
+    "desc": "현재 오픈수세 최신 안정판인 11.3 버전을 다운로드"
   },
   {
     "link": "http://software.opensuse.org/developer/",

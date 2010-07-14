@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Dierinne stocaesse modêye",
-    "desc": "Aberwetez l' dierinne stocaesse modêye d' openSUSE k' est pol moumint l' openSUSE 11.2"
+    "desc": "Aberwetez l' dierinne stocaesse modêye d' openSUSE k' est pol moumint l' openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",

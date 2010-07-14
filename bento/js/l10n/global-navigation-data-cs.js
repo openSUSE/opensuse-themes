@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Poslední stabilní vydání",
-    "desc": "Stáhnout poslední stabilní vydání openSUSE, což je aktuálně openSUSE 11.2"
+    "desc": "Stáhnout poslední stabilní vydání openSUSE, což je aktuálně openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Poslední vývojové vydání",
-    "desc": "Stáhnout poslední vývojové vydání openSUSE, což je aktuálně 11.3"
+    "desc": "Stáhnout poslední vývojové vydání openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",

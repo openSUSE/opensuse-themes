@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "最新の安定リリース",
-    "desc": "openSUSE の最新安定リリース (現在 11.2) をダウンロード"
+    "desc": "openSUSE の最新安定リリース (現在 11.3) をダウンロード"
   },
   {
     "link": "http://software.opensuse.org/developer/",

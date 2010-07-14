@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Posledné stabilné vydanie",
-    "desc": "Stiahnite si posledné stabilné vydanie openSUSE, ktoré je aktuálne openSUSE 11.2"
+    "desc": "Stiahnite si posledné stabilné vydanie openSUSE, ktoré je aktuálne openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Posledné vývojové vydanie",
-    "desc": "Stiahnite si posledné vývojové vydanie openSUSE, ktoré je aktuálne openSUSE 11.3"
+    "desc": "Stiahnite si posledné vývojové vydanie openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",

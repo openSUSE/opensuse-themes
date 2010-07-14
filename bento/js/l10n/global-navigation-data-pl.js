@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Ostatnie stabilne wydanie",
-    "desc": "Pobierz najnowsze stabilne wydanie openSUSE, którym aktualnie jest openSUSE 11.2"
+    "desc": "Pobierz najnowsze stabilne wydanie openSUSE, którym aktualnie jest openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",

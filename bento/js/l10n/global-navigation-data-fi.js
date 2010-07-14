@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Viimeisin vakaa julkaisu",
-    "desc": "Lataa viimeisin vakaa openSUSE julkaisu, tällä hetkellä openSUSE 11.2"
+    "desc": "Lataa viimeisin vakaa openSUSE julkaisu, tällä hetkellä openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
