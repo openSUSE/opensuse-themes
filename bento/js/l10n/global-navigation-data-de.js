@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Verbinden",
-    "desc": "Verbindung zu allen Beteiligten der Gemeinschaft aufnehmen"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Benutzer",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Blog-Platform der Benutzer"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Rampenlicht",
-    "desc": "Ankündigungen des Gemeinschafts-Verwalters"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Laden",
     "desc": "openSUSE-Fanartikel"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Veranstaltungen",
-    "desc": "Bevorstehende Veranstaltungen ansehen"
   }
   ]
 },
