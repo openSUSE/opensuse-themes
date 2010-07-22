@@ -1335,6 +1335,18 @@ input[type="submit"] {
     background-image: url('../images/icons/special/maintainance-16.png');
   }
   
-  
+
+
+/* == temp Styled ==*/
+/* This should be moved to a local file */
+
+#bodyContent .plainlinks a { /* TODO: this should go to wiki local css */
+	background: none !important;
+	padding: 0 !important;
+	color: #002bb8 !important;
+}
+
+
+
   
   
