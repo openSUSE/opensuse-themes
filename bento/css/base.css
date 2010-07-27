@@ -1052,8 +1052,8 @@ h2.box-subheader {
   img.aligncenter,
   img.centered {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   img.alignright,
   img.alignleft {
@@ -1341,9 +1341,8 @@ input[type="submit"] {
 /* This should be moved to a local file */
 
 .plainlinks a { /* TODO: this should go to wiki local css */
-	background: none !important;
-	padding: 0 !important;
-/*  color: #002bb8 !important;*/
+  background: none !important;
+  padding: 0 !important;
 }
 
 
