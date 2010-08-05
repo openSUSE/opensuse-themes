@@ -1102,6 +1102,13 @@ input[type="submit"] {
     color: #069;
     cursor: pointer;
   }
+/*.button[disabled="disabled"],*/
+form *[disabled="disabled"] {
+  background-color: #f6f6f6;
+  border-color: #ccc;
+  color: #aaa;
+}
+
 
 .main .button,
 .main button,
