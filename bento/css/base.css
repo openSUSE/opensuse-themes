@@ -1046,9 +1046,14 @@ h2.box-subheader {
 .alignright {float: right;}
 .alignleft {float: left;}
 .aligncenter,
+.textcenter,
 .centered {
   text-align: center;
 }
+
+.textright { text-align: right; }
+.textleft { text-align: left; }
+
   img.aligncenter,
   img.centered {
     display: block;
