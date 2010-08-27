@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "上一個穩定發行版本",
-    "desc": "下載最新的穩定 openSUSE 發行版本，目前是 11.3"
+    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "上一個開發版本",
-    "desc": "下載最新的 openSUSE 開發版本，目前是 11.3"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "連繫",
-    "desc": "和所有社群成員聯繫"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "使用者",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "使用者部落格平台"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "聚光燈",
-    "desc": "社群經理發布的文章"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "商店",
     "desc": "openSUSE 就在這！"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "事件",
-    "desc": "檢視即將到來的事件"
   }
   ]
 },

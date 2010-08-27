@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Posledné stabilné vydanie",
-    "desc": "Stiahnite si posledné stabilné vydanie openSUSE, ktoré je aktuálne openSUSE 11.3"
+    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Posledné vývojové vydanie",
-    "desc": "Stiahnite si posledné vývojové vydanie openSUSE"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Pripojiť",
-    "desc": "Spojte sa so všetkými ľuďmi v komunite"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Používatelia",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Blogy používateľov"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Aktuality",
-    "desc": "Články od komunitného manažéra"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Obchod",
     "desc": "openSUSE veci!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Udalosti",
-    "desc": "Zobraziť blížiace sa udalosti"
   }
   ]
 },

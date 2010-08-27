@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Última versión estable",
-    "desc": "Descargue a ultima versión estable de openSUSE, que actualmente é OpenSUSE 11.3"
+    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Última versión de desenvolvemento",
-    "desc": "Descargue a ultima versión de desenvolvemento de openSUSE, actualmente 11.3"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Conectar",
-    "desc": "Conecte coa xenta da comunidade"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Usuarios",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Plataforma blog de usuarios"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Spotlight",
-    "desc": "Correos desde o xestor da comunidade"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Comprar",
     "desc": "Produtos de openSUSE aquí!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Eventos",
-    "desc": "Vexa os próximos eventos"
   }
   ]
 },

@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Seneste stabile udgivelse",
-    "desc": "Download den seneste stabile udgivelse af openSUSE, hvilket for tiden er openSUSE 11.3"
+    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Seneste udviklingsudgivelse",
-    "desc": "Download den seneste udviklingsudgivelse af openSUSE, hvilket for tiden er 11.3"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Connect",
-    "desc": "Få forbindelse til alle folkene i fællesskabet"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Brugere",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Blogplatform til brugere"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Spotlight",
-    "desc": "Indlæg fra community-manageren"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Butik",
     "desc": "Her er openSUSE-udstyr!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Begivenheder",
-    "desc": "Se kommende begivenheder"
   }
   ]
 },

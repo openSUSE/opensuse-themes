@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Naujausia stabili versija",
-    "desc": "Parsisiųskite naujausią stabilią openSUSE versiją – openSUSE 11.3"
+    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Naujausia vystoma versija",
-    "desc": "Parsisiųskite naujausią vystomą openSUSE versiją – openSUSE 11.3"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,16 +73,10 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Prijungti",
-    "desc": "Prisijunkite prie bendruomenės"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Naudotojai",
-    "desc": "Naršykite naudotojų aplankus"
+    "desc": "Naršykite naudotojų katalogus"
   },
   {
     "link": "http://planet.opensuse.org/",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Naudotojų tinklaraščių platforma"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Dėmesio centras",
-    "desc": "Bendruomenės vadovų pranešimai"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Parduotuvė",
     "desc": "openSUSE atributika"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Įvykiai",
-    "desc": "Būsimų įvykių peržiūra"
   }
   ]
 },

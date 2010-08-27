@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "ការ​ចេញផ្សាយស្ថិតស្ថេរ​ចុងក្រោយ",
-    "desc": "ទាញយក​ការ​ចេញ​ផ្សាយ​អូផឹនស៊ូស៊ី​ស្ថិតស្ថេរ​ ដែល​បច្ចុប្បន្ន​គឺ​អូផឹន​ស៊ូស៊ី ១១.២"
+    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "​ចេញផ្សាយ​​ការ​អភិវឌ្ឍន៍​ចុងក្រោយ",
-    "desc": "ទាញយក​ការ​ចេញផ្សាយ​អភិវឌ្ឍន៍​ចុងក្រោយ​របស់​អូផឹន​ស៊ូស៊ី ដែល​ការ​ចេញ​ផ្សាយ​បច្ចុប្បន្នគឺ ១១.៣"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "តភ្ជាប់",
-    "desc": "តភ្ជាប់​ជា​មួយ​មនុស្ស​ទាំងអស់​នៅ​ក្នុង​សហគមន៍"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "អ្នកប្រើ",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "វេទិកា​កំណត់​ហេតុ​បណ្ដាញ​របស់​អ្នក​ប្រើ"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "ភ្លើង",
-    "desc": "ប្រកាស​ពី​​អ្នក​គ្រប់គ្រង​សហគមន៍"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "ហាង",
     "desc": "ស្ពី​អូផឹន​ស៊ូស៊ី​នៅ​ទីនេះ !"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "ព្រឹត្តិការណ៍",
-    "desc": "មើល​ព្រឹត្តិការណ៍​ដែលកើត​ឡើង​នា​ពេល​ឆាប់ៗ​"
   }
   ]
 },

@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "최신 안정판",
-    "desc": "현재 오픈수세 최신 안정판인 11.3 버전을 다운로드"
+    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "최신 개발버전",
-    "desc": "현재 오픈수세 최신 개발버전인 11.3 버전을 다운로드"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "연결",
-    "desc": "오픈수세 커뮤니티에 있는 모든 사람과 연결"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "사용자",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "오픈수세 사용자의 블로그"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "스포트라이트",
-    "desc": "오픈수세 커뮤니티 매니저로부터의 이야기"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "쇼핑",
     "desc": "오픈수세 구매는 이곳에서!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "이벤트",
-    "desc": "다가오는 이벤트 보기"
   }
   ]
 },

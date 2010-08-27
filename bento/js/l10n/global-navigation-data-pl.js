@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Ostatnie stabilne wydanie",
-    "desc": "Pobierz najnowsze stabilne wydanie openSUSE, którym aktualnie jest openSUSE 11.3"
+    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Ostatnie wydanie rozwojowe",
-    "desc": "Pobierz najnowsze wydanie rozwojowe openSUSE, którym jest aktualnie 11.3"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Connect",
-    "desc": "Kontaktuj się z wszystkimi członkami społeczności"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Użytkownicy",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Platforma blogowa dla użytkowników"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Spotlight",
-    "desc": "Wiadomości od menedżera społeczności"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Sklep",
     "desc": "Tutaj zrobisz zakupy !"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Wydarzenia",
-    "desc": "Informacje o nadchodzących wydarzeniach"
   }
   ]
 },

@@ -12,7 +12,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Последний релиз для разработчиков",
-    "desc": "Скачать последний релиз openSUSE для разработчиков, на данный момент это 11.3"
+    "desc": "Скачать последний релиз openSUSE для разработчиков"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Connect",
-    "desc": "Свяжитесь с людьми из сообщества"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Пользователи",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Платформа пользовательских блогов"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Spotlight",
-    "desc": "Сообщения от менеджера сообщества"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Магазин",
     "desc": "Товары с символикой openSUSE!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "События",
-    "desc": "Предстоящие события"
   }
   ]
 },

@@ -12,7 +12,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "ਕੁਨੈਕਟ ਕਰੋ",
-    "desc": "Connect with all people in the community"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Users",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Users blog platform"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Spotlight",
-    "desc": "Posts from the community manager"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Shop",
     "desc": "openSUSE gear here!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Events",
-    "desc": "View upcoming events"
   }
   ]
 },

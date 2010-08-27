@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Ultima versiune stabilă",
-    "desc": "Descărcaţi cea mai recentă versiune stabilă openSUSE, care în prezent este openSUSE 11.3"
+    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/ro",
     "image": "release-devel",
     "title": "Ultima versiune în dezvoltare",
-    "desc": "Descărcaţi cea mai recentă versiune în dezvoltare pentru openSUSE, care în prezent este 11.3"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Conectare",
-    "desc": "Conectaţi-vă cu toţi oamenii din comunitate"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Utilizatori",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Platforma de bloguri a utilizatorilor"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Reflector",
-    "desc": "Mesaje de la coordonatorul comunităţii"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Cumpără",
     "desc": "Echipament openSUSE aici!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Evenimente",
-    "desc": "Vizualizează evenimentele viitoare"
   }
   ]
 },

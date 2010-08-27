@@ -3,7 +3,7 @@ var global_navigation_data = [
   "id": "downloads",
   "items": [
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/de",
     "image": "release-stable",
     "title": "Aktuell stabile Version",
     "desc": "Aktuell stabile Version von openSUSE herunterladen (openSUSE 11.3)"
@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Zusätzliche Softwarepakete suchen und diese vom openSUSE Build Service installieren"
   },
   {
-    "link": "http://en.opensuse.org/Derivatives",
+    "link": "http://dewiki.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
     "desc": "Angepasste openSUSE-basierte Distributionen herunterladen"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://en.opensuse.org/Portal:Support",
+    "link": "http://dewiki.opensuse.org/Portal:Unterstützung",
     "image": "help",
     "title": "Hilfe",
     "desc": "Unterstützungs-Portal öffnen"
   },
   {
-    "link": "http://en.opensuse.org/",
+    "link": "http://dewiki.opensuse.org/Hauptseite",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Artikel in unserem Wiki lesen und schreiben"
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "Foren beiwohnen"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://dewiki.opensuse.org/openSUSE:Mailinglisten",
     "image": "lists",
     "title": "Mailinglisten",
     "desc": "Mailinglisten abonnieren und deren Archive durchstöbern"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:IRC_list",
+    "link": "http://dewiki.opensuse.org/openSUSE:IRC_Liste",
     "image": "irc",
     "title": "IRC-Kanäle",
     "desc": "Mit dem Internet Relay Chat kommunizieren"

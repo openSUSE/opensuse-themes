@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Viimeisin vakaa julkaisu",
-    "desc": "Lataa viimeisin vakaa openSUSE julkaisu, tällä hetkellä openSUSE 11.3"
+    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Viimeisin kehitysversio",
-    "desc": "Lataa viimeisin openSUSE kehitysversio, tällä hetkellä 11.3"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Connect",
-    "desc": "Pysy yhteydessä yhteisön jäseniin"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Users",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Käyttäjien blogit"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Spotlight",
-    "desc": "Yhteisöjohtajan viestit"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Kauppa",
     "desc": "openSUSE-tavaraa löytyy täältä!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Tapahtumat",
-    "desc": "Katsele tulevia tapahtumia"
   }
   ]
 },

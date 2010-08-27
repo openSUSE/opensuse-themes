@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Utolsó stabil kiadás",
-    "desc": "Töltse le az openSUSE 11.3-t, az openSUSE legújabb stabil kiadását"
+    "desc": "Töltse le az openSUSE legújabb stabil kiadását, ami jelenleg az openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Utolsó fejlesztői kiadás",
-    "desc": "Töltse le az openSUSE 11.3-at, az openSUSE legújabb fejlesztői kiadását"
+    "desc": "Töltse le az openSUSE legújabb fejlesztői kiadását"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -56,7 +56,7 @@ var global_navigation_data = [
     "desc": "Vegyen részt a fórumokon"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://hu.opensuse.org/Kommunik%C3%A1ci%C3%B3",
     "image": "lists",
     "title": "Levelezési listák",
     "desc": "Iratkozzon fel levelezési listákra, és tekintse meg az archívumokat"
@@ -72,12 +72,6 @@ var global_navigation_data = [
 {
   "id": "community",
   "items": [
-  {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Kapcsolat",
-    "desc": "Lépjen kapcsolatba a közösség tagjaival"
-  },
   {
     "link": "http://users.opensuse.org/",
     "image": "users",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Felhasználói blogok kiindulópontja"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Rivaldafény",
-    "desc": "A közösségi vezető írásai"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Bolt",
     "desc": "openSUSE holmik!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Események",
-    "desc": "Tekintse meg a közelgő eseményeket"
   }
   ]
 },

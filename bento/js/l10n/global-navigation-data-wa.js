@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Dierinne stocaesse modêye",
-    "desc": "Aberwetez l' dierinne stocaesse modêye d' openSUSE k' est pol moumint l' openSUSE 11.3"
+    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Dierinne modêye di diswalpaedje",
-    "desc": "Aberwetez l' dierinne modêye di diswalpaedje d' openSUSE k' est pol moumint l' openSUSE 11.3"
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Raloyî",
-    "desc": "Si raloyî avou totes les djins del cominålté"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Uzeus",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Platfôme di blog des uzeus"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Spotlight",
-    "desc": "Posses do manaedjeu del cominålté"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Botike",
     "desc": "openSUSE gear here!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Evenmints",
-    "desc": "Vey les evenmints a vni"
   }
   ]
 },

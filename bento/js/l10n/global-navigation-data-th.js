@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Last stable release",
+    "title": "รุ่นที่เสถียรที่เผยแพร่ล่าสุด",
     "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Last development release",
-    "desc": "Download the latest development release of openSUSE, which is currently 11.3"
+    "title": "รุ่นที่อยู่ในระหว่างการพัฒนาล่าสุด",
+    "desc": "Download the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
-    "title": "Search for packages",
-    "desc": "Search for and install additional software packages from openSUSE Build Service"
+    "title": "ค้นหาแพกเกจต่าง ๆ",
+    "desc": "ค้นหาและติดตั้งแพกเกจซอฟต์แวร์เพิ่มเติมต่าง ๆ จากบริการสร้างแพกเกจของ openSUSE"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "desc": "เลือกดิสทริบิวชันพิเศษต่าง ๆ ที่พัฒนาต่อโดยอิงพื้นฐานมาจากโครงการ openSUSE"
   }
   ]
 },
@@ -35,37 +35,37 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "ช่วยเหลือ",
-    "desc": "Go to the Support Portal"
+    "desc": "ไปยังศูนย์รวมการสนับสนุน"
   },
   {
     "link": "http://en.opensuse.org/",
     "image": "wiki",
-    "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "title": "วิกิ",
+    "desc": "อ่านและเขียนบทความต่าง ๆ ในวิกิของเรา"
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "video",
-    "title": "วิดีโอ",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "title": "วีดิทัศน์",
+    "desc": "ดูบทช่วยสอนต่างๆ, วีดิทัศน์ของหน้าจอ และเสียงบันทึกต่าง ๆ จากการพูดคุย รวมถึงการนำเสนอต่างๆ"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "ฟอรัมต่างๆ",
+    "desc": "เข้าร่วมพูดคุยในฟอรัมของเรา"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "จดหมายเวียน",
+    "desc": "บอกรับเป็นสมาชิกของกลุ่มจดหมายเวียนต่างๆ และดูรายการแฟ้มจัดเก็บต่างๆ ของจดหมายเวียนเก่าๆ"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
-    "title": "IRC channels",
-    "desc": "Communicate online using Internet Relay Chat"
+    "title": "ห้องสนทนาบน IRC",
+    "desc": "สื่อสารออนไลน์ผ่านทาง IRC (Internet Relay Chat)"
   }
   ]
 },
@@ -73,52 +73,34 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Connect",
-    "desc": "Connect with all people in the community"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "ผู้ใช้",
-    "desc": "Walk through User Directory"
+    "desc": "เข้าดูไดเรกทอรีของผู้ใช้คนอื่นๆ"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
-    "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "title": "พลาเน็ต",
+    "desc": "ดูเว็บบล็อกต่าง ๆ โดยเป็นรูปแบบที่รวมกันเป็นเหมือนหน้าเว็บเดียว"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "News",
-    "desc": "Latest announcements from the team"
+    "title": "ข่าว",
+    "desc": "การประกาศและแจ้งให้ทราบต่าง ๆ จากทีมพัฒนา"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Lizards",
-    "desc": "Users blog platform"
-  },
-  {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Spotlight",
-    "desc": "Posts from the community manager"
+    "title": "ลิซาร์ด",
+    "desc": "แพลทฟอร์มเว็บบล็อกของผู้ใช้"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Events",
-    "desc": "View upcoming events"
+    "title": "จับจ่ายสินค้า",
+    "desc": "openSUSE gear ที่นี่ !"
   }
   ]
 },
@@ -129,32 +111,32 @@ var global_navigation_data = [
   {
     "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "เอกสารสำหรับผู้พัฒนา",
+    "desc": "ศูนย์รวมของระบบเอกสารต่าง ๆ สำหรับผู้พัฒนา"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "คุณลักษณะต่างๆ",
+    "desc": "โหวตและทำงานบนคุณลักษณะต่าง ๆ ที่จะถูกเพิ่มให้กับ openSUSE"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
     "title": "บริการสร้างแพกเกจ",
-    "desc": "Create, build and enhance packages"
+    "desc": "เริ่มสร้าง, สร้าง และปรับแต่งแพกเกจต่างๆ"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "บั๊กต่างๆ",
+    "desc": "รายงานบั๊กต่างๆ ผ่านทาง Bugzilla"
   },
   {
     "link": "http://susestudio.com",
     "image": "studio",
-    "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "title": "สตูดิโอ SUSE",
+    "desc": "สร้างแฟ้มอิมเมจของคุณเองผ่านทางสตูดิโอ"
   }
   ]
 }

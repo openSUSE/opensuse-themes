@@ -73,12 +73,6 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://connect.opensuse.org/",
-    "image": "connect",
-    "title": "Maak verbinding",
-    "desc": "Maak verbinding met alle mensen in de gemeenschap"
-  },
-  {
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Gebruikers",
@@ -103,22 +97,10 @@ var global_navigation_data = [
     "desc": "Platform voor gebruikersblogs"
   },
   {
-    "link": "http://spotlight.opensuse.org/",
-    "image": "spotlight",
-    "title": "Schijnwerper",
-    "desc": "Berichten van de manager van de gemeenschap"
-  },
-  {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Winkel",
     "desc": "openSUSE zaken hier verkrijgbaar!"
-  },
-  {
-    "link": "http://connect.opensuse.org/conclave/events/",
-    "image": "events",
-    "title": "Gebeurtenissen",
-    "desc": "Aankomende gebeurtenissen bekijken"
   }
   ]
 },
