@@ -168,6 +168,8 @@ input, button, textarea, pre { border: 1px solid #666; background-color: #eee; c
 input:focus, textarea:focus { border-color: #690; background-color: #f6f6f6;}
 textarea {padding: 5px 3px;}
 img { border: 0;}
+strong { font-weight: bold;}
+em { font-style: italic;}
 small { font-size: 10px;}
 .box p small, p small {font-size: inherit; margin: 0;}
 option:nth-child(even) { background-color: #eee;}
@@ -418,13 +420,13 @@ blockquote {
   padding-bottom: 10px;
   color: #f6f6f6;
   background: #333 url('images/gradient-darker.png') repeat-x scroll bottom left;
+  border-radius: 5px;
   -moz-border-radius-bottomleft: 5px;
   -moz-border-radius-bottomright: 5px;
   -webkit-border-bottom-left-radius: 3px;
   -webkit-border-bottom-right-radius: 3px;
   -khtml-border-bottom-left-radius: 5px;
   -khtml-border-bottom-right-radius: 5px;
-  border-radius: 5px;
   border-width: 1px;
   border-style: solid;
   border-color: transparent #333 #111;
