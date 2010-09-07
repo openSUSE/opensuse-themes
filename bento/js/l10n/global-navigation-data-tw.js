@@ -1,0 +1,1 @@
+global-navigation-data-zh_TW.js
