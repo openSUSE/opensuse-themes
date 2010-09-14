@@ -1359,7 +1359,13 @@ form *[disabled="disabled"] {
   padding: 0 !important;
 }
 
+/* Common DropDown */
 
-
+ul.dropdown-menu-content {
+  list-style: none inside;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
   
   
