@@ -1362,6 +1362,7 @@ form *[disabled="disabled"] {
 /* Common DropDown */
 
 .dropdown-menu-content {
+  position: absolute;
   list-style: none inside;
   margin: 0;
   padding: 0;
@@ -1376,5 +1377,5 @@ form *[disabled="disabled"] {
 }
   .dropdown-menu-content li {
     padding: 0.2em 0.5em;
-  }  
+  }
   
