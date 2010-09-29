@@ -102,7 +102,8 @@ $(document).ready(function() {
   
   
   
-  $('#global-search-form').addClass('lable-overley').children('input').attr('value', '');
+  $('#global-search-form').addClass('lable-overley');
+  $('#global-search-form > #search').attr('value', '');
   
   $('#global-search-form input').focusin(function() {
     var thisId = this.id;
