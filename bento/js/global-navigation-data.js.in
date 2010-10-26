@@ -109,7 +109,7 @@ var global_navigation_data = [
   "items":
   [
   {
-    "link": _("http://wiki.opensuse.org/Portal:Development"),
+    "link": _("http://en.opensuse.org/Portal:Development"),
     "image": "developer",
     "title": _("Developer documentation"),
     "desc": _("Centralized developer's documentation")

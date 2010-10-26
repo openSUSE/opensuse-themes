@@ -23,7 +23,7 @@ All local theme tweaks should go to here.
 
 ### Example
 
-For wiki.opensuse.org it should look like this:
+For en.opensuse.org it should look like this:
 
 /wiki.o.o/css_local/
 /wiki.o.o/css_local/images/
