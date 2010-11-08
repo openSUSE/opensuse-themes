@@ -24,11 +24,10 @@ $(document).ready(function() {
        x2 = rbPos.left; // right
        y1 = offsetSubheader.top; // top
        y2 = rbPos.top; // bottom
+      $('#username').focus();
     });
+    
     formStatus = true;
-    
-    $('#username').focus();
-    
     return false;
   });
   
