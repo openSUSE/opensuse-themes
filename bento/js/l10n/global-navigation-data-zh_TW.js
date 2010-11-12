@@ -5,14 +5,14 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "上一個穩定發行版本",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
+    "title": "最新穩定發行版本",
+    "desc": "下載最新的穩定 openSUSE 發行版本，目前是 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "上一個開發版本",
-    "desc": "Download the latest development release of openSUSE"
+    "title": "最新開發版本",
+    "desc": "下載最新的 openSUSE 開發版本"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -23,7 +23,7 @@ var global_navigation_data = [
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
+    "title": "衍生產品",
     "desc": "取得在 openSUSE 建構的特別發行版本"
   }
   ]
@@ -109,7 +109,7 @@ var global_navigation_data = [
   "items":
   [
   {
-    "link": "http://wiki.opensuse.org/Portal:Development",
+    "link": "http://en.opensuse.org/Portal:Development",
     "image": "developer",
     "title": "開發者文件",
     "desc": "主要針對開發者的文件"

@@ -109,7 +109,7 @@ var global_navigation_data = [
   "items":
   [
   {
-    "link": "http://wiki.opensuse.org/Portal:Development",
+    "link": "http://ja.opensuse.org/Portal:Development",
     "image": "developer",
     "title": "開発者向け文書",
     "desc": "開発者向けの文書への入り口"

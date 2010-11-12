@@ -11,8 +11,8 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Laatste uitgave van ontwikkeling-versie",
-    "desc": "De laatste uitgave van de ontwikkeling-versie van openSUSE, die nu 11.3 is"
+    "title": "Laatste uitgave van de in-ontwikkeling-versie",
+    "desc": "De laatste uitgave van de in-ontwikkeling-versie van openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Zoek naar en installeer additionele software pakketten uit de openSUSE build-service"
   },
   {
-    "link": "http://en.opensuse.org/Derivatives",
+    "link": "http://nl.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Afgeleiden",
     "desc": "Verkrijg een van de gespecialiseerde distributies die op openSUSE zijn gebouwd"
@@ -32,13 +32,13 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://en.opensuse.org/Portal:Support",
+    "link": "http://nl.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Help",
-    "desc": "Ga naar de ondersteuningsportal"
+    "desc": "Ga naar het portaal Ondersteuning"
   },
   {
-    "link": "http://en.opensuse.org/",
+    "link": "http://nl.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Lees en schrijf artikelen in onze wiki"
@@ -47,7 +47,7 @@ var global_navigation_data = [
     "link": "http://opensuse.blip.tv/",
     "image": "video",
     "title": "Video",
-    "desc": "Hou verschillende inleidingen, schermbeelden en opnamen van lezingen en presentaties in de gaten"
+    "desc": "Houdt verschillende inleidingen, schermuitzendingen en opnamen van lezingen en presentaties in de gaten"
   },
   {
     "link": "http://forums.opensuse.org/",
@@ -56,13 +56,13 @@ var global_navigation_data = [
     "desc": "Neem deel aan onze forums"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://nl.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "E-maillijsten",
     "desc": "Abonneer u op e-maillijsten en bekijk hun archieven"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:IRC_list",
+    "link": "http://nl.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC-kanalen",
     "desc": "Communiceer online met Internet Relay Chat"
@@ -87,8 +87,8 @@ var global_navigation_data = [
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "Nieuws",
-    "desc": "De nieuwste aankondigingen van het team"
+    "title": "News/Usenet",
+    "desc": "De laatste aankondigingen van het team"
   },
   {
     "link": "http://lizards.opensuse.org/",
@@ -109,7 +109,7 @@ var global_navigation_data = [
   "items":
   [
   {
-    "link": "http://wiki.opensuse.org/Portal:Development",
+    "link": "http://nl.opensuse.org/Portal:Development",
     "image": "developer",
     "title": "Documentatie voor ontwikkelaars",
     "desc": "Gecentraliseerde documentatie voor ontwikkelaars"
@@ -117,8 +117,8 @@ var global_navigation_data = [
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Mogelijkheden",
-    "desc": "Stem op en werk aan aankomende mogelijkheden in openSUSE"
+    "title": "Features",
+    "desc": "Stem op en werk aan aankomende features in openSUSE"
   },
   {
     "link": "http://build.opensuse.org/",

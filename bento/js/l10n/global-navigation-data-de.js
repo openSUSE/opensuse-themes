@@ -9,7 +9,7 @@ var global_navigation_data = [
     "desc": "Aktuell stabile Version von openSUSE herunterladen (openSUSE 11.3)"
   },
   {
-    "link": "http://software.opensuse.org/developer/?lang=de",
+    "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Aktuelle Enwicklerversion",
     "desc": "Aktuelle Entwicklerversion von openSUSE herunterladen"
@@ -23,7 +23,7 @@ var global_navigation_data = [
   {
     "link": "http://dewiki.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
+    "title": "Abwandlungen",
     "desc": "Angepasste openSUSE-basierte Distributionen herunterladen"
   }
   ]
@@ -38,7 +38,7 @@ var global_navigation_data = [
     "desc": "Unterstützungs-Portal öffnen"
   },
   {
-    "link": "http://dewiki.opensuse.org/Hauptseite",
+    "link": "http://dewiki.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Artikel in unserem Wiki lesen und schreiben"
@@ -109,7 +109,7 @@ var global_navigation_data = [
   "items":
   [
   {
-    "link": "http://wiki.opensuse.org/Portal:Development",
+    "link": "http://en.opensuse.org/Portal:Development",
     "image": "developer",
     "title": "Entwickler-Handbücher",
     "desc": "Entwickler-Handbücher auf einen Blick"

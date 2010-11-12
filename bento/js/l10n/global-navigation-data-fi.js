@@ -18,13 +18,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "Etsi paketteja",
-    "desc": "Etsi ja asenna lisäohjelmistopaketteja openSUSE Build Servicestä"
+    "desc": "Etsi ja asenna lisäohjelmistopaketteja openSUSEn paketointipalvelusta"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
-    "desc": "Lataa jokin openSUSEen pohjautuvista erityisjakeluista"
+    "desc": "Lataa jokin openSusen päälle rakennetuista erikoisjakeluista"
   }
   ]
 },
@@ -41,7 +41,7 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
-    "desc": "Lue ja kirjoita artikkeleita Wikissämme"
+    "desc": "Lue ja kirjoita artikkeleita wiki-sivuillamme"
   },
   {
     "link": "http://opensuse.blip.tv/",
@@ -65,7 +65,7 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC-kanavat",
-    "desc": "Viesti verkossa IRCiä käyttäen"
+    "desc": "Viesti verkossa IRC-keskusteluohjelman avulla"
   }
   ]
 },
@@ -75,13 +75,13 @@ var global_navigation_data = [
   {
     "link": "http://users.opensuse.org/",
     "image": "users",
-    "title": "Users",
+    "title": "Käyttäjät",
     "desc": "Selaa käyttäjähakemistoa"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
-    "title": "Planet",
+    "title": "Planeetta",
     "desc": "Katsele blogiviestejä koottuna yhdeksi syötteeksi"
   },
   {
@@ -93,14 +93,14 @@ var global_navigation_data = [
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Lizards",
+    "title": "Liskot",
     "desc": "Käyttäjien blogit"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Kauppa",
-    "desc": "openSUSE-tavaraa löytyy täältä!"
+    "desc": "openSUSE tuotteita löytyy täältä!"
   }
   ]
 },
@@ -109,7 +109,7 @@ var global_navigation_data = [
   "items":
   [
   {
-    "link": "http://wiki.opensuse.org/Portal:Development",
+    "link": "http://en.opensuse.org/Portal:Development",
     "image": "developer",
     "title": "Kehittäjän dokumentaatio",
     "desc": "Keskitetty dokumentaatio kehittäjille"
@@ -117,26 +117,26 @@ var global_navigation_data = [
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Features",
+    "title": "Ominaisuudet",
     "desc": "Äänestä ja vaikuta tuleviin openSUSEn ominaisuuksiin"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
-    "title": "Build-palvelu",
+    "title": "KDE:n skannauspalvelu",
     "desc": "Luo, rakenna ja paranna ohjelmistopaketteja"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
-    "title": "Bugit",
-    "desc": "Ilmoita virheistä käyttämällä Bugzillaa"
+    "title": "Ohjelmointivirheet",
+    "desc": "Ilmoita virheistä käyttämällä Bugzilla-raportointityökalua"
   },
   {
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Luo oma levykuvasi käyttämällä Studioa"
+    "desc": "Luo oma levykuvasi käyttämällä SUSE Studio-palvelua"
   }
   ]
 }

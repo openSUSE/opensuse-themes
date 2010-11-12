@@ -109,7 +109,7 @@ var global_navigation_data = [
   "items":
   [
   {
-    "link": "http://wiki.opensuse.org/Portal:Development",
+    "link": "http://en.opensuse.org/Portal:Development",
     "image": "developer",
     "title": "Dokumentacija programuotojams",
     "desc": "Centralizuota programuotojų dokumentacija"
@@ -136,7 +136,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Sukurkite savo OS atvaizdą"
+    "desc": "Sukurkite savo OS atvaizdį"
   }
   ]
 }
