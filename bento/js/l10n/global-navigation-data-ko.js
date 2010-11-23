@@ -38,6 +38,12 @@ var global_navigation_data = [
     "desc": "도우미 포털로 가기"
   },
   {
+    "link": "http://doc.opensuse.org",
+    "image": "development-documentation",
+    "title": "Documentation",
+    "desc": "Read guides and manuals"
+  },
+  {
     "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "위키",

@@ -38,6 +38,12 @@ var global_navigation_data = [
     "desc": "Unterstützungs-Portal öffnen"
   },
   {
+    "link": "http://doc.opensuse.org",
+    "image": "development-documentation",
+    "title": "Documentation",
+    "desc": "Read guides and manuals"
+  },
+  {
     "link": "http://dewiki.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",

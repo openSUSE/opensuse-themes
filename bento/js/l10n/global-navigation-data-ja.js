@@ -38,6 +38,12 @@ var global_navigation_data = [
     "desc": "サポートポータルに移動"
   },
   {
+    "link": "http://doc.opensuse.org",
+    "image": "development-documentation",
+    "title": "Documentation",
+    "desc": "Read guides and manuals"
+  },
+  {
     "link": "http://ja.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",

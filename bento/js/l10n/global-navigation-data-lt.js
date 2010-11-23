@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Naujausia stabili versija",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
+    "desc": "Parsisiųskite naujausią stabilią openSUSE versiją – openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Naujausia vystoma versija",
-    "desc": "Download the latest development release of openSUSE"
+    "desc": "Parsisiųskite naujausią vystomą openSUSE versiją"
   },
   {
     "link": "http://software.opensuse.org/",
@@ -21,9 +21,9 @@ var global_navigation_data = [
     "desc": "Ieškokite paketų ir diekite juos iš openSUSE Kūrimo Paslaugos"
   },
   {
-    "link": "http://en.opensuse.org/Derivatives",
+    "link": "http://en.opensuse.org/Derivates",
     "image": "derivatives",
-    "title": "Derivatives",
+    "title": "Vediniai",
     "desc": "Parsisiųskite openSUSE pagrindu sukurtą platinamąjį paketą"
   }
   ]
@@ -36,6 +36,12 @@ var global_navigation_data = [
     "image": "help",
     "title": "Pagalba",
     "desc": "Eiti į palaikymo skyrių"
+  },
+  {
+    "link": "http://doc.opensuse.org",
+    "image": "development-documentation",
+    "title": "Documentation",
+    "desc": "Read guides and manuals"
   },
   {
     "link": "http://en.opensuse.org/",

@@ -38,6 +38,12 @@ var global_navigation_data = [
     "desc": "Ga naar het portaal Ondersteuning"
   },
   {
+    "link": "http://doc.opensuse.org",
+    "image": "development-documentation",
+    "title": "Documentation",
+    "desc": "Read guides and manuals"
+  },
+  {
     "link": "http://nl.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",

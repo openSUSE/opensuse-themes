@@ -6,13 +6,13 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Viimeisin vakaa julkaisu",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
+    "desc": "Lataa viimeisin vakaa openSUSE-julkaisu (tällä hetkellä openSUSE 11.3)"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Viimeisin kehitysversio",
-    "desc": "Download the latest development release of openSUSE"
+    "desc": "Lataa viimeisin openSUSE-kehitysversio "
   },
   {
     "link": "http://software.opensuse.org/",
@@ -23,7 +23,7 @@ var global_navigation_data = [
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
+    "title": "Johdannaiset",
     "desc": "Lataa jokin openSusen päälle rakennetuista erikoisjakeluista"
   }
   ]
@@ -36,6 +36,12 @@ var global_navigation_data = [
     "image": "help",
     "title": "Ohjeet",
     "desc": "Siirry ohjesivustolle"
+  },
+  {
+    "link": "http://doc.opensuse.org",
+    "image": "development-documentation",
+    "title": "Documentation",
+    "desc": "Read guides and manuals"
   },
   {
     "link": "http://en.opensuse.org/",
