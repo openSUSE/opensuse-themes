@@ -140,7 +140,8 @@ html,
 body {
   background: #f6f6f6;
   color: #444;
-  font: 16px "Lucida Grande", "Trebuchet MS", Arial, Verdana, sans-serif;
+/*  font: 1em "Droid Sans", "Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif;*/
+  font: 1em "Lucida Grande", Arial, "DejaVu Sans", Verdana, sans-serif;
   height: 99%;
   margin: 0;
   padding: 0;
