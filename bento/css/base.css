@@ -523,6 +523,7 @@ blockquote {
 #footer {
   padding: 42px 0 100px;
   font-size: 0.7em;
+  clear: both;
 }
   #footer ul {
     margin: 0;
