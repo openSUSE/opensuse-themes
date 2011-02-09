@@ -5,20 +5,20 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Poslední stabilní vydání",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
+    "title": "Latest stable release",
+    "desc": "Get the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Poslední vývojové vydání",
-    "desc": "Download the latest development release of openSUSE"
+    "title": "Latest development release",
+    "desc": "Get the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "Hledat balíčky",
-    "desc": "Hledat a instalovat doplňkové softwarové balíčky z openSUSE Build Service"
+    "desc": "Get additional software from openSUSE Build Service"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",

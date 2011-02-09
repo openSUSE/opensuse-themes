@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Ostatnie stabilne wydanie",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
+    "title": "Najnowsze stabilne wydanie",
+    "desc": "Pobierz najnowsze stabilne wydanie openSUSE, którym aktualnie jest openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Ostatnie wydanie rozwojowe",
-    "desc": "Download the latest development release of openSUSE"
+    "title": "Najnowsze wydanie rozwojowe",
+    "desc": "Pobierz najnowsze wydanie rozwojowe openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "Znajdź pakiety",
-    "desc": "Znajdź i zainstaluj dodatkowe pakiety z oprogramowaniem z openSUSE Build Service"
+    "desc": "Pobierz dodatkowe oprogramowanie z openSUSE Build Service"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
-    "desc": "Pobierz jedną z specjalnie zbudowanych dystrybucji openSUSE"
+    "title": "Dystrybucje pochodne",
+    "desc": "Pobierz jedną ze specjalnie zbudowanych dystrybucji openSUSE"
   }
   ]
 },
@@ -40,8 +40,8 @@ var global_navigation_data = [
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "Dokumentacja",
+    "desc": "Prosimy przeczytać poradniki oraz instrukcje"
   },
   {
     "link": "http://en.opensuse.org/",
@@ -53,7 +53,7 @@ var global_navigation_data = [
     "link": "http://opensuse.blip.tv/",
     "image": "video",
     "title": "Wideo",
-    "desc": "Oglądaj różne tutoriale, screencasty i nagrania z prezentacji"
+    "desc": "Oglądaj różne samouczki, screencasty i nagrania z prezentacji"
   },
   {
     "link": "http://forums.opensuse.org/",
@@ -106,7 +106,7 @@ var global_navigation_data = [
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Sklep",
-    "desc": "Tutaj zrobisz zakupy !"
+    "desc": "Tutaj zrobisz zakupy!"
   }
   ]
 },

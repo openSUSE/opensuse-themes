@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Viimeisin vakaa julkaisu",
-    "desc": "Lataa viimeisin vakaa openSUSE-julkaisu (tällä hetkellä openSUSE 11.3)"
+    "desc": "Lataa viimeisin vakaa openSUSE-julkaisu, joka tällä hetkellä on openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
@@ -40,8 +40,8 @@ var global_navigation_data = [
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "Dokumentaatio",
+    "desc": "Lue ohjeet ja käsikirjat"
   },
   {
     "link": "http://en.opensuse.org/",

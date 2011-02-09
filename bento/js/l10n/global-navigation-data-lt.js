@@ -40,8 +40,8 @@ var global_navigation_data = [
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "Dokumentacija",
+    "desc": "Skaitykite vadovus ir žinynus"
   },
   {
     "link": "http://en.opensuse.org/",
@@ -115,7 +115,7 @@ var global_navigation_data = [
   "items":
   [
   {
-    "link": "http://en.opensuse.org/Portal:Development",
+    "link": "http://wiki.opensuse.org/Portal:Development",
     "image": "developer",
     "title": "Dokumentacija programuotojams",
     "desc": "Centralizuota programuotojų dokumentacija"

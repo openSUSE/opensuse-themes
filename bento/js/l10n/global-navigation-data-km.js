@@ -5,25 +5,25 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "ការ​ចេញផ្សាយស្ថិតស្ថេរ​ចុងក្រោយ",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
+    "title": "ការ​ចេញផ្សាយភាព​ស្ថិតស្ថេរ​ចុងក្រោយ",
+    "desc": "ទាញ​យក​ការ​ចេញ​ផ្សាយ​អូផឹន​ស៊ូស៊ី​​​​មាន​ស្ថេរ​ភាព​ ដែល​បច្ចុប្បន្ន​គឺ​អូផឹន​ស៊ូស៊ី ១១.៣"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "​ចេញផ្សាយ​​ការ​អភិវឌ្ឍន៍​ចុងក្រោយ",
-    "desc": "Download the latest development release of openSUSE"
+    "desc": "ទាញ​យក​ការ​ចេញផ្សាយ​​ការ​អភិវឌ្ឍន៍​ចុងក្រោយ​របស់​អូផឹន​ស៊ូស៊ី "
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "ស្វែងរក​កញ្ចប់",
-    "desc": "ស្វែងរក​ និង​ដំឡើង​កញ្ចប់​កម្មវិធី​បន្ថែម​ពី​សេវា​ស្ថាបនា​របស់​អូផឹន​ស៊ូស៊ី"
+    "desc": "យក​កម្មវិធី​បន្ថែម​ពី​សេវា​កម្ម​របស់ openSUSE Build"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
+    "title": "ដែល​ចម្លង​តាម​",
     "desc": "យក​ការ​ចែកចាយ​ពិសេស​ដែល​បាន​ស្ថាបនា​នៅ​​ក្នុង​អូផឹន​ស៊ូស៊ី"
   }
   ]
@@ -32,16 +32,16 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://en.opensuse.org/Portal:Support",
+    "link": "http://en.opensuse.org/Portal ៖ គាំទ្រ​",
     "image": "help",
     "title": "ជំនួយ",
     "desc": "ទៅកាន់​ផតថល​គាំទ្រ"
   },
   {
-    "link": "http://doc.opensuse.org",
+    "link": "http://shop.opensuse.org/",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "ឯកសារ",
+    "desc": "អាន​មគ្គុទ្ទេសក៍ និង​សៀវភៅ"
   },
   {
     "link": "http://en.opensuse.org/",

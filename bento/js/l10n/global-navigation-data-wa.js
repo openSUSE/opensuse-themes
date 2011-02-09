@@ -6,24 +6,24 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Dierinne stocaesse modêye",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
+    "desc": "Alez cweri l' dierinne stocaesse modêye d' openSUSE k' est pol moumint openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
     "title": "Dierinne modêye di diswalpaedje",
-    "desc": "Download the latest development release of openSUSE"
+    "desc": "Alez cweri l' dierinne modêye di diswalpaedje d' openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "Cachî après des pacaedjes",
-    "desc": "Cweri et astaler des ôtes pacaedjes di programes a pårti d' l' openSUSE Build Service"
+    "desc": "Alez cweri et astaler des ôtes programes a pårti d' l' openSUSE Build Service"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
+    "title": "Derivés",
     "desc": "Awè ene des distribucions speciålijheyes basteyes a pårti d' openSUSE"
   }
   ]
@@ -40,8 +40,8 @@ var global_navigation_data = [
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "Documintåcion",
+    "desc": "Lére les guides eyet les esplikêyes"
   },
   {
     "link": "http://en.opensuse.org/",
@@ -62,16 +62,16 @@ var global_navigation_data = [
     "desc": "Purdoz pårt a nos foroms"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://fr.opensuse.org/Listes_de_diffusion",
     "image": "lists",
-    "title": "Copenreyes emile",
-    "desc": "Abounez vos ås copenreyes et s' loukî dins leus årtchives"
+    "title": "Copinreyes emile",
+    "desc": "Abounez vos ås copinreyes et s' loukî dins leus årtchives"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "Canås IRC",
-    "desc": "Comuniker so fyis e s' siervant do berdelaedje Internet Relay Chat"
+    "desc": "Comunikez so fyis e s' siervant do berdelaedje Internet Relay Chat"
   }
   ]
 },
@@ -106,7 +106,7 @@ var global_navigation_data = [
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Botike",
-    "desc": "openSUSE gear here!"
+    "desc": "Les comissions d' openSUSE"
   }
   ]
 },
@@ -118,7 +118,7 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/Portal:Development",
     "image": "developer",
     "title": "Esplikêyes po les diswalpeus",
-    "desc": "Esplikêyes cintrålijheyes dås diswalpeus"
+    "desc": "Totes les esplikêyes po les diswalpeus dins ene seule plaece"
   },
   {
     "link": "http://features.opensuse.org/",

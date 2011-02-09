@@ -5,20 +5,20 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "최신 안정판",
-    "desc": "Download the latest stable release of openSUSE, which is currently openSUSE 11.3"
+    "title": "Latest stable release",
+    "desc": "Get the latest stable release of openSUSE, which is currently openSUSE 11.3"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "최신 개발버전",
-    "desc": "Download the latest development release of openSUSE"
+    "title": "Latest development release",
+    "desc": "Get the latest development release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "꾸러미 검색",
-    "desc": "오픈수세 빌드 서비스로부터 추가 소프트웨어 꾸러미를 검색하고 설치"
+    "desc": "Get additional software from openSUSE Build Service"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",

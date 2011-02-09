@@ -18,7 +18,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "Поиск пакетов",
-    "desc": "Поиск и установка дополнительного программного обеспечения из openSUSE Build Service"
+    "desc": "Получение дополнительного программного обеспечения из openSUSE Build Service"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
@@ -40,8 +40,8 @@ var global_navigation_data = [
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "Документация",
+    "desc": "Читайте руководства"
   },
   {
     "link": "http://en.opensuse.org/",

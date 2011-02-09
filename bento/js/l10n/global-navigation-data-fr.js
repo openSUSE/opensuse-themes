@@ -18,7 +18,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "Rechercher des paquets",
-    "desc": "Rechercher et installer des paquets logiciels supplémentaires depuis l'openSUSE Build Service"
+    "desc": "Télécharger des paquets logiciels supplémentaires depuis l'openSUSE Build Service"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
@@ -41,10 +41,10 @@ var global_navigation_data = [
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
     "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "desc": "Lire les guides et manuels"
   },
   {
-    "link": "http://en.opensuse.org/",
+    "link": "http://fr.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Lire et écrire des articles dans notre Wiki"
