@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Viimeisin vakaa julkaisu",
-    "desc": "Lataa viimeisin vakaa openSUSE-julkaisu, joka tällä hetkellä on openSUSE 11.3"
+    "desc": "Get the latest stable release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/",
@@ -65,7 +65,7 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Postituslistat",
-    "desc": "Tilaa postilistoja ja selaa niiden arkistoja"
+    "desc": "Tilaa postituslistoja ja selaa niiden arkistoja"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:IRC_list",
@@ -106,7 +106,7 @@ var global_navigation_data = [
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "Kauppa",
-    "desc": "openSUSE tuotteita löytyy täältä!"
+    "desc": "openSUSEn tuotteita löytyy täältä!"
   }
   ]
 },
@@ -129,7 +129,7 @@ var global_navigation_data = [
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
-    "title": "KDE:n skannauspalvelu",
+    "title": "Paketointipalvelu",
     "desc": "Luo, rakenna ja paranna ohjelmistopaketteja"
   },
   {
@@ -142,7 +142,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Luo oma levykuvasi käyttämällä SUSE Studio-palvelua"
+    "desc": "Luo oma levykuvasi käyttämällä SUSE Studio -palvelua"
   }
   ]
 }

@@ -5,20 +5,20 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Latest stable release",
-    "desc": "Get the latest stable release of openSUSE, which is currently openSUSE 11.3"
+    "title": "Última versão estável",
+    "desc": "Get the latest stable release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Latest development release",
-    "desc": "Get the latest development release of openSUSE"
+    "title": "Última versão em desenvolvimento",
+    "desc": "Baixe a última versão em desenvolvimento do openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "Pesquisar por pacotes",
-    "desc": "Get additional software from openSUSE Build Service"
+    "desc": "Baixe softwares adicionais a partir do openSUSE Build Service"
   },
   {
     "link": "http://wiki.opensuse.org/Derivatives",
@@ -40,8 +40,8 @@ var global_navigation_data = [
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "Documentação",
+    "desc": "Leia os guias e manuais"
   },
   {
     "link": "http://en.opensuse.org/",

@@ -5,8 +5,8 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "ការ​ចេញផ្សាយភាព​ស្ថិតស្ថេរ​ចុងក្រោយ",
-    "desc": "ទាញ​យក​ការ​ចេញ​ផ្សាយ​អូផឹន​ស៊ូស៊ី​​​​មាន​ស្ថេរ​ភាព​ ដែល​បច្ចុប្បន្ន​គឺ​អូផឹន​ស៊ូស៊ី ១១.៣"
+    "title": "ការ​ចេញ​ផ្សាយ​ភាព​ស្ថិតស្ថេរ​ចុងក្រោយ",
+    "desc": "Get the latest stable release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/",
@@ -35,10 +35,10 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/Portal ៖ គាំទ្រ​",
     "image": "help",
     "title": "ជំនួយ",
-    "desc": "ទៅកាន់​ផតថល​គាំទ្រ"
+    "desc": "ទៅកាន់​ផត​ថល​គាំទ្រ"
   },
   {
-    "link": "http://shop.opensuse.org/",
+    "link": "http://doc.opensuse.org",
     "image": "development-documentation",
     "title": "ឯកសារ",
     "desc": "អាន​មគ្គុទ្ទេសក៍ និង​សៀវភៅ"
@@ -46,8 +46,8 @@ var global_navigation_data = [
   {
     "link": "http://en.opensuse.org/",
     "image": "wiki",
-    "title": "វីគី",
-    "desc": "អាន និង​សរសេរ​អត្ថបទ​នៅ​ក្នុង​វីគី​របស់​យើង"
+    "title": "វិគី​",
+    "desc": "អាន និង​សរសេរ​អត្ថបទ​នៅ​ក្នុង​វិគី​​របស់​យើង"
   },
   {
     "link": "http://opensuse.blip.tv/",
@@ -59,7 +59,7 @@ var global_navigation_data = [
     "link": "http://forums.opensuse.org/",
     "image": "forums",
     "title": "វេទិកា",
-    "desc": "ចូលរួម​ក្នុង​វេទិកា​របស់យើង"
+    "desc": "ចូលរួម​ក្នុង​វេទិកា​របស់​យើង"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
@@ -88,7 +88,7 @@ var global_navigation_data = [
     "link": "http://planet.opensuse.org/",
     "image": "planet",
     "title": "ពិភព",
-    "desc": "មើល​ការ​ប្រកាស​របស់​កំណត់ហេតុ​បណ្ដាញ​ ដែលបាន​ភ្ជាប់​ក្នុងស្ទ្រីម​មួយ"
+    "desc": "មើល​ការ​ប្រកាស​របស់​កំណត់ហេតុ​បណ្ដាញ​ ដែល​បាន​ភ្ជាប់​ក្នុង​ស្ទ្រីម​មួយ"
   },
   {
     "link": "http://news.opensuse.org/",
@@ -123,8 +123,8 @@ var global_navigation_data = [
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "លក្ខណពិសេស",
-    "desc": "បោះឆ្នោត និង​ធ្វើការ​លើ​លក្ខណពិសេស​របស់​អូផឹនស៊ូស៊ី​ដែលកើត​ឡើង​នា​ពេល​ឆាប់ៗ"
+    "title": "លក្ខណ​ពិសេស",
+    "desc": "បោះឆ្នោត និង​ធ្វើការ​លើ​លក្ខណ​ពិសេស​របស់​អូផឹន​ស៊ូស៊ី​​ដែល​កើត​ឡើង​នា​ពេល​ឆាប់ៗ"
   },
   {
     "link": "http://build.opensuse.org/",
@@ -142,7 +142,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "បង្កើត​រូបភាព​ផ្ទាល់របស់​អ្នក​ ដោយ​ប្រើ Studio"
+    "desc": "បង្កើត​រូបភាព​ផ្ទាល់​របស់​អ្នក​ ដោយ​ប្រើ Studio"
   }
   ]
 }

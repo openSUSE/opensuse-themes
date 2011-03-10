@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Latest stable release",
-    "desc": "Get the latest stable release of openSUSE, which is currently openSUSE 11.3"
+    "desc": "Get the latest stable release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/ro",
@@ -24,7 +24,7 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Derivatives",
-    "desc": "Obţine una din distribuţiile specializate construite pe baza openSUSE"
+    "desc": "Obține una din distribuțiile specializate construite pe baza openSUSE"
   }
   ]
 },
@@ -47,13 +47,13 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
-    "desc": "Citeşte şi scrie articole în Wiki-ul nostru"
+    "desc": "Citește și scrie articole în Wiki-ul nostru"
   },
   {
     "link": "http://opensuse.blip.tv/",
     "image": "video",
     "title": "Video",
-    "desc": "Uită-te la diverse tutoriale, prezentări, înregistrări audio şi video"
+    "desc": "Uită-te la diverse tutoriale, prezentări, înregistrări audio și video"
   },
   {
     "link": "http://forums.opensuse.org/",
@@ -64,8 +64,8 @@ var global_navigation_data = [
   {
     "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
-    "title": "Liste de discuţii",
-    "desc": "Abonează-te la listele de discuţii şi caută în arhive"
+    "title": "Liste de discuții",
+    "desc": "Abonează-te la listele de discuții și caută în arhive"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:IRC_list",
@@ -82,7 +82,7 @@ var global_navigation_data = [
     "link": "http://users.opensuse.org/",
     "image": "users",
     "title": "Utilizatori",
-    "desc": "Navigaţi prin lista de utilizatori"
+    "desc": "Navigați prin lista de utilizatori"
   },
   {
     "link": "http://planet.opensuse.org/",
@@ -93,13 +93,13 @@ var global_navigation_data = [
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "Ştiri",
+    "title": "Știri",
     "desc": "Ultimele anunţuri de la echipă"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Şopârle",
+    "title": "Șopârle",
     "desc": "Platforma de bloguri a utilizatorilor"
   },
   {
@@ -117,26 +117,26 @@ var global_navigation_data = [
   {
     "link": "http://en.opensuse.org/Portal:Development",
     "image": "developer",
-    "title": "Documentaţie pentru dezvoltatori",
-    "desc": "Documentaţie pentru dezvoltatori centralizată"
+    "title": "Documentație pentru dezvoltatori",
+    "desc": "Documentație pentru dezvoltatori centralizată"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Funcţionalităţi",
-    "desc": "Votează şi lucrează la viitoarele funcţionalităţi openSUSE"
+    "title": "Funcționalități",
+    "desc": "Votează și lucrează la viitoarele funcționalități openSUSE"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
     "title": "Serviciu de build",
-    "desc": "Creaţi, construiţi şi dezvoltaţi pachete"
+    "desc": "Creați, construiți și dezvoltați pachete"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
     "title": "Erori",
-    "desc": "Raportaţi erori utilizând Bugzilla"
+    "desc": "Raportați erori utilizând Bugzilla"
   },
   {
     "link": "http://susestudio.com",

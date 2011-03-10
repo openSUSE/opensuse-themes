@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Dernière version stable",
-    "desc": "Télécharger la dernière version stable d'openSUSE, soit actuellement openSUSE 11.3"
+    "desc": "Get the latest stable release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/",
@@ -32,7 +32,7 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://en.opensuse.org/Portal:Support",
+    "link": "http://fr.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Aide",
     "desc": "Aller au portail d'aide"

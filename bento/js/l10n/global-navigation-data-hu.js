@@ -5,20 +5,20 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Latest stable release",
-    "desc": "Get the latest stable release of openSUSE, which is currently openSUSE 11.3"
+    "title": "Utolsó stabil kiadás",
+    "desc": "Get the latest stable release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Latest development release",
-    "desc": "Get the latest development release of openSUSE"
+    "title": "Utolsó fejlesztői kiadás",
+    "desc": "Töltse le az openSUSE legújabb fejlesztői kiadását"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "Csomagok keresése",
-    "desc": "Get additional software from openSUSE Build Service"
+    "desc": "További programok telepítése az openSUSE Build Service-ről"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
@@ -40,8 +40,8 @@ var global_navigation_data = [
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "Dokumentáció",
+    "desc": "Utmutatók és kézikönyvek olvasása"
   },
   {
     "link": "http://en.opensuse.org/",

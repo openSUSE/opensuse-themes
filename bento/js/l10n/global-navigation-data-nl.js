@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Laatste stabiele uitgave",
-    "desc": "De laatste stabiele uitgave van openSUSE verkrijgen, die nu openSUSE 11.3 is"
+    "desc": "Get the latest stable release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/",
