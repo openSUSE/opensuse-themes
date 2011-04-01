@@ -248,7 +248,7 @@ form *[disabled="disabled"], form *[disabled=""], form *[disabled="true"]{backgr
 .column_4{-moz-column-count:4;-moz-column-gap:20px;-webkit-column-count:4;-webkit-column-gap:20px;column-count:4;column-gap:20px;}
 #global-navigation{color:fuchsia !important;}
 #global-navigation li.selected{background-color:#690;}
-.global-navigation-menu{background:#fff;border:1px solid #888;border-color:#DDDDDD #CCCCCC #BBBBBB;border-top:none;width:23em;padding:0;display:none;position:absolute;z-index:10;}
+.global-navigation-menu{background:#fff;border:1px solid #888;border-color:#DDDDDD #CCCCCC #BBBBBB;border-top:none;width:23em;padding:0;display:none;position:absolute;z-index:10;margin:0;}
 .global-navigation-menu, .global-navigation-menu li:last-child{border-bottom-left-radius:5px;border-bottom-right-radius:5px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-khtml-border-bottom-left-radius:5px;-khtml-border-bottom-right-radius:5px;}
 .global-navigation-menu li{display:block;clear:both;margin:0;}
 .global-navigation-menu li:nth-child(even){background-color:#eee;border-top:1px dotted #ddd;border-bottom:1px dotted #ddd;}
