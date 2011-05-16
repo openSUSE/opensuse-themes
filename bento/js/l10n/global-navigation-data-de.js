@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Zusätzliche Software vom openSUSE Build Service installieren"
   },
   {
-    "link": "http://dewiki.opensuse.org/Derivatives",
+    "link": "http://dewiki.opensuse.org/Derivate",
     "image": "derivatives",
     "title": "Abwandlungen",
     "desc": "Angepasste openSUSE-basierte Distributionen herunterladen"
