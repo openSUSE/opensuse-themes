@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Laatste stabiele uitgave",
-    "desc": "Get the latest stable release of openSUSE"
+    "desc": "De laatste stabiele uitgave van openSUSE verkrijgen"
   },
   {
     "link": "http://software.opensuse.org/developer/",
@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "Lees en schrijf artikelen in onze wiki"
   },
   {
-    "link": "http://opensuse.blip.tv/",
+    "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "Video",
     "desc": "Houdt verschillende inleidingen, schermuitzendingen en opnamen van lezingen en presentaties in de gaten"

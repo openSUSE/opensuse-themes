@@ -40,7 +40,7 @@ var global_navigation_data = [
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
-    "title": "Documentation",
+    "title": "Documentație",
     "desc": "Read guides and manuals"
   },
   {
@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "Citește și scrie articole în Wiki-ul nostru"
   },
   {
-    "link": "http://opensuse.blip.tv/",
+    "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "Video",
     "desc": "Uită-te la diverse tutoriale, prezentări, înregistrări audio și video"

@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Utolsó stabil kiadás",
-    "desc": "Get the latest stable release of openSUSE"
+    "desc": "Töltse le az openSUSE legújabb stabil kiadását"
   },
   {
     "link": "http://software.opensuse.org/developer/",
@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "Olvasson és írjon szócikkeket a Wikiben"
   },
   {
-    "link": "http://opensuse.blip.tv/",
+    "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "Video",
     "desc": "Nézzen meg különböző ismertetőket, bemutatókat és előadások felvételeit"

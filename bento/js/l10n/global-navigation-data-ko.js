@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "위키를 읽거나 기록합니다."
   },
   {
-    "link": "http://opensuse.blip.tv/",
+    "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "비디오",
     "desc": "다양한 길잡이, 방송, 이야기를 녹음 및 프레젠테이션 보기"

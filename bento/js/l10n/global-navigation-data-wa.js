@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "Lére eyet scrire des årtikes dins nosse Wiki"
   },
   {
-    "link": "http://opensuse.blip.tv/",
+    "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "Videyo",
     "desc": "Riwaitîz sacwants tutoriels, waitroûlêyes videyos eyet edjîstraedjes di raploûs eyet prézintaedjes"

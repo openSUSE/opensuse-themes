@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "最新の安定リリース",
-    "desc": "Get the latest stable release of openSUSE"
+    "desc": "openSUSE の最新安定版をダウンロード"
   },
   {
     "link": "http://software.opensuse.org/developer/",
@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "Wiki の記事へのアクセスと書き込み"
   },
   {
-    "link": "http://opensuse.blip.tv/",
+    "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "ビデオ",
     "desc": "様々なチュートリアルやスクリーンキャスト、講演やプレゼンテーションのビデオを閲覧"

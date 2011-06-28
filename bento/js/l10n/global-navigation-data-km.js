@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "អាន និង​សរសេរ​អត្ថបទ​នៅ​ក្នុង​វិគី​​របស់​យើង"
   },
   {
-    "link": "http://opensuse.blip.tv/",
+    "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "វីដេអូ",
     "desc": "មើល​ការ​​បង្រៀន​ផ្សេងៗ ការ​បង្ហាញ​តាម​អេក្រង់ និង​ថត​ពី​ការ​បង្ហាញ"

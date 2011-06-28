@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "在我們的 Wiki 閱讀與撰寫文章"
   },
   {
-    "link": "http://opensuse.blip.tv/",
+    "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "影音",
     "desc": "收看各種教學，螢幕範例以及演說和展示的錄影"

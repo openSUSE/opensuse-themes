@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "Artikel in unserem Wiki lesen und schreiben"
   },
   {
-    "link": "http://opensuse.blib.tv/",
+    "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "Video",
     "desc": "Verschiedene Anleitungen, Bildschirmaufzeichnungen sowie Aufzeichnungen von Gesprächen und Präsentationen"

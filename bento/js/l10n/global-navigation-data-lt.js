@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "Skaitykite ir rašykite straipsnius mūsų Vikyje"
   },
   {
-    "link": "http://opensuse.blip.tv/",
+    "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "Vaizdo klipai",
     "desc": "Žiūrėkite įvairias mokymo programas, siužetus, įrašus iš pokalbių ir pristatymų"
