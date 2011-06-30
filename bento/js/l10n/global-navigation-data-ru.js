@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Получение дополнительного программного обеспечения из openSUSE Build Service"
   },
   {
-    "link": "http://en.opensuse.org/Derivatives",
+    "link": "http://ru.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "Производные дистрибутивы",
     "desc": "Скачайте один из специализированных дистрибутивов на основе openSUSE"
@@ -32,7 +32,7 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://en.opensuse.org/Portal:Support",
+    "link": "http://ru.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Справка",
     "desc": "Посетите портал поддержки"
@@ -44,7 +44,7 @@ var global_navigation_data = [
     "desc": "Читайте руководства"
   },
   {
-    "link": "http://en.opensuse.org/",
+    "link": "http://ru.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Читайте и пишите статьи в нашей Wiki"
@@ -56,19 +56,19 @@ var global_navigation_data = [
     "desc": "Смотрите различные руководства, презентации и записи выступлений"
   },
   {
-    "link": "http://forums.opensuse.org/",
+    "link": "http://forums.opensuse.org/?langid=4",
     "image": "forums",
     "title": "Форумы",
     "desc": "Примите участие в обсуждениях на форуме"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://ru.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
     "title": "Списки рассылки",
     "desc": "Подпишитесь на списки рассылки и читайте их архивы"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:IRC_list",
+    "link": "http://ru.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "IRC-каналы",
     "desc": "Общайтесь в чатах"
@@ -85,7 +85,7 @@ var global_navigation_data = [
     "desc": "Посмотрите списки пользователей"
   },
   {
-    "link": "http://planet.opensuse.org/",
+    "link": "http://planet.opensuse.org/ru/",
     "image": "planet",
     "title": "Planet",
     "desc": "Читайте записи из блогов в одном потоке"
@@ -133,10 +133,10 @@ var global_navigation_data = [
     "desc": "Создавайте, собирайте и улучшайте пакеты"
   },
   {
-    "link": "http://bugs.opensuse.org/",
+    "link": "http://ru.opensuse.org/openSUSE:Submitting_bug_reports",
     "image": "bugs",
     "title": "Ошибки",
-    "desc": "Bugzilla ждёт ваших сообщений об ошибках"
+    "desc": "Сообщайте о найденных ошибках"
   },
   {
     "link": "http://susestudio.com",

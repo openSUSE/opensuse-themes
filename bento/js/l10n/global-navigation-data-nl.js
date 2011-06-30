@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "Lees en schrijf artikelen in onze wiki"
   },
   {
-    "link": "http://tube.opensuse.org",
+    "link": "http://tube.opensuse.org/",
     "image": "video",
     "title": "Video",
     "desc": "Houdt verschillende inleidingen, schermuitzendingen en opnamen van lezingen en presentaties in de gaten"
