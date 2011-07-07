@@ -79,10 +79,10 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://users.opensuse.org/",
+    "link": "http://connect.opensuse.org/",
     "image": "users",
-    "title": "Utilisateurs",
-    "desc": "Consulter l'annuaire des utilisateurs"
+    "title": "Connect",
+    "desc": "Connect with your openSUSE friends"
   },
   {
     "link": "http://planet.opensuse.org/",

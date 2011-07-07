@@ -79,10 +79,10 @@ var global_navigation_data = [
   "id": "community",
   "items": [
   {
-    "link": "http://users.opensuse.org/",
+    "link": "http://connect.opensuse.org/",
     "image": "users",
-    "title": "Uzeus",
-    "desc": "Roter pattavå l' botin des uzeus"
+    "title": "Connect",
+    "desc": "Connect with your openSUSE friends"
   },
   {
     "link": "http://planet.opensuse.org/",
