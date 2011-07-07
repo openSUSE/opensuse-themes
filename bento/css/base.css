@@ -109,7 +109,7 @@ blockquote{border-left:5px solid #690;color:#666;font-style:italic;}
 #flash-messages{}
 #flash-messages .ui-widget + .ui-widget{margin-top:15px;}
 #footer-content, #footer-legal{color:#666;font-size:0.9em;}
-#footer{padding:42px 0 100px;font-size:0.7em;clear:both;}
+#footer{font-size:0.7em;clear:both;}
 #footer ul{margin:0;padding:0.5em;}
 #footer-legal{border-top:1px dotted #999;color:#999;font-size:0.7em;margin-top:25px;padding-top:5px;text-align:center;}
 .main{min-height:500px;}
