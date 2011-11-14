@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Última versión estable",
-    "desc": "Get the latest stable release of openSUSE"
+    "desc": "Obteña a ultima versión estable de openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/",
@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "Ler e escribir artigos na nosa Wiki"
   },
   {
-    "link": "http://tube.opensuse.org",
+    "link": "http://tube.opensuse.org/",
     "image": "video",
     "title": "Vídeo",
     "desc": "Vexa varios cursiños, instantáneas e gravacións das conversas e presentacións"
@@ -81,8 +81,8 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "users",
-    "title": "Connect",
-    "desc": "Connect with your openSUSE friends"
+    "title": "Conectar",
+    "desc": "Conecte cos seus amigos de openSUSE"
   },
   {
     "link": "http://planet.opensuse.org/",

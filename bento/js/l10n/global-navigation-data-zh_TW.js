@@ -5,20 +5,20 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Latest stable release",
-    "desc": "Get the latest stable release of openSUSE"
+    "title": "最新穩定發行版本",
+    "desc": "下載最新的 openSUSE 穩定版本"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Latest development release",
-    "desc": "Get the latest development release of openSUSE"
+    "title": "最新開發版本",
+    "desc": "下載最新的 openSUSE 開發版本"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "搜尋套件",
-    "desc": "Get additional software from openSUSE Build Service"
+    "desc": "從 openSUSE Build Service 搜尋與安裝其他軟體套件"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
@@ -38,10 +38,10 @@ var global_navigation_data = [
     "desc": "前往支援入口"
   },
   {
-    "link": "http://doc.opensuse.org",
+    "link": "http://doc.opensuse.org/",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "文件",
+    "desc": "閱讀指南與手冊"
   },
   {
     "link": "http://en.opensuse.org/",
@@ -50,7 +50,7 @@ var global_navigation_data = [
     "desc": "在我們的 Wiki 閱讀與撰寫文章"
   },
   {
-    "link": "http://tube.opensuse.org",
+    "link": "http://tube.opensuse.org/",
     "image": "video",
     "title": "影音",
     "desc": "收看各種教學，螢幕範例以及演說和展示的錄影"
@@ -81,8 +81,8 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "users",
-    "title": "Connect",
-    "desc": "Connect with your openSUSE friends"
+    "title": "連繫",
+    "desc": "連繫您的 openSUSE 朋友"
   },
   {
     "link": "http://planet.opensuse.org/",

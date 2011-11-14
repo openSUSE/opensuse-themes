@@ -5,14 +5,14 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "ការ​ចេញ​ផ្សាយ​ភាព​ស្ថិតស្ថេរ​ចុងក្រោយ",
-    "desc": "Get the latest stable release of openSUSE"
+    "title": "ការ​ចេញផ្សាយ​កំណែ​ស្ថិតស្ថេរ​ចុងក្រោយ",
+    "desc": "យក​កំណែ​ចេញ​ផ្សាយ​ថេរ​ចុងក្រោយ​បង្អស់​របស់​អូផឹន​ស៊ូស៊ី"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "​ចេញផ្សាយ​​ការ​អភិវឌ្ឍន៍​ចុងក្រោយ",
-    "desc": "ទាញ​យក​ការ​ចេញផ្សាយ​​ការ​អភិវឌ្ឍន៍​ចុងក្រោយ​របស់​អូផឹន​ស៊ូស៊ី "
+    "title": "​ចេញផ្សាយ​​ការ​អភិវឌ្ឍចុងក្រោយ",
+    "desc": "យក​ការ​ចេញផ្សាយ​​ការ​អភិវឌ្ឍចុងក្រោយ​របស់​អូផឹន​ស៊ូស៊ី "
   },
   {
     "link": "http://software.opensuse.org/",
@@ -24,7 +24,7 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
     "title": "ដែល​ចម្លង​តាម​",
-    "desc": "យក​ការ​ចែកចាយ​ពិសេស​ដែល​បាន​ស្ថាបនា​នៅ​​ក្នុង​អូផឹន​ស៊ូស៊ី"
+    "desc": "យក​ការ​ចែកចាយ​ពិសេស​ណា​មួយ​ដែល​បាន​ស្ថាបនា​នៅ​​ក្នុង​អូផឹន​ស៊ូស៊ី"
   }
   ]
 },
@@ -53,7 +53,7 @@ var global_navigation_data = [
     "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "វីដេអូ",
-    "desc": "មើល​ការ​​បង្រៀន​ផ្សេងៗ ការ​បង្ហាញ​តាម​អេក្រង់ និង​ថត​ពី​ការ​បង្ហាញ"
+    "desc": "មើល​ការ​​បង្រៀន​ផ្សេងៗ ការ​បង្ហាញ​តាម​អេក្រង់ និង​ថត​ពី​ការ​សន្ទនា និង​ការបង្ហាញ"
   },
   {
     "link": "http://forums.opensuse.org/",
@@ -71,7 +71,7 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
     "title": "ឆានែល IRC",
-    "desc": "ទាក់ទង​លើ​បណ្ដាញ​ដោយ​ប្រើ​ Internet Relay Chat"
+    "desc": "ទាក់ទង​តាមបណ្ដាញ​ដោយ​ប្រើ​ Internet Relay Chat"
   }
   ]
 },
@@ -81,13 +81,13 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "users",
-    "title": "Connect",
-    "desc": "Connect with your openSUSE friends"
+    "title": "តភ្ជាប់",
+    "desc": "តភ្ជាប់​ជាមួយ​មិត្ត​អូផឹន​ស៊ូស៊ី​របស់​អ្នក​"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
-    "title": "ពិភព",
+    "title": "ភព",
     "desc": "មើល​ការ​ប្រកាស​របស់​កំណត់ហេតុ​បណ្ដាញ​ ដែល​បាន​ភ្ជាប់​ក្នុង​ស្ទ្រីម​មួយ"
   },
   {
@@ -106,7 +106,7 @@ var global_navigation_data = [
     "link": "http://shop.opensuse.org/",
     "image": "shop",
     "title": "ហាង",
-    "desc": "ស្ពី​អូផឹន​ស៊ូស៊ី​នៅ​ទីនេះ !"
+    "desc": "ស្ពឺអូផឹន​ស៊ូស៊ី​នៅ​ទីនេះ !"
   }
   ]
 },
@@ -142,7 +142,7 @@ var global_navigation_data = [
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "បង្កើត​រូបភាព​ផ្ទាល់​របស់​អ្នក​ ដោយ​ប្រើ Studio"
+    "desc": "បង្កើត​រូបភាព​របស់​អ្នក​ផ្ទាល់​ ដោយ​ប្រើ Studio"
   }
   ]
 }

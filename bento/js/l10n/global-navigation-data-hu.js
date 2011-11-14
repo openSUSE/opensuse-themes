@@ -52,7 +52,7 @@ var global_navigation_data = [
   {
     "link": "http://tube.opensuse.org",
     "image": "video",
-    "title": "Video",
+    "title": "Videó",
     "desc": "Nézzen meg különböző ismertetőket, bemutatókat és előadások felvételeit"
   },
   {
@@ -81,8 +81,8 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "users",
-    "title": "Connect",
-    "desc": "Connect with your openSUSE friends"
+    "title": "Kapcsolat",
+    "desc": "Lépjen kapcsolatba az openSUSE-barátaival"
   },
   {
     "link": "http://planet.opensuse.org/",

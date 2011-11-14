@@ -5,25 +5,25 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Latest stable release",
-    "desc": "Get the latest stable release of openSUSE"
+    "title": "Nejnovější stabilní vydání",
+    "desc": "Získejte nejnovější stabilní vydání openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Latest development release",
-    "desc": "Get the latest development release of openSUSE"
+    "title": "Nejnovější vývojové vydání",
+    "desc": "Získejte nejnovější vývojové vydání openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
-    "title": "Hledat balíčky",
-    "desc": "Get additional software from openSUSE Build Service"
+    "title": "Hledání balíčků",
+    "desc": "Získejte doplňkový software z openSUSE Build Service"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
+    "title": "Odvozeniny",
     "desc": "Získejte jednu ze specializovaných distribucí založených na openSUSE"
   }
   ]
@@ -35,19 +35,19 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Nápověda",
-    "desc": "Jděte na portál podpory"
+    "desc": "Přejít na portál podpory"
   },
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "Dokumentace",
+    "desc": "Přečtěte si průvodce a příručky"
   },
   {
-    "link": "http://en.opensuse.org/",
+    "link": "http://cs.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
-    "desc": "Čtete a pište články na naší wiki"
+    "desc": "Čtěte a pište články v naší Wiki"
   },
   {
     "link": "http://tube.opensuse.org",
@@ -58,14 +58,14 @@ var global_navigation_data = [
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
-    "title": "Fórum",
-    "desc": "Zúčastněte se fór"
+    "title": "Fóra",
+    "desc": "Zapojte se v našich fórech"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
-    "title": "Mailing listy",
-    "desc": "Zapište se na mailové listy a podívejte se do jejich archivů"
+    "title": "Mailové seznamy",
+    "desc": "Zapište se do mailových seznamů a nahlédněte do jejich archivů"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:IRC_list",
@@ -82,25 +82,25 @@ var global_navigation_data = [
     "link": "http://connect.opensuse.org/",
     "image": "users",
     "title": "Connect",
-    "desc": "Connect with your openSUSE friends"
+    "desc": "Spojte se s vašimi openSUSE přáteli"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
     "title": "Planeta",
-    "desc": "Sledujte blogy agregované do jednoho proudu"
+    "desc": "Sledujte blogové příspvěky agregované do jednoho toku"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Novinky",
-    "desc": "Nejnovější oznámení od týmu"
+    "desc": "Nejnovější oznámení z týmu"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Ještěrky",
-    "desc": "Uživatelská blogovací platforma"
+    "title": "Lizards",
+    "desc": "Platforma uživatelských blogů"
   },
   {
     "link": "http://shop.opensuse.org/",
@@ -123,8 +123,8 @@ var global_navigation_data = [
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Vlastnosti",
-    "desc": "Volte a pracujte na aktuálních vlastnostech openSUSE"
+    "title": "Funkce",
+    "desc": "Hlasujte a pracujte na aktuálních funkcích openSUSE"
   },
   {
     "link": "http://build.opensuse.org/",
@@ -136,13 +136,13 @@ var global_navigation_data = [
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
     "title": "Chyby",
-    "desc": "Hlášení chyb pomocí Bugzilly"
+    "desc": "Hlašte chyby pomocí Bugzilly"
   },
   {
-    "link": "http://susestudio.com/",
+    "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "S pomocí Studia vytvářejte své vlastní obrazy"
+    "desc": "S pomocí Studia vytvářejte vlastní obrazy"
   }
   ]
 }

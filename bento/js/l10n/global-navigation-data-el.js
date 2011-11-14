@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Latest stable release",
-    "desc": "Get the latest stable release of openSUSE"
+    "title": "Τελευταία σταθερή έκδοση",
+    "desc": "Λάβετε την τελευταία σταθερή έκδοση openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Latest development release",
-    "desc": "Get the latest development release of openSUSE"
+    "title": "Τελευταία έκδοση που αναπτύσσεται",
+    "desc": "Λάβετε την τελευταία έκδοση openSUSE που αναπτύσσεται"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
-    "title": "Search for packages",
-    "desc": "Get additional software from openSUSE Build Service"
+    "title": "Αναζήτηση πακέτων",
+    "desc": "Λάβετε πρόσθετο λογισμικό από το openSUSE Build Service"
   },
   {
-    "link": "http://en.opensuse.org/Derivatives",
+    "link": "http://el.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "Παράγωγα",
+    "desc": "Λάβετε μια από τις εξειδικευμένες διανομές χτισμένες σε openSUSE"
   }
   ]
 },
@@ -32,46 +32,46 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://en.opensuse.org/Portal:Support",
+    "link": "http://el.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Βοήθεια",
-    "desc": "Go to the Support Portal"
+    "desc": "Επισκευθείτε την δικτυακή πύλη υποστήριξης"
   },
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
     "title": "Τεκμηρίωση",
-    "desc": "Read guides and manuals"
+    "desc": "Διαβάστε οδηγούς και εγχειρίδια"
   },
   {
-    "link": "http://en.opensuse.org/",
+    "link": "http://el.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "desc": "Διαβάστε και γράψτε άρθρα στο Wiki μας"
   },
   {
     "link": "http://tube.opensuse.org",
     "image": "video",
-    "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "title": "Βίντεο",
+    "desc": "Δείτε ποικίλα μαθήματα, προβολές και εγγραφές από ομιλίες και παρουσιάσεις"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
     "title": "Forums",
-    "desc": "Participate in our forums"
+    "desc": "Συμμετέχετε στα forums"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://el.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "Λίστες ταχυδρομείου",
+    "desc": "Εγγραφείτε στις λίστες ταχυδρομείου και δείτε το αρχείο"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:IRC_list",
+    "link": "http://el.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
-    "title": "IRC channels",
-    "desc": "Communicate online using Internet Relay Chat"
+    "title": "Κανάλια IRC",
+    "desc": "Επικοινωνήστε χρησιμοποιώντας το IRC"
   }
   ]
 },
@@ -81,32 +81,32 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "users",
-    "title": "Connect",
-    "desc": "Connect with your openSUSE friends"
+    "title": "Σύνδεση",
+    "desc": "Συνδεθείτε με τους openSUSE φίλους σας"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
-    "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "title": "Πλανήτης",
+    "desc": "Δείτε τις δημοσιεύσεις σε ιστολόγια συγκεντρωμένες σε μια ροή"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "News",
-    "desc": "Latest announcements from the team"
+    "title": "Νέα",
+    "desc": "Τελευταίες ανακοινώσεις από την ομάδα"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
     "title": "Lizards",
-    "desc": "Users blog platform"
+    "desc": "Πλατφόρμα blog χρηστών"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "Κατάστημα",
+    "desc": "Εξοπλισμός openSUSE εδώ!"
   }
   ]
 },
@@ -115,34 +115,34 @@ var global_navigation_data = [
   "items":
   [
   {
-    "link": "http://en.opensuse.org/Portal:Development",
+    "link": "http://el.opensuse.org/Portal:Development",
     "image": "developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "Τεκμηρίωση προγραμματιστή",
+    "desc": "Συγκεντρωτική τεκμηρίωση για προγραμματιστές"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "Λειτουργίες",
+    "desc": "Ψηφίστε και δουλέψτε στις επερχόμενες λειτουργίες του openSUSE"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
     "title": "Build Service",
-    "desc": "Create, build and enhance packages"
+    "desc": "Δημιουργήστε, χτίστε και βελτιστοποιήστε πακέτα"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "Σφάλματα",
+    "desc": "Αναφορά σφαλμάτων με χρήση του Bugzilla"
   },
   {
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "desc": "Δημιουργήστε δικές σας διανομές με την χρήση του Studio"
   }
   ]
 }

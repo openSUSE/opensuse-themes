@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/?lang=de",
     "image": "release-stable",
     "title": "Aktuell stabile Version",
-    "desc": "Get the latest stable release of openSUSE"
+    "desc": "Aktuelle Version von openSUSE herunterladen"
   },
   {
     "link": "http://software.opensuse.org/developer/",
@@ -21,7 +21,7 @@ var global_navigation_data = [
     "desc": "Zusätzliche Software vom openSUSE Build Service installieren"
   },
   {
-    "link": "http://dewiki.opensuse.org/Derivate",
+    "link": "http://de.opensuse.org/Derivate",
     "image": "derivatives",
     "title": "Abwandlungen",
     "desc": "Angepasste openSUSE-basierte Distributionen herunterladen"
@@ -32,7 +32,7 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://dewiki.opensuse.org/Portal:Unterstützung",
+    "link": "http://de.opensuse.org/Portal:Unterstützung",
     "image": "help",
     "title": "Hilfe",
     "desc": "Unterstützungs-Portal öffnen"
@@ -44,7 +44,7 @@ var global_navigation_data = [
     "desc": "Ratgeber und Handbücher lesen"
   },
   {
-    "link": "http://dewiki.opensuse.org/",
+    "link": "http://de.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
     "desc": "Artikel in unserem Wiki lesen und schreiben"
@@ -62,13 +62,13 @@ var global_navigation_data = [
     "desc": "Foren beiwohnen"
   },
   {
-    "link": "http://dewiki.opensuse.org/openSUSE:Mailinglisten",
+    "link": "http://de.opensuse.org/openSUSE:Mailinglisten",
     "image": "lists",
     "title": "Mailinglisten",
     "desc": "Mailinglisten abonnieren und deren Archive durchstöbern"
   },
   {
-    "link": "http://dewiki.opensuse.org/openSUSE:IRC_Liste",
+    "link": "http://de.opensuse.org/openSUSE:IRC_Liste",
     "image": "irc",
     "title": "IRC-Kanäle",
     "desc": "Mit dem Internet Relay Chat kommunizieren"
@@ -82,12 +82,12 @@ var global_navigation_data = [
     "link": "http://connect.opensuse.org/",
     "image": "users",
     "title": "Connect",
-    "desc": "Connect with your openSUSE friends"
+    "desc": "Mit openSUSE-Freunden verbinden"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
-    "title": "Welt",
+    "title": "Planet",
     "desc": "Blog-Einträge in einem zusammengefassten Stream ansehen"
   },
   {

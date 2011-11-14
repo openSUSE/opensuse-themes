@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Viimeisin vakaa julkaisu",
-    "desc": "Get the latest stable release of openSUSE"
+    "desc": "Lataa viimeisin vakaa openSUSE julkaisu"
   },
   {
     "link": "http://software.opensuse.org/developer/",
@@ -82,7 +82,7 @@ var global_navigation_data = [
     "link": "http://connect.opensuse.org/",
     "image": "users",
     "title": "Connect",
-    "desc": "Connect with your openSUSE friends"
+    "desc": "Pidä yhteyttä openSUSE ystäviisi"
   },
   {
     "link": "http://planet.opensuse.org/",

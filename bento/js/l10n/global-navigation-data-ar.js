@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Latest stable release",
-    "desc": "Get the latest stable release of openSUSE"
+    "title": "آخر نسخة مستقرة",
+    "desc": "إحصل على آخر نسخة مستقرة من أوبن سوزي"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Latest development release",
-    "desc": "Get the latest development release of openSUSE"
+    "title": "آخر نسخة تطويرية",
+    "desc": "إحصل على آخر نسخة تطويرية من أوبن سوزي"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
-    "title": "Search for packages",
-    "desc": "Get additional software from openSUSE Build Service"
+    "title": "البحث عن الحزم",
+    "desc": "الحصول على التطبيقات الإضافية من خدمة بناء أوبن سوزي"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "مشتقات",
+    "desc": "إحصل على واحدة من التوزيعات المبنية على أوبن سوزي"
   }
   ]
 },
@@ -34,44 +34,44 @@ var global_navigation_data = [
   {
     "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
-    "title": "Help",
-    "desc": "Go to the Support Portal"
+    "title": "المساعدة",
+    "desc": "الذهاب إلى بوابة المساعدة"
   },
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "الوثائق",
+    "desc": "قراءة الإرشادات و الكتيبات "
   },
   {
     "link": "http://en.opensuse.org/",
     "image": "wiki",
-    "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "title": "الويكي",
+    "desc": "قراءة وكتابة المقالات في الويكي الخاص بنا"
   },
   {
     "link": "http://tube.opensuse.org",
     "image": "video",
-    "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "title": "فيديو",
+    "desc": "شاهد الفيديوهات التدريبية المختلفة,اللقطات والتسجيلات من المحادثات و العروض التقديمية."
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "المنتديات",
+    "desc": "المشاركة في المنتديات"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "القوائم البريدية",
+    "desc": "الإشتراك في القوائم البريدية وإلقاء نظرة على أرشيفاتهم"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
-    "title": "IRC channels",
-    "desc": "Communicate online using Internet Relay Chat"
+    "title": "قنوات الـIRC",
+    "desc": "التواصل مباشرة عبر  Internet Relay Chat"
   }
   ]
 },
@@ -81,20 +81,20 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "users",
-    "title": "Connect",
-    "desc": "Connect with your openSUSE friends"
+    "title": "الإتصال",
+    "desc": "إتصل مع أصدقائك في أوبن سوزي"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
-    "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "title": "الكوكب",
+    "desc": "شاهد مواضيع المدونات مجموعة في مكان واحد "
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "News",
-    "desc": "Latest announcements from the team"
+    "title": "الأخبار",
+    "desc": "آخر الأخبار من الفريق "
   },
   {
     "link": "http://lizards.opensuse.org/",
@@ -105,8 +105,8 @@ var global_navigation_data = [
   {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "المتجر",
+    "desc": "معدات أوبن سوزي هنا!"
   }
   ]
 },
@@ -117,32 +117,32 @@ var global_navigation_data = [
   {
     "link": "http://en.opensuse.org/Portal:Development",
     "image": "developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "وثائق المطور",
+    "desc": "وثائق المطور الرئيسية"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "المميزات",
+    "desc": "صوت وإعمل على مميزات أوبن سوزي القادمة"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
-    "title": "Build Service",
-    "desc": "Create, build and enhance packages"
+    "title": "خدمة البناء",
+    "desc": "إنشاء, بناء و تعزيز الحزم "
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "العلل",
+    "desc": "الإبلاغ عن العلل بإستخدام Bugzilla"
   },
   {
     "link": "http://susestudio.com",
     "image": "studio",
     "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "desc": "إنشاء نسخك الخاصة بإستعمال الستوديو "
   }
   ]
 }

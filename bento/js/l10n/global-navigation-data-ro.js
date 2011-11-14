@@ -5,20 +5,20 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Latest stable release",
+    "title": "Ultima versiune stabilă",
     "desc": "Get the latest stable release of openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/ro",
     "image": "release-devel",
-    "title": "Latest development release",
-    "desc": "Get the latest development release of openSUSE"
+    "title": "Ultima versiune în dezvoltare",
+    "desc": "Obțineți ultima versiune în dezvoltare pentru openSUSE"
   },
   {
     "link": "http://software.opensuse.org/",
     "image": "packages",
     "title": "Caută în pachete",
-    "desc": "Get additional software from openSUSE Build Service"
+    "desc": "Obțineți programe suplimentare de la openSUSE Build Service"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
@@ -41,7 +41,7 @@ var global_navigation_data = [
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
     "title": "Documentație",
-    "desc": "Read guides and manuals"
+    "desc": "Citiți ghidurile și manualele"
   },
   {
     "link": "http://en.opensuse.org/",
@@ -81,7 +81,7 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "users",
-    "title": "Connect",
+    "title": "Conectează",
     "desc": "Connect with your openSUSE friends"
   },
   {
@@ -94,7 +94,7 @@ var global_navigation_data = [
     "link": "http://news.opensuse.org/",
     "image": "news",
     "title": "Știri",
-    "desc": "Ultimele anunţuri de la echipă"
+    "desc": "Ultimele anunțuri de la echipă"
   },
   {
     "link": "http://lizards.opensuse.org/",

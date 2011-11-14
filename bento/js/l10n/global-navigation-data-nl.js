@@ -81,8 +81,8 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "users",
-    "title": "Connect",
-    "desc": "Connect with your openSUSE friends"
+    "title": "Maak verbinding",
+    "desc": "Maak verbinding met uw openSUSE vrienden"
   },
   {
     "link": "http://planet.opensuse.org/",
