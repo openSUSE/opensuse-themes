@@ -15,7 +15,7 @@ var global_navigation_data = [
     "desc": "Скачать последний релиз openSUSE для разработчиков"
   },
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/search",
     "image": "packages",
     "title": "Поиск пакетов",
     "desc": "Получение дополнительного программного обеспечения из openSUSE Build Service"

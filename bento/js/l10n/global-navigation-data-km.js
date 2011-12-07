@@ -15,7 +15,7 @@ var global_navigation_data = [
     "desc": "យក​ការ​ចេញផ្សាយ​​ការ​អភិវឌ្ឍចុងក្រោយ​របស់​អូផឹន​ស៊ូស៊ី "
   },
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/search",
     "image": "packages",
     "title": "ស្វែងរក​កញ្ចប់",
     "desc": "យក​កម្មវិធី​បន្ថែម​ពី​សេវា​កម្ម​របស់ openSUSE Build"

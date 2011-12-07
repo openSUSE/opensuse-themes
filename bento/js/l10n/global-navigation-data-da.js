@@ -15,7 +15,7 @@ var global_navigation_data = [
     "desc": "Hent den seneste udviklingsversion af openSUSE"
   },
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/search",
     "image": "packages",
     "title": "Søg efter pakker",
     "desc": "Find yderligere softwarepakker fra openSUSE Build Service"

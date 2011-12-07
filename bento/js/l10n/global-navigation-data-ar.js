@@ -15,7 +15,7 @@ var global_navigation_data = [
     "desc": "إحصل على آخر نسخة تطويرية من أوبن سوزي"
   },
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/search",
     "image": "packages",
     "title": "البحث عن الحزم",
     "desc": "الحصول على التطبيقات الإضافية من خدمة بناء أوبن سوزي"
@@ -99,8 +99,8 @@ var global_navigation_data = [
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Lizards",
-    "desc": "Users blog platform"
+    "title": "السحالي",
+    "desc": "منصة مستخدمي blog"
   },
   {
     "link": "http://shop.opensuse.org/",

@@ -15,7 +15,7 @@ var global_navigation_data = [
     "desc": "Töltse le az openSUSE legújabb fejlesztői kiadását"
   },
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/search",
     "image": "packages",
     "title": "Csomagok keresése",
     "desc": "További programok telepítése az openSUSE Build Service-ről"

@@ -15,7 +15,7 @@ var global_navigation_data = [
     "desc": "Parsisiųskite naujausią vystomą openSUSE versiją"
   },
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/search",
     "image": "packages",
     "title": "Paketų paieška",
     "desc": "Ieškokite paketų ir diekite juos iš openSUSE Kūrimo Paslaugos"

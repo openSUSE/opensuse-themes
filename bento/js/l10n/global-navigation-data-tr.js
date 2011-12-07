@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Latest stable release",
-    "desc": "Get the latest stable release of openSUSE"
+    "title": "Kararlı son sürüm",
+    "desc": "OpenSUSE'nin kararlı son sürümünü al"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Latest development release",
-    "desc": "Get the latest development release of openSUSE"
+    "title": "En son geliştirilmiş sürüm",
+    "desc": "OpenSUSE'nin en son geliştirilmiş sürümünü alın"
   },
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/search",
     "image": "packages",
-    "title": "Search for packages",
-    "desc": "Get additional software from openSUSE Build Service"
+    "title": "Paketler için arama",
+    "desc": "OpenSUSE Derleme Servisinden ek yazılım alın"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "Türevler",
+    "desc": "OpenSUSE üzerine inşa edilmiş özel dağıtımlardan birini alın"
   }
   ]
 },
@@ -35,43 +35,43 @@ var global_navigation_data = [
     "link": "http://en.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Yardım",
-    "desc": "Go to the Support Portal"
+    "desc": "Destek Kanalına git"
   },
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
-    "title": "Documentation",
-    "desc": "Read guides and manuals"
+    "title": "Dökümantasyon",
+    "desc": "Kullanım kılavuzlarını ve rehberleri okuyun"
   },
   {
     "link": "http://en.opensuse.org/",
     "image": "wiki",
     "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "desc": "Bizim Wiki'mizde makaleler yazın ve okuyun"
   },
   {
     "link": "http://tube.opensuse.org",
     "image": "video",
     "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "desc": "Çeşitli eğitimleri, ekran kayıtları ve konuşmalar ve sunumlardan yapılmış kayıtları izle"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "Forumlar",
+    "desc": "Bizim forumumuza dahil olun"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
     "image": "lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "Posta listeleri",
+    "desc": "Posta listelerine abone olun ve kendi arşivlerinin içine bakın"
   },
   {
     "link": "http://en.opensuse.org/openSUSE:IRC_list",
     "image": "irc",
-    "title": "IRC channels",
-    "desc": "Communicate online using Internet Relay Chat"
+    "title": "IRC kanalları",
+    "desc": "IRC kullanarak çevrimiçi haberleşin"
   }
   ]
 },
@@ -82,31 +82,31 @@ var global_navigation_data = [
     "link": "http://connect.opensuse.org/",
     "image": "users",
     "title": "Bağlantı kurulumu",
-    "desc": "Connect with your openSUSE friends"
+    "desc": "OpenSUSE arkadaşlarına bağlan"
   },
   {
     "link": "http://planet.opensuse.org/",
     "image": "planet",
-    "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "title": "Gezegen",
+    "desc": "Bir akıntı içinde toplanmış blog girdilerini görün"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "News",
-    "desc": "Latest announcements from the team"
+    "title": "Haberler",
+    "desc": "Takımdan en son duyurular"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Lizards",
-    "desc": "Users blog platform"
+    "title": "Kertenkeleler",
+    "desc": "Kullanıcılar blog platformu"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "Market",
+    "desc": "openSUSE çarkı burada!"
   }
   ]
 },
@@ -117,32 +117,32 @@ var global_navigation_data = [
   {
     "link": "http://en.opensuse.org/Portal:Development",
     "image": "developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "Geliştirici belgeleri",
+    "desc": "Merkezileştirilmiş geliştiricilerin belgeleri"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "Özellikler",
+    "desc": "Gelecek openSUSE özellikleri hakkında oylama ve çalışma"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
-    "title": "Build Service",
-    "desc": "Create, build and enhance packages"
+    "title": "Derleme Servisi",
+    "desc": "Paketleri oluşturmak, inşa etmek ve geliştirmek"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "Hatalar",
+    "desc": "Bugzilla kullanarak hata rapor et"
   },
   {
     "link": "http://susestudio.com",
     "image": "studio",
-    "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "title": "SUSE stüdyosu",
+    "desc": "Stüdyo"
   }
   ]
 }

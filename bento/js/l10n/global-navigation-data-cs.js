@@ -15,7 +15,7 @@ var global_navigation_data = [
     "desc": "Získejte nejnovější vývojové vydání openSUSE"
   },
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/search",
     "image": "packages",
     "title": "Hledání balíčků",
     "desc": "Získejte doplňkový software z openSUSE Build Service"

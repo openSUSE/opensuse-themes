@@ -15,7 +15,7 @@ var global_navigation_data = [
     "desc": "Alez cweri l' dierinne modêye di diswalpaedje d' openSUSE"
   },
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/search",
     "image": "packages",
     "title": "Cachî après des pacaedjes",
     "desc": "Alez cweri et astaler des ôtes programes a pårti d' l' openSUSE Build Service"

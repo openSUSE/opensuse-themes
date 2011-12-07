@@ -15,7 +15,7 @@ var global_navigation_data = [
     "desc": "Get the latest development release of openSUSE"
   },
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/search",
     "image": "packages",
     "title": "꾸러미 검색",
     "desc": "Get additional software from openSUSE Build Service"

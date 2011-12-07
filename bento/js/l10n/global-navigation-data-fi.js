@@ -15,7 +15,7 @@ var global_navigation_data = [
     "desc": "Lataa viimeisin openSUSE-kehitysversio "
   },
   {
-    "link": "http://software.opensuse.org/",
+    "link": "http://software.opensuse.org/search",
     "image": "packages",
     "title": "Etsi paketteja",
     "desc": "Etsi ja asenna lisäohjelmistopaketteja openSUSEn paketointipalvelusta"
