@@ -1,0 +1,124 @@
+/*
+*	OpenSUSE Bento Theme for Tumblr
+*	Developed by Julian Kuntorov (@jkuntorov; http://kuntorov.com/)
+*	Last revision: 3rd December 2011
+*
+*	Using modified Tango icons for the post types.
+*/
+
+/* RESET based on the work of Eric Meyer */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, sub, sup, var, i, dl, dt, dd, ol, ul, li,
+fieldset, form, input, textarea, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{margin: 0; padding: 0; border: 0; outline: none; font-size: 1em; vertical-align: baseline; background: transparent; font-weight: normal; text-decoration: none;}
+
+/* BASIC DECLARATIONS */
+* {font-family: "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "DejaVu Sans", Verdana, sans-serif;}
+body {background: #F6F6F6; color: #333;}
+.clear {clear: both;}
+a {font-weight: normal; color: #690;}
+a:hover {text-decoration: underline;}
+a:active {position: relative; top: 1px;}
+
+/* HEADER */
+#header-container {background: #666 url("http://static.tumblr.com/ur8kerw/evblvna8f/topgrad.png"); min-height: 30px;}
+header {width: 960px; margin: 0 auto; display: block; position: relative;}
+header h1 a {padding: 7px 15px 7px 55px; font-size: 13px; font-weight: bold; color: #fff; display: inline-block; background: url("http://static.tumblr.com/ur8kerw/OcTlvnaa0/opensuse.png") no-repeat 0px 4px;}
+
+/* simple navigation */
+#main-links {list-style: none; float: right; border-left: 1px solid #4E4E4E; position: absolute; right: 29px; z-index: 9999;}
+#main-links li {display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1;}
+.ie6 #main-links li, .ie7 #main-links li {display: inline; height: 30px;}
+#main-links a {display: inline-block; font-size: 11px; text-transform: uppercase; font-weight: bold; color: #fff; padding: 7px 10px; border-right: 1px solid #4E4E4E;}
+
+/* MAIN CONTENT */
+#main-container {width: 960px; margin: 0 auto; margin-top: 40px;}
+#custom-page-headings {margin: 0 0 25px 50px;}
+#custom-page-headings h2 {font-size: 20px; font-weight: bold; line-height: 25px;}
+#custom-page-headings p {font-size: 14px; line-height: 22px; margin-top: 10px;}
+
+/* BOXES */
+#content {width: 650px;}
+aside {float: right; width: 270px; display: block;}
+aside section, .post-container {border-radius: 5px; box-shadow: 0px 1px 3px #e0e0e0;}
+aside section:last-child, article:last-child {margin-bottom: 0px;}
+aside section .header, aside section .footer, article .header, article .footer {background: white url("http://static.tumblr.com/ur8kerw/Wvvlvnab1/postgrad.png") repeat-x scroll 0 -4px; border: 1px solid #ddd; color: #333; padding: 5px 15px; min-height: 15px; line-height: 18px;}
+aside section .header, article .header  {border-top-left-radius: 5px; border-top-right-radius: 5px; font-weight: bold; font-size: 13px;}
+aside section .footer, article .footer {border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; font-size: 11px;}
+aside section .content, article .content {border-left: 1px solid #ddd; border-right: 1px solid #ddd; padding: 15px; font-size: 13px; background: white;}
+
+/* SIDEBAR */
+/* Every section */
+aside section {margin-bottom: 20px; display: block;}
+aside section img {max-width: 100%; background: #fafafa; border: 1px solid #ddd;}
+aside section p {font-size: 12px; line-height: 20px; margin: 10px 0;}
+aside section ul {list-style: none;}
+aside section a {line-height: 22px;}
+.following img {width: 40px; margin: 0px;}
+
+/* Twitter posts */
+#tweets a .content {border: none; padding: 0;}
+#tweets a {padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px dotted #ccc; font-size: 12px; color: #069; display: block;}
+#tweets a:last-child {padding-bottom: 0px; margin-bottom: 0px; border-bottom: none;}
+#tweets a:hover {text-decoration: none; color: #333;}
+
+/* Search form */
+#search-box, #search-button {font-size: 13px; padding: 5px; border: 1px solid #ddd; border-radius: 5px; background: white url("http://static.tumblr.com/ur8kerw/Wvvlvnab1/postgrad.png") repeat-x scroll 0 0;}
+#search-box {width: 150px;}
+#search-button {font-weight: bold; background: #fafafa url("http://static.tumblr.com/ur8kerw/Wvvlvnab1/postgrad.png") repeat-x scroll 0 0px; cursor: pointer;}
+.ie7 #search-button {width: 65px; height: 30px;}
+#search-button:hover {background: #eee url("http://static.tumblr.com/ur8kerw/Wvvlvnab1/postgrad.png") repeat-x scroll 0 0;}
+#search-button:active {background: #e1e1e1 url("http://static.tumblr.com/ur8kerw/Wvvlvnab1/postgrad.png") repeat-x scroll 0 0;}
+
+
+/* POSTS */
+/* Post types */
+.post-type {width: 32px; height: 30px; float: left; text-indent: -9999px; background: url("http://static.tumblr.com/ur8kerw/7Qolvnad4/post-types.png");}
+.type-answer {background-position: 0 0px;}
+.type-audio {background-position: 0 -30px;}
+.type-chat {background-position: 0 -60px;}
+.type-link {background-position: 0 -90px;}
+.type-photo {background-position: 0 -120px;}
+.type-photoset {background-position: 0 -150px;}
+.type-quote {background-position: 0 -180px;}
+.type-text {background-position: 0 -210px;}
+.type-video {background-position: 0 -240px;}
+
+/* Every article */
+article {margin-bottom: 30px; display: block;}
+.post-container {width: 600px; margin-left: 50px;}
+article .header a {color: #333; font-weight: bold;}
+article .header a:hover {color: #690;}
+article .footer .time {color: #333;}
+article .content {padding: 30px;}
+article .tags {margin-top: 15px; font-size: 11px;}
+article .tags a {font-weight: normal !important;}
+article .tag:after {content: ", ";}
+article .tag:last-child:after {content: "";}
+
+/* Content specific */
+article p {font-size: 14px; line-height: 22px; margin-bottom: 15px;}
+article p:last-child {margin-bottom: 0px;}
+article .content a {color: #069; font-weight: bold;}
+article ol, article ul {padding: 10px 0 10px 20px; font-size: 14px; line-height: 22px; margin: 0;}
+article .photo, article iframe {max-width: 500px; padding: 15px; background: #fafafa; border: 1px solid #eee;}
+article object {max-width: 500px; padding: 15px;}
+article .desc {margin-top: 20px;}
+article .big-link {font-size: 24px; font-weight: normal; padding: 5px; border-bottom: 2px dotted #069; display: inline-block;}
+article .big-link:hover {text-decoration: none; color: #690; border-bottom: 2px dotted #690;}
+article .quote {font-size: 18px; line-height: 30px;}
+article .chat p {line-height: 25px;}
+article .chat .label {text-transform: uppercase; font-size: 11px; margin-right: 3px;}
+article .question {border: 1px solid #eee; background: #fafafa; padding: 10px 15px 10px 10px; margin-bottom: 25px;}
+article .question strong {display: block; margin: 5px 0;}
+article .question img {width: 128px; border: 1px solid #ddd; float: left; margin: 5px 15px 5px 5px;}
+
+/* Page navigation */
+#page-nav {width: 600px; margin-left: 50px; list-style: none;}
+#page-nav a {font-weight: bold; font-size: 17px; padding: 5px;}
+#page-nav .left {float: left;}
+#page-nav .right {float: right;}
+
+/* FOOTER */
+footer {border-top: 1px dotted #ccc; font-size: 11px; padding: 10px; margin: 50px 0 25px 0; text-align: center; color: #666; line-height: 19px; display: block;}
