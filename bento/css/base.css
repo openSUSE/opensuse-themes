@@ -8,7 +8,7 @@ a{color:#690;text-decoration:none;cursor:pointer;}
 a:visited{}
 a:hover, a:focus, a:active{color:#39c;text-decoration:underline;}
 p, ul, ol{margin:1em 0;}
-h1, h2, h3, h4, h5, h6, p, ul, ol, table, pre, blockquote, .box small{margin-left:15px;margin-right:15px;}
+h1, h2, h3, h4, h5, h6, p, ul, ol, table, pre, blockquote, .box small{margin-left:10px;margin-right:10px;}
 h1, h2, h3, h4, h5, h6{color:#690;margin-top:0.5em;margin-bottom:1.2em;}
 p{line-height:150%;}
 p img{padding:0;max-width:100%;}
@@ -27,7 +27,7 @@ small{font-size:10px;}
 option:nth-child(even){background-color:#eee;}
 table{width:inherit;max-width:95%;}
 label{font-weight:normal;}
-hr{background-color:#999;border:0 none;color:#999;height:1px;margin:2em 15px;}
+hr{background-color:#999;border:0 none;color:#999;height:1px;margin:2em 10px;}
 caption{text-align:left;margin-bottom:0.5em;text-indent:0.5em;color:#690;}
 tbody, tfoot, thead, tr{}
 th, td{}
