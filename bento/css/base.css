@@ -38,6 +38,7 @@ th:last-child, td:last-child{border-right:none;}
 tr:last-child th{border-bottom:1px;}
 tr:first-child td{border-top:none;}
 tr:last-child td{border-bottom:none;}
+tr img, tr a{vertical-align:top;}
 pre{font-family:monospace;background-color:#f6f6f6;border:1px dotted #690;overflow:auto;}
 blockquote{border-left:5px solid #690;color:#666;font-style:italic;}
 .ui-oo-content-wrapper .ui-oo-box-shadow > div.grid_5,.content-wrapper .box > div.grid_5{width:260px;}
