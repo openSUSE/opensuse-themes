@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, table, pre, blockquote, .box small{margin-lef
 h1, h2, h3, h4, h5, h6{color:#690;margin-top:0.5em;margin-bottom:1.2em;}
 p{line-height:150%;}
 p img{padding:0;max-width:100%;}
-ul, ol{list-style:disc inside;padding:0 1em;}
+ul, ol{list-style:disc inside;padding-left: 1em;}
 ul li, ol li{margin:0.5em 0;}
 ul ul, ol ul, ul ol , ol ol{margin-top:0em;margin-bottom:0em;}
 ol{list-style-type:decimal;}
