@@ -38,7 +38,7 @@ th:last-child, td:last-child{border-right:none;}
 tr:last-child th{border-bottom:1px;}
 tr:first-child td{border-top:none;}
 tr:last-child td{border-bottom:none;}
-tr img, tr a{vertical-align:top;}
+tr, img{vertical-align:top;}
 pre{font-family:monospace;background-color:#f6f6f6;border:1px dotted #690;overflow:auto;}
 blockquote{border-left:5px solid #690;color:#666;font-style:italic;}
 .ui-oo-content-wrapper .ui-oo-box-shadow > div.grid_5,.content-wrapper .box > div.grid_5{width:260px;}
@@ -194,6 +194,7 @@ h2.box-header, h2.box-subheader{text-indent:15px;font-size:1em;}
 .box-header ul, .box-footer ul{list-style:none inside;padding:0;font-size:0.8em;margin:0 0 0 15px;}
 .box-header ul li, .box-footer ul li{float:left;}
 .box-header a, .box-footer a{text-decoration:none;margin-right:7px;text-shadow:0 1px 1px #ccc;}
+.box-header a img{vertical-align:text-bottom;}
 .header-tabs{font-size:1.2em;overflow:hidden;min-height:23px;}
 .box-header.header-tabs, .box-footer.header-tabs{padding:0;}
 .header-tabs li{margin:0;padding:0;border-right:1px solid #e6e6e6;}
