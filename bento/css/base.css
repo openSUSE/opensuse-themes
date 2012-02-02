@@ -19,7 +19,6 @@ ul ul, ol ul, ul ol , ol ol{margin-top:0em;margin-bottom:0em;}
 ol{list-style-type:decimal;}
 input, button, textarea, pre{border:1px solid #666;background-color:#eee;color:#333;padding:2px 3px;}
 input:focus, textarea:focus{border-color:#690;background-color:#f6f6f6;}
-textarea{padding:5px 3px;}
 img{border:0;}
 strong{font-weight:bold;}
 em{font-style:italic;}
