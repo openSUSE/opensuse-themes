@@ -194,13 +194,13 @@ h2.box-header, h2.box-subheader{text-indent:15px;font-size:1em;}
 .box-header ul, .box-footer ul{list-style:none inside;padding:0;font-size:0.8em;margin:0 0 0 15px;}
 .box-header ul li, .box-footer ul li{float:left;}
 .box-header a, .box-footer a{text-decoration:none;margin-right:7px;text-shadow:0 1px 1px #ccc;}
-.box-header a img{vertical-align:text-bottom;}
+.box-header img{vertical-align:text-bottom;}
 .header-tabs{font-size:1.2em;overflow:hidden;min-height:23px;}
 .box-header.header-tabs, .box-footer.header-tabs{padding:0;}
 .header-tabs li{margin:0;padding:0;border-right:1px solid #e6e6e6;}
 .header-tabs li:first-child{border-left:1px solid #e6e6e6;}
 .header-tabs .advanced_tabs li:first-child{border-left:none;}
-.header-tabs a{display:block;min-height:23px;margin:0 0.5em -0.3em;padding-top:0.3em;}
+.header-tabs a{display:inline-block;min-height:23px;margin:0px 0.5em -0.3em;padding-top:0.3em;}
 .header-tabs li.selected{background:#f6f6f6 url('images/gradient-dark.png') repeat-x scroll 0 -10px;background:#333 url('images/gradient-dark.png') repeat-x scroll 0 -10px;background:white url('images/gradient-dark-nav.png') repeat-x scroll bottom left;border-color:#ccc;}
 .header-tabs li.selected a{color:#fff;text-shadow:none;}
 .aside ul{list-style:none inside;}
