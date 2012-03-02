@@ -109,8 +109,9 @@ blockquote{border-left:5px solid #690;color:#666;font-style:italic;}
 #login-form .slim-footer a:hover{text-decoration:underline;}
 #local-user-actions{}
 #local-user-actions ul{margin:0;list-style:none inside;}
-#flash-messages{}
+#flash-messages{margin-bottom: 10px;}
 #flash-messages .ui-widget + .ui-widget{margin-top:15px;}
+#flash-messages p{margin: 10px;}
 #footer-content, #footer-legal{color:#666;font-size:0.9em;}
 #footer{font-size:0.7em;clear:both;}
 #footer ul{margin:0;padding:0.5em;}
