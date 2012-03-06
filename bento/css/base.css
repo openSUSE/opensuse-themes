@@ -70,6 +70,7 @@ blockquote{border-left:5px solid #690;color:#666;font-style:italic;}
 #header, #subheader, #flash-messages, #content, #footer{}
 #subheader, #flash-messages, #footer{overflow:hidden;}
 #subheader, #content, #content .column > div, .ui-oo-box-shadow, .box{margin-bottom:10px;}
+#subheader:last-child, #content:last-child, #content .column > div:last-child, .ui-oo-box-shadow:last-child, .box:last-child { margin-bottom: 0px; }
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6{}
 #header{font-size:0.8em;font-weight:bold;margin:0 0 25px;border-bottom:1px solid #333;}
 #header, #global-navigation li.selected{background:#666 url('images/gradient-dark-nav.png') repeat-x scroll bottom left;}
