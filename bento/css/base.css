@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, table, pre, blockquote, .box small{margin-lef
 h1, h2, h3, h4, h5, h6{color:#690;margin-top:0.5em;margin-bottom:1.2em;}
 p{line-height:150%;}
 p img{padding:0;max-width:100%;}
-ul, ol{list-style:disc inside;padding-left: 1em;}
+ul, ol{list-style:disc inside;}
 ul li, ol li{margin:0.5em 0;}
 ul ul, ol ul, ul ol , ol ol{margin-top:0em;margin-bottom:0em;}
 ol{list-style-type:decimal;}
@@ -75,7 +75,7 @@ blockquote{border-left:5px solid #690;color:#666;font-style:italic;}
 #header, #global-navigation li.selected{background:#666 url('images/gradient-dark-nav.png') repeat-x scroll bottom left;}
 #header, #global-navigation li{height:30px;}
 #header-content{}
-#header ul#global-navigation{list-style:none inside;width:700px;float:left;}
+#header ul#global-navigation{list-style:none inside;width:712px;float:left;}
 #header ul#global-navigation, #global-navigation li{border-color:#4e4e4e;border-style:solid;margin:0;}
 #global-navigation li:first-child{border-left-width:1px;}
 #global-navigation li{float:left;border-right-width:1px;}
