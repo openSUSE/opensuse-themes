@@ -114,7 +114,7 @@ blockquote{border-left:5px solid #690;color:#666;font-style:italic;}
 #flash-messages .ui-widget + .ui-widget{margin-top:15px;}
 #flash-messages p{margin: 10px;}
 #footer-content, #footer-legal{color:#666;font-size:0.9em;}
-#footer{font-size:0.7em;clear:both;}
+#footer { font-size:0.7em; clear:both; margin-top: 10px; }
 #footer ul{margin:0;padding:0.5em;}
 #footer-legal{border-top:1px dotted #999;color:#999;font-size:0.7em;margin-top:5px;text-align:center;}
 .main{min-height:500px;}
@@ -184,7 +184,7 @@ p.large{font-size:1.5em;}
 .space-top-medium{padding-top:3em;}
 .space-top-small{padding-top:1em;}
 .box-header, .box-subheader, .box-footer{color:#333;padding:3px 0;margin-left:0!important;margin-right:0!important;min-height:15px;margin-top:-10px;width:100%;font-size:12px;}
-.box-header, .box-subheader, .box-footer, .header-tabs li.selected{background:#fff url('images/gradient-light-short.png') repeat-x scroll 0 -20px;}
+.box-header, .box-subheader, .box-footer, .header-tabs li.selected{background:#fff url('images/gradient-light.png') repeat-x scroll 0 -25px;}
 .box-header a, .box-subheader a, .box-footer a{color:#069;}
 .box-header li, .box-subheader li, .box-footer li{color:#069;margin:0.2em 0;}
 .box-header{border-top-left-radius:5px;border-top-right-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-khtml-border-top-left-radius:5px;-khtml-border-top-right-radius:5px;margin-bottom:10px!important;border-bottom:1px solid #ddd;}
@@ -193,14 +193,16 @@ h2.box-header, h2.box-subheader{text-indent:15px;font-size:1em;}
 .box-subheader{border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
 .box-footer{border-bottom-left-radius:5px;border-bottom-right-radius:5px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-khtml-border-bottom-left-radius:5px;-khtml-border-bottom-right-radius:5px;border-top:1px solid #ddd;position:absolute;bottom:0px;left:0;margin-bottom:0!important;}
 .navigation .box-footer{position:relative;margin-bottom:-15px!important;}
-.box-header ul, .box-footer ul{list-style:none inside;padding:0;font-size:0.8em;margin:0 0 0 15px;}
+.box-header ul, .box-footer ul { list-style:none inside; padding:0; font-size:0.8em; margin:0 0 0 10px; }
 .box-header ul li, .box-footer ul li{float:left;}
+/* Craptastic fix to get the top margin right:
+ * TODO: Get rid of _all_ those broken '!important' statements... */
+.box-header ul { margin-top: -1px!important; }
 .box-header a, .box-footer a{text-decoration:none;margin-right:7px;text-shadow:0 1px 1px #ccc;}
 .box-header img{vertical-align:text-bottom;}
 .header-tabs{font-size:1.2em;overflow:hidden;min-height:23px;}
 .box-header.header-tabs, .box-footer.header-tabs{padding:0;}
-.header-tabs li{margin:0;padding:0;border-right:1px solid #e6e6e6;}
-.header-tabs li:first-child{border-left:1px solid #e6e6e6;}
+.header-tabs li { padding: 0; border: 1px solid #e6e6e6; margin: 0 -1px -1px 0; }
 .header-tabs .advanced_tabs li:first-child{border-left:none;}
 .header-tabs a{display:inline-block;min-height:23px;margin:0px 0.5em -0.3em;padding-top:0.3em;}
 .header-tabs li.selected{background:#f6f6f6 url('images/gradient-dark.png') repeat-x scroll 0 -10px;background:#333 url('images/gradient-dark.png') repeat-x scroll 0 -10px;background:white url('images/gradient-dark-nav.png') repeat-x scroll bottom left;border-color:#ccc;}
