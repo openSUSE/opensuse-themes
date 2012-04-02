@@ -39,7 +39,19 @@ tr:last-child th{border-bottom:1px;}
 tr:first-child td{border-top:none;}
 tr:last-child td{border-bottom:none;}
 tr, img{vertical-align:top;}
-pre{font-family:monospace;background-color:#f6f6f6;border:1px dotted #690;overflow:auto;}
+pre{
+  font-family: monospace;
+  background-color: #f6f6f6;
+  border: 1px dotted #690;
+  /* Word wrapping of long lines: */
+  overflow-x: auto; /* Use horizontal scroller if needed; for Firefox 2, not needed in Firefox 3 */
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  /* width: 99%; */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
 blockquote{border-left:5px solid #690;color:#666;font-style:italic;}
 .ui-oo-content-wrapper .ui-oo-box-shadow > div.grid_5,.content-wrapper .box > div.grid_5{width:260px;}
 .row_auto{height:auto;}
