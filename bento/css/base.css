@@ -11,8 +11,8 @@ p, ul, ol{margin:1em 0;}
 p:last-child, ul:last-child, ol:last-child{margin-bottom: 0;}
 h1, h2, h3, h4, h5, h6, p, ul, ol, table, pre, blockquote, .box small{margin-left:10px;margin-right:10px;}
 h1, h2, h3, h4, h5, h6{color:#690;margin-top:0.5em;margin-bottom:1.2em;}
-p{line-height:150%;}
-p img{padding:0;max-width:100%;}
+p{line-height:150%;overflow-x:auto;}
+p img{padding:0;}
 ul, ol{list-style:disc inside;}
 ul li, ol li{margin:0.5em 0;}
 ul ul, ol ul, ul ol , ol ol{margin-top:0em;margin-bottom:0em;}
