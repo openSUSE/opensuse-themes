@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6{color:#690;margin-top:0.5em;margin-bottom:1.2em;}
 p{line-height:150%;}
 p img{padding:0;max-width:100%;}
 ul, ol{list-style:disc inside;}
-ul li, ol li{margin:0.5em 0;}
+ul li, ol li{margin-left:25px;line-height:150%;}
 ul ul, ol ul, ul ol , ol ol{margin-top:0em;margin-bottom:0em;}
 ol{list-style-type:decimal;}
 input, button, textarea, pre{border:1px solid #666;background-color:#eee;color:#333;padding:2px 3px;}
@@ -220,6 +220,7 @@ h2.box-header, h2.box-subheader{text-indent:10px;font-size:1em;}
 .header-tabs li.selected{background:#f6f6f6 url('images/gradient-dark.png') repeat-x scroll 0 -10px;background:#333 url('images/gradient-dark.png') repeat-x scroll 0 -10px;background:white url('images/gradient-dark-nav.png') repeat-x scroll bottom left;border-color:#ccc;}
 .header-tabs li.selected a{color:#fff;text-shadow:none;}
 .aside ul{list-style:none inside;}
+.aside ul li{margin-left:0; line-height:100%;}
 #display #lp-pr-image{margin-top:42px;margin-left:150px;}
 #display > div{margin-bottom:15px;}
 #display-content{height:450px;}
