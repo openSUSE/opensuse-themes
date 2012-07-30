@@ -21,9 +21,9 @@ var global_navigation_data = [
     "desc": "从 openSUSE 编译服务获取额外的软件包"
   },
   {
-    "link": "http://en.opensuse.org/Derivatives",
+    "link": "http://zh.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "衍生品",
+    "title": "衍生版",
     "desc": "获取基于 openSUSE 定制的发行版"
   }
   ]

@@ -6,7 +6,7 @@ var global_navigation_data = [
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
     "title": "Ultima versiune stabilă",
-    "desc": "Get the latest stable release of openSUSE"
+    "desc": "Obțineți ultima versiune stabilă de openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/ro",
@@ -23,7 +23,7 @@ var global_navigation_data = [
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
+    "title": "Derivatele",
     "desc": "Obține una din distribuțiile specializate construite pe baza openSUSE"
   }
   ]
@@ -82,7 +82,7 @@ var global_navigation_data = [
     "link": "http://connect.opensuse.org/",
     "image": "users",
     "title": "Conectează",
-    "desc": "Connect with your openSUSE friends"
+    "desc": "Luați legătura cu prietenii dvs. openSUSE"
   },
   {
     "link": "http://planet.opensuse.org/",
