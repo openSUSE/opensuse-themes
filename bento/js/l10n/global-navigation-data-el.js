@@ -35,7 +35,7 @@ var global_navigation_data = [
     "link": "http://el.opensuse.org/Portal:Support",
     "image": "help",
     "title": "Βοήθεια",
-    "desc": "Επισκευθείτε την δικτυακή πύλη υποστήριξης"
+    "desc": "Επισκεφθείτε την δικτυακή πύλη υποστήριξης"
   },
   {
     "link": "http://doc.opensuse.org",
@@ -118,7 +118,7 @@ var global_navigation_data = [
     "link": "http://el.opensuse.org/Portal:Development",
     "image": "developer",
     "title": "Τεκμηρίωση προγραμματιστή",
-    "desc": "Συγκεντρωτική τεκμηρίωση για προγραμματιστές"
+    "desc": "Κεντρική τεκμηρίωση προγραμματιστών"
   },
   {
     "link": "http://features.opensuse.org/",

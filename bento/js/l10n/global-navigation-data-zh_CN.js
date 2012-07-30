@@ -5,26 +5,26 @@ var global_navigation_data = [
   {
     "link": "http://software.opensuse.org/",
     "image": "release-stable",
-    "title": "Latest stable release",
-    "desc": "Get the latest stable release of openSUSE"
+    "title": "最新稳定版本",
+    "desc": "获取最新稳定版本的 openSUSE"
   },
   {
     "link": "http://software.opensuse.org/developer/",
     "image": "release-devel",
-    "title": "Latest development release",
-    "desc": "Get the latest development release of openSUSE"
+    "title": "最新开发版本",
+    "desc": "获取最新开发版本的 openSUSE"
   },
   {
     "link": "http://software.opensuse.org/search",
     "image": "packages",
-    "title": "Search for packages",
-    "desc": "Get additional software from openSUSE Build Service"
+    "title": "查找软件包",
+    "desc": "从 openSUSE 编译服务获取额外的软件包"
   },
   {
     "link": "http://en.opensuse.org/Derivatives",
     "image": "derivatives",
-    "title": "Derivatives",
-    "desc": "Get one of the specialized distributions built on openSUSE"
+    "title": "衍生品",
+    "desc": "获取基于 openSUSE 定制的发行版"
   }
   ]
 },
@@ -32,46 +32,46 @@ var global_navigation_data = [
   "id": "support",
   "items": [
   {
-    "link": "http://en.opensuse.org/Portal:Support",
+    "link": "http://zh.opensuse.org/Portal:Support",
     "image": "help",
     "title": "帮助",
-    "desc": "Go to the Support Portal"
+    "desc": "前往「支持」专题"
   },
   {
     "link": "http://doc.opensuse.org",
     "image": "development-documentation",
     "title": "文档",
-    "desc": "Read guides and manuals"
+    "desc": "阅读指南和手册"
   },
   {
-    "link": "http://en.opensuse.org/",
+    "link": "http://zh.opensuse.org/",
     "image": "wiki",
-    "title": "Wiki",
-    "desc": "Read and write articles in our Wiki"
+    "title": "维基",
+    "desc": "到我们的维基阅读和撰写文章"
   },
   {
-    "link": "http://tube.opensuse.org",
+    "link": "http://tube.opensuse.org/",
     "image": "video",
-    "title": "Video",
-    "desc": "Watch various tutorials, screencasts and recordings from talks and presentations"
+    "title": "影像",
+    "desc": "观看超多教学片，屏幕录像和访谈与演讲的影像资料"
   },
   {
     "link": "http://forums.opensuse.org/",
     "image": "forums",
-    "title": "Forums",
-    "desc": "Participate in our forums"
+    "title": "论坛 ",
+    "desc": "加入我们的论坛"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:Mailing_lists",
+    "link": "http://zh.opensuse.org/openSUSE:Communicate",
     "image": "lists",
-    "title": "Mailing lists",
-    "desc": "Subscribe to mailinglists and look into their archives"
+    "title": "邮件列表",
+    "desc": "订阅邮件列表或从存档中查找知识"
   },
   {
-    "link": "http://en.opensuse.org/openSUSE:IRC_list",
+    "link": "http://zh.opensuse.org/openSUSE:Communicate",
     "image": "irc",
-    "title": "IRC channels",
-    "desc": "Communicate online using Internet Relay Chat"
+    "title": "IRC 频道",
+    "desc": "使用万维网延时聊天(IRC) 在线交流"
   }
   ]
 },
@@ -81,32 +81,32 @@ var global_navigation_data = [
   {
     "link": "http://connect.opensuse.org/",
     "image": "users",
-    "title": "连接",
-    "desc": "Connect with your openSUSE friends"
+    "title": "圈子",
+    "desc": "关注您的 openSUSE 朋友"
   },
   {
-    "link": "http://planet.opensuse.org/",
+    "link": "http://planet.opensuse.org/zh/",
     "image": "planet",
-    "title": "Planet",
-    "desc": "See blogposts aggregated into one stream"
+    "title": "星球",
+    "desc": "浏览聚合成一个串流种子的博文"
   },
   {
     "link": "http://news.opensuse.org/",
     "image": "news",
-    "title": "News",
-    "desc": "Latest announcements from the team"
+    "title": "新闻",
+    "desc": "来自 openSUSE 团队的最新消息"
   },
   {
     "link": "http://lizards.opensuse.org/",
     "image": "lizards",
-    "title": "Lizards",
-    "desc": "Users blog platform"
+    "title": "蜥蜴",
+    "desc": "会员博客平台"
   },
   {
     "link": "http://shop.opensuse.org/",
     "image": "shop",
-    "title": "Shop",
-    "desc": "openSUSE gear here!"
+    "title": "商店",
+    "desc": "openSUSE 的外设！"
   }
   ]
 },
@@ -115,34 +115,34 @@ var global_navigation_data = [
   "items":
   [
   {
-    "link": "http://en.opensuse.org/Portal:Development",
+    "link": "http://zh.opensuse.org/Portal:Development",
     "image": "developer",
-    "title": "Developer documentation",
-    "desc": "Centralized developer's documentation"
+    "title": "开发者文档",
+    "desc": "集中的开发者文档"
   },
   {
     "link": "http://features.opensuse.org/",
     "image": "features",
-    "title": "Features",
-    "desc": "Vote and work on upcoming openSUSE features"
+    "title": "特性",
+    "desc": "投票和开发未来的 openSUSE 特性"
   },
   {
     "link": "http://build.opensuse.org/",
     "image": "buildservice",
-    "title": "包构建服务",
-    "desc": "Create, build and enhance packages"
+    "title": "编译服务",
+    "desc": "创建，编译和扩展软件包"
   },
   {
     "link": "http://bugs.opensuse.org/",
     "image": "bugs",
-    "title": "Bugs",
-    "desc": "Report bugs using Bugzilla"
+    "title": "臭虫",
+    "desc": "使用 Bugzilla 报告和跟踪错误"
   },
   {
     "link": "http://susestudio.com",
     "image": "studio",
-    "title": "SUSE Studio",
-    "desc": "Create your own images using Studio"
+    "title": "SUSE 工作室",
+    "desc": "使用工作室创建你自己的安装映像"
   }
   ]
 }
